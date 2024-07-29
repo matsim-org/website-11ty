@@ -1,0 +1,64 @@
+.page-showcase .wrapper aside {
+	float: right;
+	width: 20ch;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding: 0.5em 0.5em 0.5em 1em;
+	border-left: 3px solid var(--color-matsim-accent-1);
+	background: var(--color-matsim-accent-1-bg);
+	height: auto;
+	border-radius: 3px;
+}
+@media(min-width: 500px) {
+	.page-showcase .wrapper aside {
+		float: right;
+		width: 28ch;
+	}
+}
+
+@media(min-width: 800px) {
+	.page-showcase .wrapper {
+		--aside-width: 30ch;
+		padding-right: var(--aside-width);
+	}
+	
+	.page-showcase .wrapper aside {
+		position: absolute;
+		right: 0;
+		margin-right: 0;
+		width: 28ch;
+		box-sizing: border-box;
+	}
+	
+	.page-showcase .wrapper aside::before {
+		content: '';
+		width: 1.5em;
+		height: 1.5em;
+		display: inline-block;
+		position: absolute;
+		left: -1.5em;
+		top: 0.5em;
+		border-right: 0.75em solid var(--color-matsim-accent-1);
+		border-top: 0.75em solid transparent;
+		border-bottom: 0.75em solid transparent;
+	}
+	
+}
+.page a:hover,
+.page-showcase a:hover {
+  color: var(--color-matsim-dark-1);
+}
+
+.page-showcase blockquote {
+	font-style: italic;
+}
+.page-showcase blockquote :last-child {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-size: var(--size-step-0);
+  padding-left: var(--space-s-m);
+}
+.page-showcase blockquote :last-child:before {
+	content: '— ';
+}
+

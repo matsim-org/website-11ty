@@ -1,0 +1,198 @@
+#matsim-intro {
+	height: 50vh;
+	padding: 3em;
+	min-height: 350px;
+	max-height: 600px;
+}
+
+#matsim-intro p.explainer {
+	font-size: var(--size-step-2);
+	width: 30ch;
+	text-wrap: balance;
+	margin-top: -0.5em;
+}
+
+#matsim-intro p.explainer::selection {
+  background: var(--color-matsim-dark-1);
+  color: var(--color-light);
+}
+
+#home-banner {
+	padding: var(--space-s-m) 0;
+	background-color: var(--color-matsim-accent-1);
+}
+
+#home-news-and-jobs {
+	letter-spacing: var(--tracking);
+}
+
+#home-news-and-jobs .wrapper div {
+	flex-grow: 1;
+}
+
+@media(min-width: 700px) {
+	#home-news-and-jobs .wrapper,
+	#home-key-features,
+	#home-contribute {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.large-bullet:not(:has(a)) {
+	display: grid;
+	grid-template-columns: 3.5em 1fr; 
+	grid-template-rows: 1fr 2fr; 
+	grid-column-gap: 0px;
+	grid-row-gap: 0px; 
+	padding-right: 2em;
+}
+.large-bullet:has(a) a {
+	display: grid;
+	grid-template-columns: 3.5em 1fr; 
+	grid-template-rows: 1fr 2fr; 
+	grid-column-gap: 0px;
+	grid-row-gap: 0px; 
+	padding-right: 2em;
+	text-decoration: none;
+}
+.large-bullet .large-bullet-icon {
+	grid-area: 1 / 1 / 3 / 2;
+	background-color: var(--color-matsim-medium);
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 50%;
+	font-size: 150%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--color-fg-light-1);
+	transition: transform .2s;
+}
+.large-bullet .large-bullet-icon svg {
+	fill: var(--color-fg-light-1);
+}
+.large-bullet .large-bullet-header {
+	grid-area: 1 / 2 / 2 / 3;
+	font-weight: 700;
+	padding-top: 0.25em;
+}
+.large-bullet .large-bullet-text {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.large-bullet a:hover .large-bullet-icon {
+	transform: scale(1.15);
+}
+.large-bullet a:hover .large-bullet-header {
+	text-decoration: underline;
+}
+
+#home-get-started {
+	display: grid; 
+	grid-template-columns: 1fr; 
+	grid-template-rows: repeat(3, 1fr); 
+	grid-column-gap: 1em;
+	grid-row-gap: 1em; 
+}
+@media(min-width: 700px) {
+	#home-get-started {
+		display: grid; 
+		grid-template-columns: repeat(3, 1fr); 
+		grid-template-rows: 1fr; 
+		grid-column-gap: 1em;
+		grid-row-gap: 1em; 
+	}
+}
+
+#matsim-intro {
+	overflow:hidden;
+}
+#matsim-intro .vehicle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  offset-path: path("M-30,-120 C200,100 400,0 500,100 C 500,300 300,300 200,800");
+  animation: trailmove 13000ms infinite linear;
+  width: 1.5em;
+  height: 1em;
+  background: var(--color-matsim-dark-1);
+  border: none;
+/*   clip-path: polygon(0 0, 100% 50%, 0 100%); */
+  animation-delay: var(--delay);
+  border-radius: 15%;
+  box-shadow: 3px 0 0px var(--color-fg-light-1), -3px 0px 0px var(--color-matsim-dark-2);
+}
+#matsim-intro .vehicle[data-color="red"] {
+  background: var(--color-matsim-accent-red);
+  box-shadow: 3px 0 0px var(--color-matsim-accent-red-light), -3px 0px 0px var(--color-matsim-accent-red-dark);
+}
+#matsim-intro .vehicle[data-color="dark"] {
+	background: var(--color-matsim-dark-2);
+  box-shadow: 3px 0 0px var(--color-fg-light-1), -3px 0px 0px var(--color-matsim-dark-1);
+}
+
+#matsim-intro .vehicle[data-route="1"] {
+  offset-path: path("M0.5 -150C10.995 -98.8617 -57.6079 -28.5 314 -28.5C766 -28.5 1178.45 79.6067 1237.92 190.6C1297.4 301.593 1220.93 634.572 1192.95 731");
+}
+#matsim-intro .vehicle[data-route="2"] {
+  offset-path: path("M-134 647C-71 458.5 366.5 453 500 380C650.34 297.791 716 183 830 150C944 117 1251.5 143 1309.5 42.5C1355.9 -37.9 1382.83 -136.333 1390.5 -175.5");
+}
+#matsim-intro .vehicle[data-route="3"] {
+  offset-path: path("M-134 647C-71 458.5 366.5 453 500 380C650.34 297.791 725.892 174.573 842 150C1031 110 1283 39 1298 287C1305.67 413.768 1240.83 729.167 1248.5 690");
+}
+#matsim-intro .vehicle[data-route="4"] {
+  offset-path: path("M980 657C965 490 934.5 364.5 890 320C845.5 275.5 652.5 252 550 250C468 248.4 -280.5 337.5 -150 -100");
+}
+#matsim-intro .vehicle[data-route="5"] {
+  offset-path: path("M820.5 -100C822.167 -8 856.3 173.4 939.5 221C1043.5 280.5 1276.5 288 1359 240.5C1441.5 193 1470 23 1471.5 -100");
+}
+#matsim-intro .vehicle[data-route="6"] {
+  offset-path: path("M991 673C989.28 611.047 954.045 379.328 868.161 318.525C760.806 242.52 520.29 232.94 435.129 293.616C349.968 354.292 320.548 571.448 319 673");
+}
+#matsim-intro .vehicle[data-route="7"] {
+  offset-path: path("M323.5 652C342 472 350 389.5 398 320C433.764 268.217 388 256 285.5 254C203.5 252.4 -244.5 254 -150 -100");
+}
+#matsim-intro .explainer {
+	z-index: 1;
+	position: relative;
+	max-width: 85%;
+}
+
+@keyframes trailmove {
+  0% {
+    offset-distance: 0%;
+    opacity: 0;
+  }
+  5% {
+    offset-distance: 0%;
+    opacity: 0.6;
+  }
+  85% {
+    offset-distance: 100%;
+    opacity: 0.6;
+  }
+  90% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+
+
+.movie-placeholder {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16/9;
+	background: #888888;
+	border-radius: var(--border-radius);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding-left: 2rem;
+}

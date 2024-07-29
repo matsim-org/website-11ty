@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<article class="region page page-event">
+  <div class="wrapper flow">
+    <h1>{{ title }}</h1>
+    <h3>{% include "icons/fa-calendar-day.svg" %} {{ date_display }} &nbsp; &nbsp; &nbsp; {% include "icons/fa-location-dot.svg" %} {{ location }}</h3>
+    {{ content | safe }}
+  </div>
+</article>

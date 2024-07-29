@@ -1,0 +1,80 @@
+.card {
+  background: var(--color-matsim-medium);
+  background: linear-gradient(135deg, var(--color-matsim-dark-2) 0%, var(--color-matsim-dark-1) 20%, var(--color-matsim-medium) 100%);
+ /* border: 2px solid var(--color-matsim-dark-1); */
+  color: var(--color-fg-light-1);
+  padding: var(--space-s-m);
+  border-radius: var(--border-radius);
+  max-inline-size: unset;
+  box-shadow: 1px 1px 4px var(--color-shadow);
+  transition: box-shadow .3s;
+}
+
+.card ::selection {
+  color: var(--color-dark);
+  background: var(--color-secondary);
+}
+
+.card h2 {
+  font-size: var(--size-step-3);
+
+}
+.card h3 {
+  font-size: var(--size-step-2);
+  padding: 0;
+  color: var(--color-fg-light-1);
+}
+
+.card h2 a,
+.card h3 a {
+  text-decoration: none;
+}
+
+.card a:hover h2,
+.card a:hover h3 {
+  text-decoration: underline;
+}
+
+.card:hover,
+.card:focus-within {
+  background: linear-gradient(135deg, var(--color-matsim-medium) 0%, var(--color-matsim-medium) 20%, var(--color-matsim-dark-1) 100%);
+/*  border: 2px solid var(--color-matsim-medium);*/
+  box-shadow: 3px 2px 5px var(--color-shadow);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card:has(.card-icon) {
+	padding-bottom: 3em;
+	position: relative;
+}
+.card .card-icon {
+	position: absolute;
+	bottom: 0.5rem;
+	right: 1rem;
+	font-size: 200%;
+}
+.card .card-icon svg {
+	fill: var(--color-matsim-light-1);
+	filter: drop-shadow(3px 3px 2px var(--color-matsim-dark-2));
+}
+
+
+/* 'clickable' */
+
+.card:focus-within a:focus {
+  outline: none;
+}
+.card {
+  position: relative;
+}
+.card a:after {
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

@@ -1,0 +1,124 @@
+{ "data": { "talks": [
+
+{
+	"author": "Antoniou et al.",
+	"title": "Simulation of e-bike and e-scooter trips using MATSim",
+	"abstract": "Antoniou_EtAl_MUM_2022_Abstract.pdf",
+	"presentation": "Antoniou_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Bakhtiari et al.",
+	"title": "A non-linear, zonal and time-dependent electric vehicle charging pricing framework for Multi Agent Transportation Simulation (MATSim)",
+	"abstract": "",
+	"presentation": "Bakhtiari_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Bischoff",
+	"title": "Using MATSim in strategic rail supply planning – Applications of SIMBA MOBi",
+	"abstract": "Bischoff_MUM_2022_Abstract.pdf",
+	"presentation": "Bischoff_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Brulin et al.",
+	"title": "Using evolutionary algorithms for eVTOL design optimization based on multi-agent simulations",
+	"abstract": "Brulin_EtAl_MUM_2022.pdf",
+	"presentation": ""
+},
+{
+	"author": "Buijs et al.",
+	"title": "Using ANN to assess the mode choice resulting from MATSim",
+	"abstract": "Buijs_EtAl_MUM_2022.pdf",
+	"presentation": "Buijs_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Casier and Witlox",
+	"title": "Implementation of attitudes and well-being in MATSim",
+	"abstract": "Casier_Witlox_MUM_2022_Abstract.pdf",
+	"presentation": "Casier_Witlox_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Charlton",
+	"title": "Building MATSim visualization dashboards using SimWrapper",
+	"abstract": "Charlton_MUM_2022_Abstract.pdf",
+	"presentation": "Charlton_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Chouaki et al.",
+	"title": "Agent-based simulation of future mobility systems in the Paris area",
+	"abstract": "Chouaki_EtAl_MUM_2022_Abstract.pdf",
+	"presentation": "Chouaki_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Gong",
+	"title": "Calibration of MATSim in the district of Liège (Belgium) using mobile phone-based OD-matrices - Preliminary results",
+	"abstract": "Gong_MUM_2022_Abstract.pdf",
+	"presentation": "Gong_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Ji et al.",
+	"title": "The impact of social networks on the spread of epidemics using Episim",
+	"abstract": "",
+	"presentation": "Ji_EtAl_MUM_2022.pdf"
+},
+{
+	"author": "Khaddoura",
+	"title": "Insights into one or two MATSim applications at Swiss Federal Railways - Intermodal freight transport and future scenarios 2050",
+	"abstract": "Khaddoura_MUM_2022.pdf",
+	"presentation": ""
+},
+{
+	"author": "Lannes et al.",
+	"title": "Car fleet synthesis for agent-based mobility models - A comparison of machine learning and discrete choice methods",
+	"abstract": "Lannes_EtAl_MUM_2022_Abstract.pdf",
+	"presentation": "Lannes_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Li et al.",
+	"title": "MATSim Brussels scenario generated from open-source pipeline and Ubiquitous big data",
+	"abstract": "",
+	"presentation": "Ji_EtAl_MUM_2022.pdf"
+},
+{
+	"author": "Liao et al.",
+	"title": "Synthetic Sweden mobility model (SySMo) - Optimal charging infrastructure for 100% EV adoption",
+	"abstract": "Liao_EtAl_MUM_2022.pdf",
+	"presentation": ""
+},
+{
+	"author": "Moliner et al.",
+	"title": "Simulations of different scenarios of the use of autonomous vehicles with a multi-agent model",
+	"abstract": "Moliner_EtAl_MUM_2022_Abstract.pdf",
+	"presentation": "Moliner_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Nagel",
+	"title": "Update",
+	"abstract": "",
+	"presentation": "Nagel_MUM_2022.pdf"
+},
+{
+	"author": "Patwary et al.",
+	"title": "A non-linear, zonal and time-dependent electric vehicle charging pricing framework for Multi Agent Transportation Simulation (MATSim)",
+	"abstract": "Patwary_EtAl_MUM_2022_Abstract.pdf",
+	"presentation": "Bakhtiari_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Patwary et al.",
+	"title": "Integrating Iterative Backpropagation (IB) and metamodeling for high dimensional dynamic traffic model optimization",
+	"abstract": "Patwary_EtAl_MUM_2022_1_Abstract.pdf",
+	"presentation": ""
+},
+{
+	"author": "Yin et al.",
+	"title": "Evaluation of driving restriction zone policy with travel behaviors of intermodality in the Paris case study",
+	"abstract": "Yin_EtAl_MUM_2022_Abstract.pdf",
+	"presentation": "Yin_EtAl_MUM_2022_Presentation.pdf"
+},
+{
+	"author": "Zwick et al.",
+	"title": "MATSim in a corporate environment - Simulating MOIA on AWS",
+	"abstract": "Zwick_EtAl_MUM_2022.pdf",
+	"presentation": ""
+}
+
+] } }

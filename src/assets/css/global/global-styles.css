@@ -1,0 +1,227 @@
+/*
+  Global styles
+
+  Low-specificity, global styles that apply to the whole
+  project: https://cube.fyi/css.html
+*/
+body {
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  font-size: var(--size-step-0);
+  font-family: var(--font-base);
+  line-height: 1.4;
+/*  letter-spacing: var(--tracking); */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+}
+
+/* Base typesetting */
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1;
+  font-family: var(--font-display);
+  font-weight: 400;
+/*   padding-bottom: 0.5em; */
+/*   padding-top: 1em; */
+  color: var(--color-matsim-dark-2);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--size-step-4);
+}
+
+h2 {
+  font-size: var(--size-step-3);
+}
+
+h3 {
+  font-size: var(--size-step-2);
+}
+
+h4 {
+  font-size: var(--size-step-1);
+}
+
+/* Set line lengths */
+p,
+li,
+blockquote:not([class]) {
+  max-inline-size: 100%;
+}
+article :not(.flow) p + p {
+	padding-top: 1lh;
+}
+article, li p + p,
+article :not(.flow) li p + p {
+	padding-top: 0;
+}
+article, li p + p:last-child,
+article :not(.flow) li p + p:last-child {
+	padding-bottom: 1lh;
+}
+
+h1,
+h2,
+h3 {
+  max-inline-size: 30ch;
+}
+
+
+h3 svg path {
+	fill: var(--color-matsim-dark-2);
+}
+
+blockquote {
+  border-inline-start: 0.4rem solid var(--color-primary);
+  padding: var(--space-xs-s);
+  font-size: var(--size-step-0);
+}
+blockquote :last-child {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-size: var(--size-step-0);
+}
+
+svg {
+  block-size: 2ex;
+  inline-size: auto;
+  flex: none;
+}
+
+[role='list'] {
+  padding: 0;
+}
+
+ol,
+ul {
+	margin-left: 0;
+	padding-left: 1.25em;
+}
+li {
+	padding-left: 0.25em;
+}
+
+/* Base interactive elements */
+
+a {
+  color: currentcolor;
+}
+
+a:hover {
+  text-decoration-color: var(--color-matsim-light-1);
+}
+.heading-anchor {
+  text-decoration: none;
+}
+.heading-anchor:hover {
+  text-decoration: none;
+}
+
+
+:focus {
+  outline: 3px solid;
+  outline-offset: 0.3ch;
+}
+
+:target {
+  scroll-margin-top: 2ex;
+}
+
+main:focus {
+  outline: none;
+}
+
+article [href^='http']:not([href*='matsim.org']) {
+  padding-inline-end: 0.8em;
+}
+
+article
+  [href^='http']:not([href*='matsim.org']):not(.no-indicator)::after {
+  position: absolute;
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  background-image: url('/assets/images/icn-external.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% auto;
+  /* alternative text rules */
+  content: '(external link)';
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 1em; /* the width of the icon */
+}
+
+/* Base selection styles that invert whatever colours are rendered */
+::selection {
+  background: var(--color-primary);
+  color: var(--color-light);
+}
+
+.preload-transitions * {
+  transition: none !important;
+}
+
+.text-1 {
+	font-size: var(--size-step-1);
+}
+.text-2 {
+	font-size: var(--size-step-2);
+}
+.text-3 {
+	font-size: var(--size-step-3);
+}
+.lead {
+	font-weight: 700;
+	color: var(--color-matsim-dark-1);
+}
+mark {
+	padding: 0 4px;
+	background: var(--color-matsim-accent-1-bg);
+}
+p.highlight {
+	padding: var(--space-xs-s);
+	background: var(--color-matsim-accent-1-bg);
+	border-radius: var(--border-radius);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table th {
+	border-bottom: 1px solid var(--color-matsim-dark-1);
+	text-align: left;
+}
+
+table th,
+table td {
+	padding: 0 1em;
+}
+table th:first-child,
+table td:first-child {
+	padding-left: 0;
+}
+table th:last-child,
+table td:last-child {
+	padding-right: 0;
+}
+
+table {
+	border-top: 1px solid var(--color-matsim-dark-1);
+	border-bottom: 1px solid var(--color-matsim-dark-1);
+}
+
+.important-notice {
+	background-color: var(--color-matsim-accent-1-bg);
+	border: 1px solid var(--color-matsim-accent-1);
+	border-radius: var(--border-radius);
+	padding: var(--space-s-m);
+}

@@ -1,0 +1,118 @@
+{ "data": { "talks": [
+
+{
+	"author": "Fred Shone and Tim Hillel",
+	"title": "A Deep Learning Approach for Innovating MATSim Plans",
+	"abstract": "",
+	"presentation": ""
+},
+{
+	"author": "Filippos Adamidis and Constantinos Antoniou",
+	"title": "Modelling the impact of mobility pricing on mode choices",
+	"abstract": "",
+	"presentation": "MUM2024_Adamidis_Presentation.pdf"
+},
+{
+	"author": "Tobias Kohl and Andreas Neumann",
+	"title": "Efficient approximation of time costs for parking in MATSim",
+	"abstract": "",
+	"presentation": "MUM2024_Kohl_ParkingProxy.pdf"
+},
+{
+	"author": "Marcel Rieser",
+	"title": "Tramola and other news from Simunto",
+	"abstract": "",
+	"presentation": "MUM2024_Rieser.pdf"
+},
+{
+	"author": "Ashraf Uz Zaman Patwary, Enoch Lee, Francesco Ciari and Hong K. Lo",
+	"title": "Comparing External and Internal Control Measures: Lesson from comprehensive Mobility-based Epidemic Simulation Models for the City of Montreal and Hong Kong",
+	"abstract": "",
+	"presentation": "MUM2024_EpisimPPT-5.pdf"
+},
+{
+	"author": "Ming Lu and Xiaoming Zhang",
+	"title": "An Auto Calibration Extension for Plan Parameters in MATSim",
+	"abstract": "",
+	"presentation": "MUM2024_Lu.pdf"
+},
+{
+	"author": "Lennert Verhulst, Frank Witlox and Giovanni Circella",
+	"title": "Simulating Potential Impacts of Commoning Accessibility Practices on Travel Behaviour",
+	"abstract": "",
+	"presentation": "MUM2024_Verhulst.pdf"
+},
+{
+	"author": "Billy Charlton",
+	"title": "What’s new in open-source MATSim data visualization tools",
+	"abstract": "",
+	"presentation": "MUM2024_Charlton.pdf"
+},
+{
+	"author": "Janek Laudan, Paul Heinrich and Kai Nagel",
+	"title": "Distributed parallel QSim implementation in Rust",
+	"abstract": "",
+	"presentation": "MUM2024_Laudan_Parallel-QSim.pdf"
+},
+{
+	"author": "Hannes Rewald, Steffen Axer and Sebastian Hörl",
+	"title": "Household Vehicle Sharing in MATSim",
+	"abstract": "",
+	"presentation": "MUM2024_Rewald_Vehicle_Household_Sharing.pdf"
+},
+{
+	"author": "Fabian Schuhmann, Jörg Schweizer, Fabian Netzler and Markus Lienkamp",
+	"title": "hybridPY: A Hybrid Traffic Simulation Case Study for Munich",
+	"abstract": "",
+	"presentation": "/MUM2024_Schuhmann_hybridPY.pdf"
+},
+{
+	"author": "Tim Volotskiy and Jaro Smirnov",
+	"title": "The Toolkit for Fleet Electrification and Charging Infrastructure Management in Large-Scale MATSim Scenarios within Replan.city",
+	"abstract": "",
+	"presentation": ""
+},
+{
+	"author": "The FeederDrt extension: simulation of intermodal on-demand services acting as feeders for public transit",
+	"title": "Tarek Chouaki and Sebastian Hörl",
+	"abstract": "",
+	"presentation": "MUM2024_Chouaki.pptx"
+},
+{
+	"author": "Pierre Michel, Azise Oumar Diallo, Alexandre Chasse and Guoxi Feng",
+	"title": "Enhancing Ile-de-France Agent-Based Model: Automotive Fleet Projection and Low Emissions Zone Model",
+	"abstract": "",
+	"presentation": "MUM2024_Michel.pptx"
+},
+{
+	"author": "Tatiana Seregina, Tarek Chouaki, Félix Carreyre, Nicolas Coulombel",
+	"title": "On-Demand Autonomous Vehicle Service in Rural Areas in Île-de-France: Multi-Agent Modeling and Evaluation of Potential Benefits",
+	"abstract": "",
+	"presentation": ""
+},
+{
+	"author": "Franz-Xaver Rupprecht, Georgia Charalampidou and Gunnar Flötteröd",
+	"title": "Metropolis-Hastings based synthesis for all-day round trips from origin-destination matrices and limited population segmentation",
+	"abstract": "",
+	"presentation": "MUM2024_Ruprecht_Floetteroed.pptx"
+},
+{
+	"author": "Hamoun Pourroshanfekr Arabani, Mattias Ingelström, Francisco J. Márquez- Fernández and Mats Alaküla",
+	"title": "Simulating Electric Road Systems as charging infrastructure in MATSim with EV-Contrib: EV user charging behavior on long-distance trips",
+	"abstract": "",
+	"presentation": "MUM2024_Hamoun_Pourroshanfekr_Arabani.pdf"
+},
+{
+	"author": "Divya Sharma, Steffen Axer, Hannes Rewald, Chris Bruce, Michael Fitzmaurice, Kasia Kozlowska, Yuhao Sun, Neil Montague, Val Ismaili, Panos Tsoleridis, Gerry Casey and Theodore Chatziioannou",
+	"title": "Objective Sustainability: Meaningfully measuring the impacts of mobility using MATSim. Moving beyond journey time savings?",
+	"abstract": "",
+	"presentation": ""
+},
+{
+	"author": "Christoph Garritsen and Oliver Ludwig",
+	"title": "Enhancing Commuter Mobility: A Methodology for Deriving and Optimizing Urban Mobility Services",
+	"abstract": "",
+	"presentation": "MUM2024_Garritsen-Enhancing_Commuter_Mobility.pdf"
+}
+
+] } }

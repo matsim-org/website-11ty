@@ -1,0 +1,178 @@
+{ "data": { "talks": [
+
+{
+	"author": "Abdollahyar et al",
+	"title": "Examining demographic heterogeneities in Melbourne's MATSim model",
+	"abstract": "Abdollahyar_EtAl_MUM_2023.pdf",
+	"presentation": "Abdollahyar_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Alvarez Castro et al",
+	"title": " A MATSim model for a low carbon future mobility in the UK context",
+	"abstract": "AlvarezCastro_EtAl_MUM_2023.pdf",
+	"presentation": "AlvarezCastro_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Ben Dor et al",
+	"title": "Mitigating urban traffic congestion - A multi-modal approach including DRT for Jerusalem",
+	"abstract": "Ben-Dor_EtAl_MUM_2023.pdf",
+	"presentation": "Ben-Dor_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Bischoff & Kaddoura",
+	"title": "Using MATSim for the long-term forecast of passenger demand in Switzerland",
+	"abstract": "Bischoff_Kaddoura_MUM_2023.pdf",
+	"presentation": "Bischoff_Kaddoura_MUM_2023.pdf"
+},
+{
+	"author": "Brulin",
+	"title": "Multi-stakeholder interestes in urban transport design: A bi-level optimization approach for activity-based network design problems",
+	"abstract": "Brulin_MUM_2023.pdf",
+	"presentation": ""
+},
+{
+	"author": "Chouaki & Hörl",
+	"title": "Extending the DRT module to enable simulations of pre-booked MoD services",
+	"abstract": "Chouaki_Hoerl_MUM_2023.pdf",
+	"presentation": "Hoerl_Chouaki_MUM_2023.pdf"
+},
+{
+	"author": "Diallo et al",
+	"title": "Evaluation of the low emission zone according toe the evolution of car-ownership - The Métropole du Grand Paris case study",
+	"abstract": "Diallo_EtAl_MUM_2023.pdf",
+	"presentation": "Diallo_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Elgohary & Pucci",
+	"title": "The role of the MATSim model in assessing Paratransit performance in a data-scarcity context",
+	"abstract": "Elgohary_Pucci_MUM_2023.pdf",
+	"presentation": "Elgohary_Pucci_MUM_2023.pdf"
+},
+{
+	"author": "Ewert",
+	"title": "Open-source based methodology for creating small-scale commercial traffic for MATSim simulations",
+	"abstract": "Ewert_MUM_2023.pdf",
+	"presentation": "Ewert_MUM_2023.pdf"
+},
+{
+	"author": "Feng et al",
+	"title": "Improving bike travel demand generation with dynamic data - An application to the Paris metropolis",
+	"abstract": "Feng_EtAl_MUM_2023.pdf",
+	"presentation": "Feng_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Flötteröd",
+	"title": "Approximation of point equilibria in MATSim",
+	"abstract": "Floetteroed_MUM_2023.pdf",
+	"presentation": "Floetteroed_MUM_2023.pdf"
+},
+{
+	"author": "Grishchuk et al",
+	"title": "Multiagent transport model for urban planning of the Brno metropolitan area",
+	"abstract": "Grishchuk_EtAl_MUM_2023.pdf",
+	"presentation": "Grishchuk_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Grübel et al",
+	"title": "MATSim in the Open Digital Twin Platform",
+	"abstract": "Gruebel_EtAl_MUM_2023.pdf",
+	"presentation": "Gruebel_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Ingelström et al",
+	"title": "Obtaining spatial charging demand from road transport and analysing the resulting charging infrastructure need using EV contrib",
+	"abstract": "Ingelstroem_EtAl_MUM_2023.pdf",
+	"presentation": "Ingelstroem_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Kaddoura et al",
+	"title": "A large-scale hybrid micro- and mesoscopic simulation approach (railsim)",
+	"abstract": "Kaddoura_EtAl_MUM_2023.pdf",
+	"presentation": "Kaddoura_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Kozlowska & Stone",
+	"title": "Simulating active modes with Hermes",
+	"abstract": "Kozlowska_Shone_MUM_2023.pdf",
+	"presentation": "Kozlowska_MUM_2023.pdf"
+},
+{
+	"author": "Kwon & Kim",
+	"title": "Enhancing deep generative models for distinguishing samplling zeros and structural zeros in population synthesis",
+	"abstract": "Kwon_Kim_MUM_2023.pdf",
+	"presentation": "Kwon_Kim_MUM_2023.pdf"
+},
+{
+	"author": "Kirste & Stumpf",
+	"title": "evelopments of urban air mobility analyses using multi-agent transport simulation",
+	"abstract": "Kirste_Stumpf_MUM_2023.pdf",
+	"presentation": "Kirste_Stumpf_MUM_2023.pdf"
+},
+{
+	"author": "Lannes et al",
+	"title": "An integrated road traffic-emissions-CTM model chain to assess urban air quality at the street level for the Paris region",
+	"abstract": "Lannes_EtAl_MUM_2023.pdf",
+	"presentation": "Lannes_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Lu & Maciejewski",
+	"title": "Generation of demand-responsive transport scenarios library in MATSim",
+	"abstract": "Lu_Maciejewski_MUM_2023.pdf",
+	"presentation": "Lu_MUM_2023.pdf"
+},
+{
+	"author": "Li et al",
+	"title": "Shared autonomous vehicles as park-and-ride transfer alternatives towards cities with zero private vehicles - A MATSim simulation study for Brussels, Belgium",
+	"abstract": "Li_EtAl_MUM_2023.pdf",
+	"presentation": "Li_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Matus Acuña et al",
+	"title": "Integrating MATSim into a comprehensive multi-model platform for analysis and planning of sustainable electromobility scenarios",
+	"abstract": "MatusAcuna_EtAl_MUM_2023.pdf",
+	"presentation": "Bustos_Matus_MUM_2023.pdf"
+},
+{
+	"author": "Meinhardt & Paltra",
+	"title": "Researching the impact of extreme weather events on an on-demand transport service - A case study",
+	"abstract": "Meinhardt_Paltra_MUM_2023.pdf",
+	"presentation": "Meinhardt_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Nassar et al",
+	"title": "Dynamic ride-sharing for MATSim – presenting the DRS module",
+	"abstract": "Nassar_Etal_MUM_2023.pdf",
+	"presentation": "Nassar_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Pougala et al",
+	"title": "Modelling the impact of activity duration on utility-based scheduling desicions - A comparative analysis",
+	"abstract": "Pougala_EtAl_MUM_2023.pdf",
+	"presentation": "Pougala_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Rybczak",
+	"title": "Simulation–based investigation of transport policies - A case study in Gladbeck",
+	"abstract": "Rybczak_MUM_2023.pdf",
+	"presentation": "Rybczak_MUM_2023.pdf"
+},
+{
+	"author": "Staves et al",
+	"title": "A MATSim-based framework for modelling the influence of the built environment on walkability and cyclability",
+	"abstract": "Staves_EtAl_MUM_2023.pdf",
+	"presentation": "Staves_EtAl_MUM_2023.pdf"
+},
+{
+	"author": "Shone & Kozlowska",
+	"title": "Batsim - Post processing MATSim for EV energy scenario",
+	"abstract": "Shone_Kozlowska_MUM_2023.pdf",
+	"presentation": "Shone_MUM_2023.pdf"
+},
+{
+	"author": "Volotskiy & Smirnov",
+	"title": "Introducing Replan.city: Web-based platform for MATSim Scenario development, maintenance, and analysis",
+	"abstract": "Volotskiy_Smirnov_MUM_2023.pdf",
+	"presentation": ""
+}
+
+] } }

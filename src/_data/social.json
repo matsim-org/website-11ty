@@ -1,0 +1,17 @@
+[
+  {
+    "platform": "github",
+    "url": "https://github.com/matsim-org/",
+    "icon": "github.svg"
+  },
+  {
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/company/matsim-org",
+    "icon": "linkedin.svg"
+  },
+  {
+    "platform": "rss",
+    "url": "/feed.xml",
+    "icon": "rss.svg"
+  }
+]

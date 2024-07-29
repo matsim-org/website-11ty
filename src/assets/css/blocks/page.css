@@ -1,0 +1,12 @@
+.page img {
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+  border: 1px solid var(--color-dark);
+}
+
+.toc {
+	background: var(--color-matsim-light-1);
+	padding: var(--space-s-m);
+	border-radius: var(--border-radius);
+	max-inline-size: 50ch;
+}

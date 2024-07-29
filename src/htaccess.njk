@@ -1,0 +1,43 @@
+---
+title: htaccess
+layout: empty
+permalink: /.htaccess
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+noindex: true
+---
+
+# redirect http to https
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# don't require *.html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
+
+# redirects
+RewriteRule ^buildserver$ http://ci.matsim.org:8080 [R=301,NC,L]
+# RewriteRule ^doxygen$ http://ci.matsim.org:8080/view/All/job/Doxygen_MATSim/ws/matsim/docs/doxygen/html/index.html [R=301,NC,L]
+RewriteRule ^faq$ https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue [R=301,NC,L]
+RewriteRule ^qa$ https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue [R=301,NC,L]
+RewriteRule ^issuetracker$ https://github.com/matsim-org/matsim-libs/issues [R=301,NC,L]
+RewriteRule ^issues$ https://github.com/matsim-org/matsim-libs/issues [R=301,NC,L]
+RewriteRule ^news$ https://matsim.org/archive/ [R=301,NC,L]
+RewriteRule ^blog$ https://matsim.org/archive/ [R=301,NC,L]
+RewriteRule ^wiki$ https://github.com/matsim-org/matsim-code-examples/wiki [R=301,NC,L]
+RewriteRule ^scenarios?/?([a-z/.]+)?$ gallery/$1 [R=301,NC,L]
+RewriteRule ^downloads?/?([a-z/.]+)?$ install/$1 [R=301,NC,L]
+RewriteRule ^docs/tutorials?/?$ /docs [R=301,NC,L]
+RewriteRule ^tutorials?/?$ /docs [R=301,NC,L]
+RewriteRule ^userguide$ /docs/userguide [R=301,NC,L]
+RewriteRule ^user-guide$ /docs/userguide [R=301,NC,L]
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+AddType text/plain .dtd

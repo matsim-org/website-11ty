@@ -1,0 +1,10 @@
+.section > .seperator:first-child {
+  transform: rotate(180deg) translateY(-1px);
+}
+
+.section__inner {
+}
+
+.section :is(h1, h2, h3, blockquote) {
+  opacity: 95%;
+}

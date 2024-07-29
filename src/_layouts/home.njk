@@ -1,0 +1,76 @@
+---
+layout: base
+---
+
+<div id="home-banner" class="section">
+  <p class="wrapper">Become a member of the <a href="/association/">MATSim Associaton</a> now!</p>
+</div>
+<header id="matsim-intro" class="section bg-matsim">
+  <div class="section__inner">
+    <div class="wrapper region">
+      <div class="vehicle" data-route="1" data-color="dark"></div>
+      <div class="vehicle" data-route="1" style="--delay:-10.0s"></div>
+      <div class="vehicle" data-route="1" style="--delay:-8.0s"></div>
+      <div class="vehicle" data-route="1" data-color="dark" style="--delay:-6s"></div>
+
+      <div class="vehicle" data-route="2"></div>
+      <div class="vehicle" data-route="2" style="--delay:-9s"></div>
+      <div class="vehicle" data-route="2" data-color="dark" style="--delay:-8s"></div>
+      <div class="vehicle" data-route="2" style="--delay:-5.5s"></div>
+
+      <div class="vehicle" data-route="3" style="--delay:-11s"></div>
+      <div class="vehicle" data-route="3" style="--delay:-6s"></div>
+      <div class="vehicle" data-route="3" data-color="dark" style="--delay:-2.7s"></div>
+
+      <div class="vehicle" data-route="4" ></div>
+      <div class="vehicle" data-route="4" data-color="dark" style="--delay:-6s"></div>
+
+      <div class="vehicle" data-route="5" ></div>
+      <div class="vehicle" data-route="5" style="--delay:-7s"></div>
+      <div class="vehicle" data-route="5" style="--delay:-5.5s"></div>
+
+      <div class="vehicle" data-route="6" style="--delay:-4.5s"></div>
+      <div class="vehicle" data-route="6" data-color="dark" style="--delay:-10s"></div>
+
+      <div class="vehicle" data-route="7" style="--delay:-9s"></div>
+      <div class="vehicle" data-route="7" style="--delay:-1.3s"></div>
+      <p class="explainer">MATSim is an open-source framework for large-scale agent-based transport simulations.</p>
+    </div>
+  </div>
+</header>
+
+<div id="home-news-and-jobs" class="section bg-matsim-light">
+  <div class="section__inner">
+    <div class="wrapper region grid" data-layout="50-50">
+      <div>
+        <h2>Latest News</h2>
+          <div role="list">
+			{% set postslist = collections.news %} {% for post in postslist.slice(0, 3) %}
+			<p>{% set definedDate = post.date %} {% include "partials/date-iso.njk" %} <b><a href="{{ post.url | url }}">{{ post.data.title }}</a></b></p>
+			{% endfor %}
+			<p>
+              <a href="/news">See more news…</a>
+		    </p>
+		  </div>
+
+      </div>
+      <div>
+        <h2>Latest Jobs</h2>
+          <div role="list">
+			{% set postslist = collections.jobs %} {% for post in postslist.slice(0, 3) %}
+			<p>{% set definedDate = post.date %} {% include "partials/date-iso.njk" %} <b><a href="{{ post.url | url }}">{{ post.data.title }}</a></b></p>
+			{% endfor %}
+			<p>
+              <a href="/news">See older job offers…</a>
+		    </p>
+		  </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<article id="matsim-home-content" class="region">
+  <div class="wrapper flow">
+    {{ content | safe }}
+  </div>
+</article>

@@ -1,0 +1,56 @@
+---
+layout: base
+---
+
+<div class="scenario-gallery--single-scenario wrapper">
+<article class="region page">
+  <div class="flow">
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+  </div>
+</article>
+<nav class="scenario-gallery">
+{% set prevItem = null %}
+{% set nextItem = null %}
+{% set setPrev = true %}
+{% set setNext = false %}
+{% set items = collections.galleryItems %}
+{% for item in items %}
+{%   if (setNext) %}
+{%     set nextItem = item %}
+{%     set setNext = false %}
+{%   endif %}
+{%   if (item.data.title == title) %}
+{%     set setPrev = false %}
+{%     set setNext = true %}
+{%   endif %}
+{%   if (setPrev) %}
+{%     set prevItem = item %}
+{%   endif %}
+{% endfor %}
+
+{% if (prevItem != null) %}
+<div class="gallery-previous">
+<h4>Previous Scenario</h4>
+<div class="scenario-gallery-thumb">
+	<a href="{{prevItem.url}}" title="Go to previous scenario.">
+		<img src="{{prevItem.data.thumbnail}}">
+		<p>{{ prevItem.data.title }}</p>
+	</a>
+</div>
+</div>
+{% endif %}
+
+{% if (nextItem != null) %}
+<div class="gallery-next">
+<h4>Next Scenario</h4>
+<div class="scenario-gallery-thumb">
+	<a href="{{nextItem.url}}" title="Go to next scenario.">
+		<img src="{{nextItem.data.thumbnail}}">
+		<p>{{ nextItem.data.title }}</p>
+	</a>
+</div>
+</div>
+{% endif %}
+</nav>
+</div>

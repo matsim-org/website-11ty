@@ -1,0 +1,5 @@
+{
+  "layout": "post",
+  "tags": "news",
+  "permalink": "//news/{{ page.date | formatDate('YYYY') }}/{{ title | slugify }}/index.html"
+}
