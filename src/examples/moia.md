@@ -16,7 +16,7 @@ existing and new ridepooling services.
 MATSim's DRT extension has proven to replicate MOIA's ridepooling operation realistically 
 and allows detailed and transparent planning of the service in new environments.
 
-[[VIDEO]]
+<iframe style="width:100%;aspect-ratio: 16/9" src="https://www.youtube-nocookie.com/embed/IR16UQKZr18?si=qpbe3jb8jQy3AWzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <aside>
 Applications in various cities.
