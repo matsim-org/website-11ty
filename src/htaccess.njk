@@ -36,8 +36,11 @@ RewriteRule ^docs/tutorials?/?$ /docs [R=301,NC,L]
 RewriteRule ^tutorials?/?$ /docs [R=301,NC,L]
 RewriteRule ^userguide$ /docs/userguide [R=301,NC,L]
 RewriteRule ^user-guide$ /docs/userguide [R=301,NC,L]
+RewriteRule ^gallery$ /examples/ [R=301,NC,L]
+RewriteRule ^feed/index.xml$ /feed.xml [R=301,NC,L]
 </IfModule>
 
 ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
 
 AddType text/plain .dtd

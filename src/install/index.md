@@ -274,7 +274,7 @@ In consequence, the "latest (pre-)release" may be more modern than the "latest s
 ## Open Data Models
 
 There are a few MATSim models available freely that you can use to get started, play around,
-or test your own algorithms with. Have a look at our [dedicated page for open data models](/downloads/open-data-models)
+or test your own algorithms with. Have a look at our [dedicated page for open data models](/install/open-data-models)
 to see what models are available.
 
 ## Benchmark
