@@ -49,7 +49,7 @@ VSP tries to provide readme files, but this does not always work:
 ## South Africa
 
 Prof. Johan Joubert (at that time from the University of Pretoria, now KU Leuven) has 
-[open sourced some of the scenarios](https://matsim.atlassian.net/wiki/display/MATPUB/South+Africa) he built, each consisting of a network and a population.
+[open sourced some of the scenarios](https://github.com/matsim-org/matsim-code-examples/wiki/south-africa) he built, each consisting of a network and a population.
 
 
 ## Île-de-France
