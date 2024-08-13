@@ -267,7 +267,7 @@ Click it to extract the vehicles' positions from the events.
 ### SimWrapper
 
 Another option for visualization is the free and open-source web app SimWrapper, 
-online at [simwrapper.github.io](simwrapper.github.io). 
+online at [simwrapper.github.io](https://simwrapper.github.io). 
 SimWrapper can natively visualize MATSim output trips, carrier/freight/logistic systems, 
 and public transport networks, and can also be used in combination with the open source 
 [matsim-r](https://vsp.berlin/matsim-r) and [matsim-python](https://pypi.org/project/matsim-tools/) 
