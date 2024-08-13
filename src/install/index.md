@@ -258,6 +258,28 @@ Click it to extract the vehicles' positions from the events.
 </div>
 </div>
 
+<div class="grid" data-layout='50-50-reverse'>
+<div>
+	<img src="/assets/images/download/simwrapper.webp">
+</div>
+<div>
+
+### SimWrapper
+
+Another option for visualization is the free and open-source web app SimWrapper, 
+online at [simwrapper.github.io](simwrapper.github.io). 
+SimWrapper can natively visualize MATSim output trips, carrier/freight/logistic systems, 
+and public transport networks, and can also be used in combination with the open source 
+[matsim-r](https://vsp.berlin/matsim-r) and [matsim-python](https://pypi.org/project/matsim-tools/) 
+post-processing libraries to produce comprehensive output dashboards for traffic, emissions, noise, and more. 
+
+There is a matsim contrib which produces standard SimWrapper dashboards to get you started: 
+you only need to add one line of code to your main function to produce a full-featured SimWrapper 
+dashboards. Details are at [github.com/matsim-org/matsim-libs/tree/master/contribs/simwrapper](https://github.com/matsim-org/matsim-libs/tree/master/contribs/simwrapper). 
+Full documentation of the SimWrapper tool are online at [simwrapper.github.io/docs](https://simwrapper.github.io/docs).
+</div>
+</div>
+
 <div id="releases"></div>
 
 ## About releases
