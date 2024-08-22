@@ -21,7 +21,7 @@ module.exports = {
       url: '/news/'
     },
     {
-      text: 'Assocation',
+      text: 'Association',
       url: '/association/'
     }
   ],
