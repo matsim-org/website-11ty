@@ -131,9 +131,9 @@ In my (kn's) view, one can actually get quite far in this way, i.e. by editing t
 
 #### Latest Stable Release
 
-Version 15.0 "Spring 2023", released April 2023
+Version 2024.0, released April 2024
 
-- [Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/15.0/matsim-15.0-release.zip) ca. 60 MB
+- [Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/2024.0/matsim-2024.0-release.zip) ca. 100 MB
 - [Older versions](https://github.com/matsim-org/matsim-libs/releases)
 - [Even older versions (on sourceforge)](https://sourceforge.net/projects/matsim/files/MATSim/)
 
@@ -179,7 +179,7 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
   <dependency>
     <groupId>org.matsim</groupId>
     <artifactId>matsim</artifactId>
-    <version>15.0</version>
+    <version>2024.0</version>
   </dependency>
 </dependencies>
 ```
@@ -205,7 +205,7 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
   <dependency>
     <groupId>org.matsim</groupId>
     <artifactId>matsim</artifactId>
-    <version>16.0-SNAPSHOT</version>
+    <version>2025.0-SNAPSHOT</version>
   </dependency>
 </dependencies>
 ```
