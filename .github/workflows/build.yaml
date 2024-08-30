@@ -1,0 +1,39 @@
+# .github/workflows/build.yaml
+
+name: Build and Deploy MATSim website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.16.0]
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      
+      - name: Install dependencies & build website
+        run: |
+          npm ci
+          npm run build          
+      
+      - name: Deploy build
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: --avz
+          path: dist/
+          remote_path: ~/httpdocs
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
