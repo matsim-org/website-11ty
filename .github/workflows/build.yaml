@@ -31,7 +31,7 @@ jobs:
       - name: Deploy build
         uses: burnett01/rsync-deployments@7.0.1
         with:
-          switches: --avz
+          switches: -avz
           path: dist/
           remote_path: ~/httpdocs
           remote_host: ${{ secrets.DEPLOY_HOST }}
