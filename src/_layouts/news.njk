@@ -16,7 +16,7 @@ layout: base
     {% set postYear = '' %}
     {% set postslist = collections.newsAndJobs %} {% for post in postslist.slice(0, 4) %}
     {% set postYear = post.date.getFullYear() %}
-    <li class="overflow-hidden full-news">
+    <li class="full-news">
       <h3>
         <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h3>

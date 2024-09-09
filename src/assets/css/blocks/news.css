@@ -14,6 +14,9 @@
 #news-list h3 a {
 	text-decoration: none;
 }
+#news-list h3 a:focus {
+	display: block;
+}
 #news-list h3 a:hover {
 	text-decoration: underline;
 }
