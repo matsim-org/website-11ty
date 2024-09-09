@@ -58,6 +58,8 @@ The BERTIE model is in its infancy, but is already allowing Transport East to fu
 The modularity and flexibility of the MATSim approach mean that as the model matures, 
 it will be able to tackle ever increasingly complex problems in the service of the people of the region.
 
+![Screenshot of a visualization of the BERTIE model](/assets/images/usecases/arup/bertie.webp)
+
 ### Case study: MONTY
 
 The New Zealand Ministry of Transport plays a vital role in shaping the country’s transport system. 
@@ -94,6 +96,8 @@ Monty has already been tested on a select set of policy case studies, including:
 
 In the future, Monty will be the primary tool in New Zealand to directly test transport infrastructure 
 and policy planning in a statistically robust manner, forming key evidence for assessments. 
+
+![Screenshot of a visualization of the MONTY model](/assets/images/usecases/arup/monty.webp)
 
 ### Open Source and Insights
 
