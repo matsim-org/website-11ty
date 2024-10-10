@@ -52,9 +52,13 @@ Prof. Johan Joubert (at that time from the University of Pretoria, now KU Leuven
 [open sourced some of the scenarios](https://github.com/matsim-org/matsim-code-examples/wiki/south-africa) he built, each consisting of a network and a population.
 
 
-## Île-de-France
+## Île-de-France (Paris), France
 
 An open and reproducible simulation scenario for Île-de-France is available [here](/gallery/ile_de_france).
+
+## Vienna, Austria
+
+The Austrian Institute of Technology AIT has open-sourced their model of [Vienna, Austria](https://github.com/ait-energy/matsim-model-vienna).
 
 
 ## MATSim Test Examples
@@ -69,11 +73,10 @@ often used for feature demonstration or tests:
 
 A registry of public transit data: <http://transit.land> .
 
-German rail:
+German public transport:
 
-- In 2016, Deutsche Bahn provided an API to access transit schedules per API. These links are now all dead...
-  The official open-data portal of Deutsche Bahn is available at [data.deutschebahn.com/](https://data.deutschebahn.com/).
-- About a month later in 2016 somebody extracted a GTFS-Schedule from the API-Data: <https://github.com/fredlockheed/db-fv-gtfs>.
+- [Mobilithek](http://mobilithek.info), open data portal for all kinds of transport-related data from Germany.
+- [gtfs.de](https://gtfs.de), public transport schedules in GTFS format for Germany.
 
 
 Visualizations
