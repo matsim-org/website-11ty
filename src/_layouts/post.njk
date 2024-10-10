@@ -12,7 +12,7 @@ preloads:
   <div class="wrapper flow">
     <h1>{{ title }}</h1>
 
-    <p class="byline"><span class="date">{% set definedDate = date %} {% include "partials/date.njk" %}</span>, by <span class="author">{{author}}</span></p>
+    <p class="byline"><span class="date">{% set definedDate = page.date %}{% include "partials/date.njk" %}</span>, by <span class="author">{{author}}</span></p>
 
     {{ content | safe }}
   </div>
