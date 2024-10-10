@@ -25,6 +25,8 @@ jobs:
       
       - name: Install dependencies & build website
         run: |
+          cp src/assets/fonts/lalezar/Lalezar-Regular.ttf /usr/local/share/fonts/
+          fc-cache -f -v
           npm ci
           npm run build          
       
