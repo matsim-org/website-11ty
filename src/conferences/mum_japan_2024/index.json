@@ -1,0 +1,41 @@
+{ "data": { "talks": [
+
+{
+	"author": "Kay Axhausen",
+	"title": "What next?",
+	"abstract": "",
+	"presentation": "mumjapan24_axhausen.pdf"
+},
+{
+	"author": "Makoto Chikaraishi, Hiroshima University",
+	"title": "Developing Advanced Model Components for the Higashi-Hiroshima MATSim",
+	"abstract": "",
+	"presentation": "mumjapan24_chikaraishi.pdf"
+},
+{
+	"author": "Pieter Fourie, Keio University / Hiroshima University",
+	"title": "Applications of MATSim in Japan and Southeast Asia",
+	"abstract": "",
+	"presentation": "mumjapan24_fourie.pdf"
+},
+{
+	"author": "Yihe Zhou, Kyoto University",
+	"title": "Development of the Kyoto MATSim Model and Planned Applications",
+	"abstract": "",
+	"presentation": "mumjapan24_zhou.pdf"
+},
+{
+	"author": " Luo Lichen, University of Tokyo",
+	"title": "Transport and Land-Use Impacts of Automated Vehicles in Gunma",
+	"abstract": "",
+	"presentation": "mumjapan24_luo.pdf"
+},
+{
+	"author": "Hisatomo Hanabusa, i-Transport Lab",
+	"title": "Nowcast Activity-Based Simulation for Travel Behavior Analysis",
+	"abstract": "",
+	"presentation": "mumjapan24_hanabusa.pdf"
+}
+
+
+] } }
