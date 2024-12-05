@@ -1,5 +1,5 @@
 ---
-permalink: /conferences/mum_japan_2024.html
+permalink: /conferences/mum_japan_2024/index.html
 title: "MATSim User Meeting Japan 2024"
 description: "A meeting of the MATSim community in Japan on 21 November 2021 with Kay Axhausen as keynote speaker."
 layout: event
@@ -9,10 +9,10 @@ location: University of Tokyo, Japan
 ---
 
 <div class="lead">
-The first MATSim User Meeting in Japan took place on **21 November 2024**, hosted by Prof. Giancarlo Parady at the University of Tokyo. 
+The first MATSim User Meeting in Japan took place on <b>21 November 2024</b>, hosted by Prof. Giancarlo Parady at the University of Tokyo. 
 We were honored to have MATSim co-founder Prof. Em. Kay W. Axhausen as the keynote speaker, who provided an overview of MATSim's current state and future development goals.
 It was exciting to see the growing interest in MATSim in Japan, with presentations featuring both research and industry applications of MATSim in the region.
-
+</div>
 
 ## Presentations
 
