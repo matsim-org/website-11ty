@@ -6,7 +6,7 @@ layout: page
 
 The most important rules:
 
-- Committed Code must compile with Java 8 (current system requirements by MATSim)
+- Committed Code must compile with Java 21 (system requirement by MATSim, current as of MATSim 2024.0)
 - Only commit to your personal playground, unless you are a contrib maintainer or you have been given the rights to commit in other locations.
 
 The following sections contain more information for writing code for MATSim:
