@@ -14,7 +14,7 @@ We are now aiming for the following:
 - TU Berlin teaches a MATSim class during every summer term.  
 We plan to move the tutorial material of that class to the site 
 here at the end of each term (i.e. around July/August of every year). 
-[The most current version is the 2022 course](/content/2022-matsim-class-tu-berlin-matsim-version-14x).
+[The most current version is the 2024 course](/content/2024-matsim-class-tu-berlin-matsim-version-2025x).
 
 Additional material is available in the [matsim-code-examples repository](https://github.com/matsim-org/matsim-code-examples).  
 That material may be a bit more difficult to find or read, but it has the advantage 
@@ -23,17 +23,11 @@ compiling and in many cases even secured by a regression test.
 
 &nbsp;
 
+[2024: MATSim class at TU Berlin (MATSim version 2025.x)](/content/2024-matsim-class-tu-berlin-matsim-version-2025x).
+
 [2022: MATSim class at TU Berlin (MATSim version 14.x)](/content/2022-matsim-class-tu-berlin-matsim-version-14x).
 
 [2020: MATSim class at TU Berlin (MATSim version 12.x)](/content/2020-matsim-class-tu-berlin-matsim-version-12x).
-
-[2019: MATSim class at TU Berlin (MATSim version 11.x)](/content/2019-matsim-class-tu-berlin-matsim-version-11x).
-
-[2018: MATSim class at TU Berlin (MATSim version 0.10.x)](/content/2018-matsim-class-tu-berlin-matsim-version-010x).
-
-[2017: MATSim class at TU Berlin (MATSim version 0.9.x)](/content/2017-matsim-class-tu-berlin-matsim-version-09x).
-
-[2016: MATSim class at TU Berlin (MATSim version 0.8.x)](/content/2016-matsim-class-tu-berlin-matsim-version-08x).
 
 
 &nbsp;
