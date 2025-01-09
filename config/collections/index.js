@@ -34,14 +34,14 @@ const getAllGalleryItems = collection => {
 
 /** All future events. */
 const getFutureEvents = collection => {
-  const now = new Date()
+  const now = new Date();
   const events = collection.getFilteredByGlob('./src/conferences/*/*.md').filter(p => p.data.date >= now);
   return events.reverse();
 };
 
 /** All past events. */
 const getPastEvents = collection => {
-  const now = new Date()
+  const now = new Date();
   const events = collection.getFilteredByGlob('./src/conferences/*/*.md').filter(p => p.data.date < now);
   return events.reverse();
 };
@@ -59,5 +59,6 @@ module.exports = {
   getAllJobs,
   getAllGalleryItems,
   getPastEvents,
+  getFutureEvents,
   onlyMarkdown
 };
