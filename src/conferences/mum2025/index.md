@@ -13,6 +13,8 @@ location: Munich, Germany
 The MATSim Association plans to hold a MATSim User Meeting 2025 after the [hEART conference](https://www.heart2025.vtk.ed.tum.de)
 at the Technical University of Munich, Germany. The user meeting will run over two days, June 12-13, 2025.
 
+We will also hold the **MATSim Association Annual General Meeting** in conjunction with the user meeting at **12pm CET on the 13th of June 2025.**
+
 </div>
 
 <div class="grid border" data-layout="50-50">
