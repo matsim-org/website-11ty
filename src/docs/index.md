@@ -37,8 +37,7 @@ Some [Terminology](/docs/userguide/terminology) (i.e. correspondences between MA
 ## For Users
 
 - Quickstart: See [Downloads &rarr; Install](/downloads/#install)
-- [Q&A, Help-Forum](https://github.com/orgs/matsim-org/discussions)
-- [Q&A, (Old)](https://github.com/matsim-org/matsim-code-examples/issues?q=is:issue)
+- [Q&A, Help-Forum](/faq)
 - [General Tutorials](/docs/tutorials/general)
 - [Simulation of public transport](https://github.com/matsim-org/matsim-code-examples/wiki/pt)
 - [Community pages](https://www.matsim.org/wiki) (user guides, DIY instructions, etc.)
