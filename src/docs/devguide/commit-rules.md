@@ -17,6 +17,10 @@ permalink: /docs/devguide/commit-rules.html
 	
 	Do not directly commit to `org.matsim.*`, but create a pull request with the changes
 	you want to apply.
+	
+    We use [conventional commit messages](https://conventionalcommits.org/) for the Pull-Requests.
+    Don't get too creative with scopes, but try use one of the scopes that is already being used
+    or none at all, as otherwise the generated changelog might become too cluttered.
 
 - **Write useful commit messages.**
 - **Write your commit messages in English.**
