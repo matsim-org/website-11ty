@@ -1,0 +1,10 @@
+table.extension-table {
+	width: 100%;
+}
+
+table.extension-table td {
+	vertical-align: top;
+	padding-top: 4px;
+	margin-top: 4px;
+	border-top: 1px solid #dddddd;
+}
