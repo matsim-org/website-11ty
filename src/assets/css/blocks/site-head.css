@@ -4,4 +4,17 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--color-matsim-dark-2);
+  line-height: 1;
+  padding-top: 1rem;
+}
+
+.site-head .logo {
+	font-size: 350%;
+	line-height: 0.8;
+}
+
+.logo-small-full {
+	font-size: 24.5%;
+	position: relative;
+	top: -2.1em;
 }
