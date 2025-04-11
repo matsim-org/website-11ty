@@ -83,6 +83,8 @@ The MATSim Association is registered in the
 <a href="https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-445.057.145" rel="nofollow" target="_blank">commercial register of the canton of Zurich, Switzerland</a> 
 under the number `CHE-445.057.145`.
 
+The MATSim Association does currently not fulfill the requirements for a VAT registration in Switzerland. Therefore, the MATSim Association does not have a VAT number.
+
 </div>
 </div>
 
