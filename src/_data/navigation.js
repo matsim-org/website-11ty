@@ -21,6 +21,10 @@ module.exports = {
       url: '/news/'
     },
     {
+      text: 'Conferences',
+      url: '/conferences/'
+    },
+    {
       text: 'Association',
       url: '/association/'
     }
