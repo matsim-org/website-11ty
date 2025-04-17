@@ -15,7 +15,7 @@ The MATSim User Meeting is a workshop of the hEART 2023 conference.
 
 ## Presentations
 
-{% include "icons/fa-file-pdf.svg" %} [Preliminary Schedule](/conferences/mum2023/MUM2023_Preliminary-Schedule.pdf)
+{% include "icons/fa-file-pdf.svg" %} [Preliminary Schedule](/conferences/mum2023/Preliminary-Schedule.pdf)
 
 
 {% set items = data.talks %}
