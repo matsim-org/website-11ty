@@ -20,7 +20,7 @@ Please give credit when using these scenarios.
 
 There are a number of scenarios available at [github.com/matsim-scenarios](https://github.com/matsim-scenarios).
 
-VSP, TU Berlin provides a number of scenarios covering smaller and larger German regions, e.g. 
+Examples in Germany include 
 [Berlin](https://github.com/matsim-scenarios/matsim-berlin), 
 [Hamburg](https://github.com/matsim-scenarios/matsim-hamburg), 
 [Munich](https://github.com/matsim-scenarios/matsim-munich), 
@@ -28,7 +28,7 @@ VSP, TU Berlin provides a number of scenarios covering smaller and larger German
 [Kelheim](https://github.com/matsim-scenarios/matsim-kelheim), 
 and more.
 
-Besides these, other provided scenarios cover 
+Examples outside Germany include 
 [Mexico-City](https://github.com/matsim-scenarios/matsim-mexico-city),
 [Los Angeles](https://github.com/matsim-scenarios/matsim-los-angeles),
 [Santiago](https://github.com/matsim-scenarios/matsim-santiago),
@@ -36,14 +36,10 @@ Besides these, other provided scenarios cover
 [Paris / Île-de-France](https://github.com/matsim-scenarios/matsim-ile-de-france),
 and more.
 
-
-## MATSim-Scenarios from VSP, TU Berlin
-
-Most of the scenarios provided by VSP are now [available on GitHub](https://github.com/matsim-scenarios).
-Some older open source scenarios are still in the 
-[SVN directory](https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/) as follows. 
+Some older open source scenarios by VSP are still in the 
+[SVN directory](https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/). 
 The directories are hierarchically organized and should be self-explanatory. 
-VSP tries to provide readme files, but this does not always work:
+VSP tries to provide readme files, but this does not always work.
 
 
 ## South Africa
