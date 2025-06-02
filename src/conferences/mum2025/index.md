@@ -71,7 +71,7 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 | Time  | Title                                                                                     | Authors                                                        | Presenter                  |
 |:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------|:---------------------------|
 | 14:10 | Plenary: MATSim @ SBB                                                                     | Joschka Bischoff                                               | Joschka Bischoff           |
-| 14:30 | Creario – Creating MATSim Models for Any Place on Earth                                    | Nadine Rieser, Marcel Rieser                                    | Marcel Rieser              |
+| 14:30 | Creario – Creating MATSim Models for Any Place on Earth                                    | Nadine Rieser, Marcel Rieser                                    | Nadine Rieser              |
 | 14:50 | Creating and Calibrating POLARIS Models                                                   | Krishna Murthy Gurumurthy, Joshua Auld, Pedro Camargo, et al.   | Krishna Murthy Gurumurthy  |
 | 15:10 | What’s New with Open Source MATSim Dashboards and Visualization                            | William (Billy) Charlton                                         | Billy Charlton             |
 
@@ -87,7 +87,7 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 | Time  | Title                                                                                     | Authors                                                        | Presenter                  |
 |:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------|:---------------------------|
 | 16:00 | Machine Learning Surrogates for Optimizing Transportation Policies with MATSim             | Elena Natterer, Roman Engelhardt, Sebastian Hörl, Klaus Bogenberger | Elena Natterer             |
-| 16:20 | DSim – A Distributed Message-Passing Mobsim Implementation                                  | Janek Laudan, Christian Rakow, Marcel Rieser, Steffen Axer, Hannes Rewald | Marcel Rieser              |
+| 16:20 | DSim – A Distributed Message-Passing Mobsim Implementation                                  | Janek Laudan, Christian Rakow, Marcel Rieser, Steffen Axer, Hannes Rewald | Janek Laudan              |
 | 16:40 | Scaling Traffic Flow Properties of MATSim to Correctly Cooperate for Population Downsampling | Theresa-Maria Mersini, Theresa Ziemke                          | Theresa-Maria Mersini      |
 | 17:00 | Scaling Agent-Based Transport Simulations via Independent Distributed Simulations         | Pieter J. Fourie                                               | Pieter Fourie              |
 
@@ -179,7 +179,7 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 |:-----:|:------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:------------------------|
 | 13:30 | Simulating Individual Charging Behaviour in MATSim                                       | Sebastian Hörl, Oliver Ludwig, Hannes Rewald, Steffen Axer                                                | Sebastian Hörl          |
 | 13:50 | Collaborative Mobility Digital Platform                                                  | Milos Balac, Daniel Reck, Myriam Bris, Christopher Tchervenkov, Martin Repoux                          | Milos Balac             |
-| 14:10 | Tramola: Improved Editing and Visualizations in Simunto’s Modelling Suite for MATSim    | Moritz Dück, Marcel Rieser, Christian Rakow, Janek Laudan                                                 | Marcel Rieser           |
+| 14:10 | Tramola: Improved Editing and Visualizations in Simunto’s Modelling Suite for MATSim    | Moritz Dück, Marcel Rieser, Christian Rakow, Janek Laudan                                                 | Moritz Dück, Marcel Rieser           |
 | 14:30 | Online Integration of mobiTopp and MATSim for Agent-Based Simulations of On-Demand Services (and Beyond) | Robin Andre, Nico Kühnel, Gabriel Wilkes, Martin Kagerbauer, Peter Vortisch                             | Nico Kühnel             |
 
 ---
