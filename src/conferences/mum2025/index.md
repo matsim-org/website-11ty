@@ -93,15 +93,16 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 
 ---
 
-#### Session 3 – Innovations in Demand-Responsive Transport
+#### Session 3 – Emerging Topics in Travel Demand and Emissions
 **16:00 – 17:20 | Room 2 (Faculty Room)**
 
-| Time  | Title                                                                                     | Authors                                                                                             | Presenter             |
-|:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------------------|
-| 16:00 | Evaluating Demand-Responsive Transport Models at Equilibrium in MATSim                    | Federico Bigi, Yumeng Fang, Francesco Viti                                                            | Federico Bigi         |
-| 16:20 | Dynamic Pricing and Matching in P2P Ride-Sharing: Insights from MATSim Simulations in Dunkirk | Negin Alisoltani, Younes Delhoum, Mostafa Ameli, Mahdi Zargayouna                                     | Negin Alisoltani      |
-| 16:40 | Assessing the Potential of Feeder DRT Services in Urban Outskirts                          | Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen                              | Hussein Mahfouz       |
-| 17:00 | Multidimensional Vehicle Loads and Capacities for Demand-Responsive Transport in MATSim    | Tarek Chouaki, Sebastian Hörl, Volker Grajewski, Oliver Ludwig, Hannes Rewald, Steffen Axer           | Tarek Chouaki         |
+| Time  | Title                                                                                     | Authors                                                     | Presenter                |
+|:-----:|:------------------------------------------------------------------------------------------|:-----------------------------------------------------------|:-------------------------|
+| 16:00 | Analysis of the Impact of Microcars on Carbon Emission and Traffic Congestion               | Ikuma Aoyagi                                                | Ikuma Aoyagi             |
+| 16:20 | Simulation of Daily Charging Behaviour in MATSim: A Case Study of Das Neue Gartenfeld in Berlin | Moritz Kreuschner, Tilmann Schlenther                         | Moritz Kreuschner        |
+| 16:40 | Multistep Location Assignment for MATSim Demand Generation in a Regional Australian City | Sapan Tiwari, Afshin Jafari, Alan Both, Dhirendra Singh      | Sapan Tiwari             |
+| 17:00 | Disaggregation of Static OD-Matrices for Dynamic MATSim Simulations                         | Franz-Xaver Rupprecht, Gunnar Flöteröd, Yusak Susilo         | Franz-Xaver Rupprecht    |
+
 
 ---
 
@@ -111,15 +112,16 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 
 ### Friday, 13 June 2025
 
-#### Session 4 – Emerging Topics in Travel Demand and Emissions
+
+#### Session 4 – Innovations in Demand-Responsive Transport
 **08:40 – 09:40 | Room 1 (Vorhoelzer Forum)**
 
-| Time  | Title                                                                                     | Authors                                                     | Presenter                |
-|:-----:|:------------------------------------------------------------------------------------------|:-----------------------------------------------------------|:-------------------------|
-| 08:40 | Analysis of the Impact of Microcars on Carbon Emission and Traffic Congestion               | Ikuma Aoyagi                                                | Ikuma Aoyagi             |
-| 09:00 | Simulation of Daily Charging Behaviour in MATSim: A Case Study of Das Neue Gartenfeld in Berlin | Moritz Kreuschner, Tilmann Schlenther                         | Moritz Kreuschner        |
-| 09:20 | Multistep Location Assignment for MATSim Demand Generation in a Regional Australian City | Sapan Tiwari, Afshin Jafari, Alan Both, Dhirendra Singh      | Sapan Tiwari             |
-| 09:40 | Disaggregation of Static OD-Matrices for Dynamic MATSim Simulations                         | Franz-Xaver Rupprecht, Gunnar Flöteröd, Yusak Susilo         | Franz-Xaver Rupprecht    |
+| Time  | Title                                                                                     | Authors                                                                                             | Presenter             |
+|:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------------------|
+| 08:40 | Evaluating Demand-Responsive Transport Models at Equilibrium in MATSim                    | Federico Bigi, Yumeng Fang, Francesco Viti                                                            | Federico Bigi         |
+| 09:00 | Dynamic Pricing and Matching in P2P Ride-Sharing: Insights from MATSim Simulations in Dunkirk | Negin Alisoltani, Younes Delhoum, Mostafa Ameli, Mahdi Zargayouna                                     | Negin Alisoltani      |
+| 09:20 | Assessing the Potential of Feeder DRT Services in Urban Outskirts                          | Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen                              | Hussein Mahfouz       |
+| 09:40 | Multidimensional Vehicle Loads and Capacities for Demand-Responsive Transport in MATSim    | Tarek Chouaki, Sebastian Hörl, Volker Grajewski, Oliver Ludwig, Hannes Rewald, Steffen Axer           | Tarek Chouaki         |
 
 ---
 
