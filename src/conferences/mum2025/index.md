@@ -165,11 +165,11 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 
 ---
 
-**11:50 – 12:00 Light Lunch**
+**11:50 – 13:30 Light Lunch**
 
 ---
 
-**12:00 – 13:30 MATSim Association General Assembly**  
+**12:00 – 13:00 MATSim Association General Assembly**  
 *Room 1 (Vorhoelzer Forum)*
 
 ---
