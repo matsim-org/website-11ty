@@ -144,12 +144,12 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 #### Session 6 – Regional Traffic Modeling Case Studies
 **10:30 – 11:50 | Room 1 (Vorhoelzer Forum)**
 
-| Time  | Title                                                                                     | Authors                                                                                                      | Presenter                                    |
-|:-----:|:------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:---------------------------------------------|
-| 10:30 | Developing an Agent-Based Model for the Ruhr Region                                       | Gregor Rybczak, Jochen Pfahl, Paul Heinrich, Sebastian Welter, Kai Nagel                                     | Gregor Rybczak                               |
-| 10:50 | Agent-Based Modelling of the Complete Commercial Traffic: A Case Study for the Ruhr Metropolitan Area | Ricardo Ewert, Kai Nagel                                                                                     | Ricardo Ewert                                |
-| 11:10 | Urban Traffic Simulation in the City of Nouakchott Using MATSim                           | Mohamed Abderahmane Mohamed Elmoctar, Cheikh Dhib, Mohamed A. Louly, Emmanuel Néron, Ameur Soukhal           | Mohamed Abderahmane Mohamed Elmoctar         |
-| 11:30 | Cutting It Down – From Nationwide Models to Local DRT-Studies                              | Tobias Kohl, Daniel Röder, Andreas Neumann, Michael Balmer                                                   | Tobias Kohl                                  |
+| Time  | Title                                                                                     | Authors                                                                                                      | Presenter                            |
+|:-----:|:------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|:-------------------------------------|
+| 10:30 | Developing an Agent-Based Model for the Ruhr Region                                       | Gregor Rybczak, Jochen Pfahl, Paul Heinrich, Sebastian Welter, Kai Nagel                                     | Gregor Rybczak, Sebastian Welter     |
+| 10:50 | Agent-Based Modelling of the Complete Commercial Traffic: A Case Study for the Ruhr Metropolitan Area | Ricardo Ewert, Kai Nagel                                                                                     | Ricardo Ewert                        |
+| 11:10 | Urban Traffic Simulation in the City of Nouakchott Using MATSim                           | Mohamed Abderahmane Mohamed Elmoctar, Cheikh Dhib, Mohamed A. Louly, Emmanuel Néron, Ameur Soukhal           | Mohamed Abderahmane Mohamed Elmoctar |
+| 11:30 | Cutting It Down – From Nationwide Models to Local DRT-Studies                              | Tobias Kohl, Daniel Röder, Andreas Neumann, Michael Balmer                                                   | Tobias Kohl                          |
 
 ---
 
