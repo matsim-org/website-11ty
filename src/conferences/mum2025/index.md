@@ -116,12 +116,12 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 #### Session 4 – Innovations in Demand-Responsive Transport
 **08:40 – 09:40 | Room 1 (Vorhoelzer Forum)**
 
-| Time  | Title                                                                                     | Authors                                                                                             | Presenter             |
-|:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:----------------------|
-| 08:40 | Evaluating Demand-Responsive Transport Models at Equilibrium in MATSim                    | Federico Bigi, Yumeng Fang, Francesco Viti                                                            | Federico Bigi         |
-| 09:00 | Dynamic Pricing and Matching in P2P Ride-Sharing: Insights from MATSim Simulations in Dunkirk | Negin Alisoltani, Younes Delhoum, Mostafa Ameli, Mahdi Zargayouna                                     | Negin Alisoltani      |
-| 09:20 | Assessing the Potential of Feeder DRT Services in Urban Outskirts                          | Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen                              | Hussein Mahfouz       |
-| 09:40 | Multidimensional Vehicle Loads and Capacities for Demand-Responsive Transport in MATSim    | Tarek Chouaki, Sebastian Hörl, Volker Grajewski, Oliver Ludwig, Hannes Rewald, Steffen Axer           | Tarek Chouaki         |
+| Time  | Title                                                                                     | Authors                                                                                             | Presenter        |
+|:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----------------|
+| 08:40 | Evaluating Demand-Responsive Transport Models at Equilibrium in MATSim                    | Federico Bigi, Yumeng Fang, Francesco Viti                                                            | Federico Bigi    |
+| 09:00 | Dynamic Pricing and Matching in P2P Ride-Sharing: Insights from MATSim Simulations in Dunkirk | Negin Alisoltani, Younes Delhoum, Mostafa Ameli, Mahdi Zargayouna                                     | Negin Alisoltani |
+| 09:20 | Assessing the Potential of Feeder DRT Services in Urban Outskirts                          | Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen                              | Milos Balac      |
+| 09:40 | Multidimensional Vehicle Loads and Capacities for Demand-Responsive Transport in MATSim    | Tarek Chouaki, Sebastian Hörl, Volker Grajewski, Oliver Ludwig, Hannes Rewald, Steffen Axer           | Tarek Chouaki    |
 
 ---
 
@@ -132,7 +132,7 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 |:-----:|:------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:--------------------|
 | 08:40 | Multi-Scenario Multi-City Simulations with Stakeholder-Driven Levers to Assess Mobility, Cost, and Energy Impacts | Joshua Auld, Pedro Camargo, Jamie Cook, Taner Cokyasar, et al.                   | Joshua Auld         |
 | 09:00 | Modelling Public Transport Crowding Effects in MATSim                                     | Somakala Subbaraman, Filippos Adamidis, Arkadiusz Drabicki                        | Somakala Subbaraman |
-| 09:20 | Agent-Based Modeling of Heterogeneous Travel Preferences with MATSim                      | Christian Rakow, Kai Nagel                                                        | Kai Nagel           |
+| 09:20 | Agent-Based Modeling of Heterogeneous Travel Preferences with MATSim                      | Christian Rakow, Kai Nagel                                                        | Christian Rakow           |
 | 09:40 | Agent-Based Assessment of the Paris LEZ Policy Considering Individual Adaptations          | Azise-Oumar Diallo, Pierre Michel, Alexandre Chasse, Guoxi Feng                     | Azise-Oumar Diallo  |
 
 ---
