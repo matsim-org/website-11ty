@@ -68,12 +68,12 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 #### Session 1 – Advances in Global MATSim Modeling and Tools
 **14:10 – 15:30 | Room 1 (Vorhoelzer Forum)**
 
-| Time  | Title                                                                                     | Authors                                                        | Presenter                  |
-|:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------|:---------------------------|
-| 14:10 | Plenary: MATSim @ SBB                                                                     | Joschka Bischoff                                               | Joschka Bischoff           |
-| 14:30 | Creario – Creating MATSim Models for Any Place on Earth                                    | Nadine Rieser, Marcel Rieser                                    | Nadine Rieser              |
-| 14:50 | Creating and Calibrating POLARIS Models                                                   | Krishna Murthy Gurumurthy, Joshua Auld, Pedro Camargo, et al.   | Krishna Murthy Gurumurthy  |
-| 15:10 | What’s New with Open Source MATSim Dashboards and Visualization                            | William (Billy) Charlton                                         | Billy Charlton             |
+| Time  | Title                                                                                     | Authors                                                       | Presenter                 |
+|:-----:|:------------------------------------------------------------------------------------------|:--------------------------------------------------------------|:--------------------------|
+| 14:10 | Plenary: MATSim @ SBB                                                                     | Joschka Bischoff, Ihab Kaddoura and Annette Knupp             | Joschka Bischoff, Ihab Kaddoura and Annette Knupp        |
+| 14:30 | Creario – Creating MATSim Models for Any Place on Earth                                    | Nadine Rieser, Marcel Rieser                                  | Nadine Rieser             |
+| 14:50 | Creating and Calibrating POLARIS Models                                                   | Krishna Murthy Gurumurthy, Joshua Auld, Pedro Camargo, et al. | Krishna Murthy Gurumurthy |
+| 15:10 | What’s New with Open Source MATSim Dashboards and Visualization                            | William (Billy) Charlton                                      | Billy Charlton            |
 
 ---
 
