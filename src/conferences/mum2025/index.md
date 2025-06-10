@@ -120,8 +120,8 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 |:-----:|:------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-----------------|
 | 08:40 | Evaluating Demand-Responsive Transport Models at Equilibrium in MATSim                    | Federico Bigi, Yumeng Fang, Francesco Viti                                                            | Federico Bigi    |
 | 09:00 | Dynamic Pricing and Matching in P2P Ride-Sharing: Insights from MATSim Simulations in Dunkirk | Negin Alisoltani, Younes Delhoum, Mostafa Ameli, Mahdi Zargayouna                                     | Negin Alisoltani |
-| 09:20 | Assessing the Potential of Feeder DRT Services in Urban Outskirts                          | Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen                              | Milos Balac      |
-| 09:40 | Multidimensional Vehicle Loads and Capacities for Demand-Responsive Transport in MATSim    | Tarek Chouaki, Sebastian Hörl, Volker Grajewski, Oliver Ludwig, Hannes Rewald, Steffen Axer           | Tarek Chouaki    |
+| 09:20 | Assessing the Potential of Feeder DRT Services in Urban Outskirts                          | Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen                              | Hussein Mahfouz     |
+| 09:40 | Multidimensional Vehicle Loads and Capacities for Demand-Responsive Transport in MATSim    | Tarek Chouaki, Sebastian Hörl          | Tarek Chouaki    |
 
 ---
 
@@ -179,7 +179,7 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 
 | Time  | Title                                                                                     | Authors                                                                                              | Presenter               |
 |:-----:|:------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:------------------------|
-| 13:30 | Simulating Individual Charging Behaviour in MATSim                                       | Sebastian Hörl, Oliver Ludwig, Hannes Rewald, Steffen Axer                                                | Sebastian Hörl          |
+| 13:30 | Simulating Individual Charging Behaviour in MATSim                                       | Sebastian Hörl                                             | Sebastian Hörl          |
 | 13:50 | Collaborative Mobility Digital Platform                                                  | Milos Balac, Daniel Reck, Myriam Bris, Christopher Tchervenkov, Martin Repoux                          | Milos Balac             |
 | 14:10 | Tramola: Improved Editing and Visualizations in Simunto’s Modelling Suite for MATSim    | Moritz Dück, Marcel Rieser, Christian Rakow, Janek Laudan                                                 | Moritz Dück, Marcel Rieser           |
 | 14:30 | Online Integration of mobiTopp and MATSim for Agent-Based Simulations of On-Demand Services (and Beyond) | Robin Andre, Nico Kühnel, Gabriel Wilkes, Martin Kagerbauer, Peter Vortisch                             | Nico Kühnel             |
