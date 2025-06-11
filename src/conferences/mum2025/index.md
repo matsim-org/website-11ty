@@ -108,6 +108,10 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 
 **17:20 End of Day 1**
 
+**17:30 – 18:15**: General Assembly of the [European Association of Activity-Based Modeling](https://eaabm.org)
+
+**18:30 – open end**: The Biergarten at Neptunbrunnen (in the Old Botanical Garden, just follow the road towards the main station) is reserved for us. Food is on your own expense, but we would love to sit together, chat, discuss and eat and drink together and enjoy the nice weather.
+
 ---
 
 ### Friday, 13 June 2025
