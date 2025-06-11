@@ -156,12 +156,12 @@ Please visit the [hEART 2025 conference website](https://www.heart2025.vtk.ed.tu
 #### Session 7 – MATSim for Event and Policy Impact Analysis
 **10:30 – 11:50 | Room 2 (Faculty Room)**
 
-| Time  | Title                                                                                     | Authors                                                                                                                   | Presenter                 |
-|:-----:|:------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:--------------------------|
-| 10:30 | An Agent-Based Impact Evaluation of the Speed Limit Reduction on the Paris Ring Road      | Azise-Oumar Diallo, Giovanni De Nunzio                                                                                     | Azise-Oumar Diallo        |
-| 10:50 | Disappearing Traffic: Can MATSim Simulate Travel Behaviour During Disruptive Events?      | David Álvarez Castro, Alice F., et al.                                                                                    | David Álvarez Castro      |
-| 11:10 | A MATSim Modeling Framework to Simulate the Impacts of Extreme Rainfall Events in the UK | David Álvarez Castro, Daniel Bell, Alistair Ford                                                                            | David Álvarez Castro      |
-| 11:30 | Modelling the Impact of Flooding on Transport Systems with MATSim                         | Ismaïl Saadi, David Álvarez Castro, Qin Zhang, Tabea Sonnenschein, Ali Abbas, Alistair Ford, James Woodcock                | David Álvarez Castro      |
+| Time  | Title                                                                                     | Authors                                                                                                     | Presenter            |
+|:-----:|:------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------|:---------------------|
+| 10:30 | An Agent-Based Impact Evaluation of the Speed Limit Reduction on the Paris Ring Road      | Azise-Oumar Diallo, Giovanni De Nunzio                                                                      | Azise-Oumar Diallo   |
+| 10:50 | Disappearing Traffic: Can MATSim Simulate Travel Behaviour During Disruptive Events?      | David Álvarez Castro, Alistair Ford, et al.                                                                 | Alistair Ford        |
+| 11:10 | A MATSim Modeling Framework to Simulate the Impacts of Extreme Rainfall Events in the UK | David Álvarez Castro, Daniel Bell, Alistair Ford                                                            | David Álvarez Castro |
+| 11:30 | Modelling the Impact of Flooding on Transport Systems with MATSim                         | Ismaïl Saadi, David Álvarez Castro, Qin Zhang, Tabea Sonnenschein, Ali Abbas, Alistair Ford, James Woodcock | David Álvarez Castro |
 
 ---
 
