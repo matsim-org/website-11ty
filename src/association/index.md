@@ -27,7 +27,7 @@ The full list of its goals as well as its organization can be found in the artic
 The association was founded in September 2022, and started accepting memberships in Fall 2023.
 
 
-## Memberhips
+## Memberships
 
 The MATSim Association currently offers the following membership levels:
 
