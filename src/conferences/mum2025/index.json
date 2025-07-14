@@ -1,0 +1,222 @@
+{
+  "data": {
+    "talks": [
+      {
+        "author": "Joschka Bischoff, Ihab Kaddoura, Annette Knupp",
+        "title": "Plenary: MATSim @ SBB",
+        "abstract": "",
+        "presentation": ""
+      },
+      {
+        "author": "Nadine Rieser, Marcel Rieser",
+        "title": "Creario – Creating MATSim Models for Any Place on Earth",
+        "abstract": "MUM25_paper_10.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Krishna Murthy Gurumurthy, Joshua Auld, Pedro Camargo",
+        "title": "Creating and Calibrating POLARIS Models",
+        "abstract": "MUM25_paper_24.pdf",
+        "presentation": "anl_polaris.pdf"
+      },
+      {
+        "author": "William (Billy) Charlton",
+        "title": "What’s New with Open Source MATSim Dashboards and Visualization",
+        "abstract": "MUM25_paper_22.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Elena Natterer, Roman Engelhardt, Sebastian Hörl, Klaus Bogenberger",
+        "title": "Machine Learning Surrogates for Optimizing Transportation Policies with MATSim",
+        "abstract": "MUM25_paper_9.pdf",
+        "presentation": "natterer.pdf"
+      },
+      {
+        "author": "Janek Laudan, Christian Rakow, Marcel Rieser, Steffen Axer, Hannes Rewald",
+        "title": "DSim – A Distributed Message-Passing Mobsim Implementation",
+        "abstract": "MUM25_paper_18.pdf",
+        "presentation": "laudan_dsim.pdf"
+      },
+      {
+        "author": "Theresa‑Maria Mersini, Theresa Ziemke",
+        "title": "Scaling Traffic Flow Properties of MATSim to Correctly Cooperate for Population Downsampling",
+        "abstract": "MUM25_paper_30.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Pieter J. Fourie",
+        "title": "Towards Scaling Agent‑Based Transport Simulations via Independent Distributed Simulations",
+        "abstract": "MUM25_paper_32.pdf",
+        "presentation": "fourie.pdf"
+      },
+      {
+        "author": "Ikuma Aoyagi",
+        "title": "Analysis of the Impact of Microcars on Carbon Emission and Traffic Congestion",
+        "abstract": "MUM25_paper_8.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Moritz Kreuschner, Tilmann Schlenther",
+        "title": "Simulation of Daily Charging Behaviour in MATSim: A Case Study of Das Neue Gartenfeld in Berlin",
+        "abstract": "MUM25_paper_28.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Sapan Tiwari, Afshin Jafari, Alan Both, Dhirendra Singh",
+        "title": "Multistep Location Assignment for MATSim Demand Generation in a Regional Australian City",
+        "abstract": "MUM25_paper_15.pdf",
+        "presentation": "tiwari.pdf"
+      },
+      {
+        "author": "Franz‑Xaver Rupprecht, Gunnar Flöteröd, Yusak Susilo",
+        "title": "Disaggregation of Static OD‑Matrices for Dynamic MATSim Simulations",
+        "abstract": "MUM25_paper_26.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Federico Bigi",
+        "title": "Evaluating Demand‑Responsive Transport Models at Equilibrium in MATSim",
+        "abstract": "MUM25_paper_2.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Negin Alisoltani, Younes Delhoum, Mostafa Ameli, Mahdi Zargayouna",
+        "title": "Dynamic Pricing and Matching in P2P Ride‑Sharing: Insights from MATSim Simulations in Dunkirk",
+        "abstract": "MUM25_paper_4.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Hussein Mahfouz, Milos Balac, Malcolm Morgan, Robin Lovelace, Eva Heinen",
+        "title": "Assessing the Potential of Feeder DRT Services in Urban Outskirts",
+        "abstract": "MUM25_paper_14.pdf",
+        "presentation": "mahfouz_drt.pdf"
+      },
+      {
+        "author": "Tarek Chouaki, Sebastian Hörl",
+        "title": "Multidimensional Vehicle Loads and Capacities for Demand‑Responsive Transport in MATSim",
+        "abstract": "MUM25_paper_20.pdf",
+        "presentation": "tarek.pdf"
+      },
+      {
+        "author": "Joshua Auld, Pedro Camargo, Jamie Cook, Taner Cokyasar",
+        "title": "Multi‑Scenario Multi‑City Simulations with Stakeholder‑Driven Levers to Assess Mobility, Cost, and Energy Impacts",
+        "abstract": "MUM25_paper_25.pdf",
+        "presentation": "anl.pdf"
+      },
+      {
+        "author": "Somakala Subbaraman, Filippos Adamidis, Arkadiusz Drabicki",
+        "title": "Modelling Public Transport Crowding Effects in MATSim",
+        "abstract": "MUM25_paper_13.pdf",
+        "presentation": "subbaraman.pdf"
+      },
+      {
+        "author": "Christian Rakow, Kai Nagel",
+        "title": "Agent‑Based Modeling of Heterogeneous Travel Preferences with MATSim",
+        "abstract": "MUM25_paper_11.pdf",
+        "presentation": "rakow.pdf"
+      },
+      {
+        "author": "Azise‑Oumar Diallo, Pierre Michel, Alexandre Chasse, Guoxi Feng",
+        "title": "Agent‑Based Assessment of the Paris LEZ Policy Considering Individual Adaptations",
+        "abstract": "MUM25_paper_7.pdf",
+        "presentation": "diallo_lez.pdf"
+      },
+      {
+        "author": "Gregor Rybczak, Jochen Pfahl, Paul Heinrich, Sebastian Welter, Kai Nagel",
+        "title": "Developing an Agent‑Based Model for the Ruhr Region",
+        "abstract": "MUM25_paper_27.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Ricardo Ewert, Kai Nagel",
+        "title": "Agent‑Based Modelling of the Complete Commercial Traffic: A Case Study for the Ruhr Metropolitan Area",
+        "abstract": "MUM25_paper_3.pdf",
+        "presentation": "ewert.pdf"
+      },
+      {
+        "author": "Mohamed Abderahmane Mohamed Elmoctar, Cheikh Dhib, Mohamed A. Louly, Emmanuel Néron, Ameur Soukhal",
+        "title": "Urban Traffic Simulation in the City of Nouakchott Using MATSim",
+        "abstract": "MUM25_paper_5.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Tobias Kohl, Daniel Röder, Andreas Neumann, Michael Balmer",
+        "title": "Cutting It Down – From Nationwide Models to Local DRT‑Studies",
+        "abstract": "MUM25_paper_17.pdf",
+        "presentation": "kohl.pdf"
+      },
+      {
+        "author": "Azise‑Oumar Diallo, Giovanni De Nunzio",
+        "title": "An Agent‑Based Impact Evaluation of the Speed Limit Reduction on the Paris Ring Road",
+        "abstract": "MUM25_paper_23.pdf",
+        "presentation": "diallo_paris.pdf"
+      },
+      {
+        "author": "David Álvarez Castro, Alistair Ford",
+        "title": "Disappearing Traffic: Can MATSim Simulate Travel Behaviour During Disruptive Events?",
+        "abstract": "MUM25_paper_21.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "David Álvarez Castro, Daniel Bell, Alistair Ford",
+        "title": "A MATSim Modeling Framework to Simulate the Impacts of Extreme Rainfall Events in the UK",
+        "abstract": "MUM25_paper_6.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Ismaïl Saadi, David Álvarez Castro, Qin Zhang, Tabea Sonnenschein, Ali Abbas, Alistair Ford, James Woodcock",
+        "title": "Modelling the Impact of Flooding on Transport Systems with MATSim",
+        "abstract": "MUM25_paper_31.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Sebastian Hörl, Oliver Ludwig, hannes rewald and Steffen Axer",
+        "title": "Simulating Individual Charging Behaviour in MATSim",
+        "abstract": "MUM25_paper_19.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Milos Balac, Daniel Reck, Myriam Bris, Christopher Tchervenkov, Martin Repoux",
+        "title": "Collaborative Mobility Digital Platform",
+        "abstract": "MUM25_paper_16.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Moritz Dück, Marcel Rieser",
+        "title": "Tramola: Improved Editing and Visualizations in Simunto’s Modelling Suite for MATSim",
+        "abstract": "MUM25_paper_12.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Robin Andre, Nico Kühnel, Gabriel Wilkes, Martin Kagerbauer, Peter Vortisch",
+        "title": "Online Integration of mobiTopp and MATSim for Agent‑Based Simulations of On‑Demand Services (and Beyond)",
+        "abstract": "MUM25_paper_29.pdf",
+        "presentation": "mobitop.pdf"
+      },
+      {
+        "author": "Ashraf Uz Zaman Patwary, Francesco Ciari, Luca Angioloni, Hamed Naseri, Lorenzo Brusci, Giulio Iannelli, Arsham Bakhtiari",
+        "title": "Bridging AI and Traffic Simulation: A Robust Framework for LLM‑Based AI Replanning Agents in MATSim",
+        "abstract": "LLMMatsimMUM25.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Tim Volotskiy, Jaro Smirnow",
+        "title": "Methodological Abstraction for Scalable Agent‑Based Modeling with MATSim with Replan.city suite",
+        "abstract": "MUM25_replan.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Steffen Fürst, Stefanie Schutera, Joshua Wiebe, Sarah Wolf",
+        "title": "Bridging MATSim and MoTMo: From Daily Travel to Mobility Transition Modeling",
+        "abstract": "motmo-abstract.pdf",
+        "presentation": ""
+      },
+      {
+        "author": "Tatiana Seregina, Nicolas Coulombel",
+        "title": "AI‑Enhanced Agent‑Based Modeling to Support Urban Mobility Decarbonization: Driving Restriction Zones in the Paris Region",
+        "abstract": "Seregina__MUM-2025.pdf",
+        "presentation": ""
+      }
+    ]
+  }
+}
