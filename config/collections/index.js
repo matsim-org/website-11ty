@@ -36,7 +36,7 @@ const getAllGalleryItems = collection => {
 const getFutureEvents = collection => {
   const now = new Date();
   const events = collection.getFilteredByGlob('./src/conferences/*/*.md').filter(p => p.data.date >= now);
-  return events.reverse();
+  return events;
 };
 
 /** All past events. */
