@@ -225,3 +225,10 @@ table {
 	border-radius: var(--border-radius);
 	padding: var(--space-s-m);
 }
+
+.warning-notice {
+	background-color: var(--color-matsim-accent-red-bg);
+	border: 1px solid var(--color-matsim-accent-red-dark);
+	border-radius: var(--border-radius);
+	padding: var(--space-s-m);
+}
