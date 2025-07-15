@@ -45,19 +45,28 @@ The Best Paper Award was presented to **David Álvarez Castro** for  his team's 
 <div>{% for item in items %}
 	<p>
 		{{ item.author }}<br>
-		{%- if item.presentation != '' -%}
-			{%- if item.presentation.endsWith('.pdf') -%}
-				{% include "icons/fa-file-pdf.svg" %} 
-			{%- endif -%}
-			{%- if item.presentation.endsWith('.pptx') -%}
-				{% include "icons/fa-file-powerpoint.svg" %} 
-			{%- endif -%}
-			<a href="/conferences/mum2025/presentations/{{ item.presentation }}">{{ item.title }}</a>
+		{%- if item.presentation %}
+            {%- if item.presentation.indexOf('http://') == 0 or item.presentation.indexOf('https://') == 0 -%}
+				<a href="{{ item.presentation }}">{{ item.title }}</a>
+			{%- else %}
+				{%- if item.presentation | slice(-4) == '.pdf' -%}
+					{% include "icons/fa-file-pdf.svg" %} 
+				{%- endif -%}
+				{%- if item.presentation | slice(-5) == '.pptx' -%}
+					{% include "icons/fa-file-powerpoint.svg" %} 
+				{%- endif -%}
+				<a href="/conferences/mum2025/presentations/{{ item.presentation }}">{{ item.title }}</a>
+			{%- endif %}
 		{%- else -%}
 			{{ item.title }}
 		{%- endif -%}
-		{%- if item.abstract != '' -%}
-			&nbsp;&nbsp;({% include "icons/fa-file-lines.svg" %} <a href="/conferences/mum2025/abstracts/{{ item.abstract }}">Abstract</a>)
+		{%- if item.abstract %}
+			({% include "icons/fa-file-lines.svg" %} 
+			{%- if item.abstract.indexOf('http://') == 0 or item.abstract.indexOf('https://') == 0 -%}
+				<a href="{{ item.abstract }}">Abstract</a>
+			{%- else -%}
+				<a href="/conferences/mum2025/abstracts/{{ item.abstract }}">Abstract</a>
+			{%- endif -%})
 		{%- endif -%}
 	</p>{% endfor %}
 </div>

@@ -95,7 +95,7 @@
         "author": "Tarek Chouaki, Sebastian Hörl",
         "title": "Multidimensional Vehicle Loads and Capacities for Demand‑Responsive Transport in MATSim",
         "abstract": "MUM25_paper_20.pdf",
-        "presentation": "tarek.pdf"
+        "presentation": "https://slides.com/sebastianhorl/mum25-drt"
       },
       {
         "author": "Joshua Auld, Pedro Camargo, Jamie Cook, Taner Cokyasar",
@@ -173,13 +173,13 @@
         "author": "Sebastian Hörl, Oliver Ludwig, hannes rewald and Steffen Axer",
         "title": "Simulating Individual Charging Behaviour in MATSim",
         "abstract": "MUM25_paper_19.pdf",
-        "presentation": ""
+        "presentation": "https://slides.com/sebastianhorl/mum25-charging"
       },
       {
         "author": "Milos Balac, Daniel Reck, Myriam Bris, Christopher Tchervenkov, Martin Repoux",
         "title": "Collaborative Mobility Digital Platform",
         "abstract": "MUM25_paper_16.pdf",
-        "presentation": ""
+        "presentation": "balac_cmdp.pdf"
       },
       {
         "author": "Moritz Dück, Marcel Rieser",
