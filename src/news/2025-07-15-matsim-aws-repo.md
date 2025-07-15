@@ -23,4 +23,4 @@ You only need to bring your simulation jar, input and an AWS account.
 A full working example based on the 'equil' scenario is provided. 
 Just run the three scripts as described in the readme.
 
-We are happy for feedback. PRs and further development on the public repo are welcome
+We are happy to receive feedback. PRs and further development on the public repo are welcome!
