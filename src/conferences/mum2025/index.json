@@ -41,7 +41,7 @@
         "author": "Theresa‑Maria Mersini, Theresa Ziemke",
         "title": "Scaling Traffic Flow Properties of MATSim to Correctly Cooperate for Population Downsampling",
         "abstract": "MUM25_paper_30.pdf",
-        "presentation": ""
+        "presentation": "mersini.pdf"
       },
       {
         "author": "Pieter J. Fourie",
@@ -71,7 +71,7 @@
         "author": "Franz‑Xaver Rupprecht, Gunnar Flöteröd, Yusak Susilo",
         "title": "Disaggregation of Static OD‑Matrices for Dynamic MATSim Simulations",
         "abstract": "MUM25_paper_26.pdf",
-        "presentation": ""
+        "presentation": "rupprecht.pdf"
       },
       {
         "author": "Federico Bigi",
@@ -137,7 +137,7 @@
         "author": "Mohamed Abderahmane Mohamed Elmoctar, Cheikh Dhib, Mohamed A. Louly, Emmanuel Néron, Ameur Soukhal",
         "title": "Urban Traffic Simulation in the City of Nouakchott Using MATSim",
         "abstract": "MUM25_paper_5.pdf",
-        "presentation": ""
+        "presentation": "abderahman.pdf"
       },
       {
         "author": "Tobias Kohl, Daniel Röder, Andreas Neumann, Michael Balmer",
