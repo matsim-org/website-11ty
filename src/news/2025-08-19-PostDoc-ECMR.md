@@ -14,15 +14,15 @@ You will collaborate with a multidisciplinary team of researchers, engineers,
 and policymakers to tackle real-world transportation challenges and support the 
 UAE’s strategic goals in **sustainable and future mobility**.
 
-## Minimum Qualification
+### Minimum Qualification
 
 - PhD degree in **Transportation Engineering** or a closely related field.
 
-## Preferred Qualification
+### Preferred Qualification
 
 - PhD degree in **Transportation Engineering, Civil Engineering**, or related field with demonstrated expertise in **transportation modeling and simulation**.
 
-## Expected Skills and Responsibilities
+### Expected Skills and Responsibilities
 
 The Research Associate is expected to:
 
@@ -38,7 +38,7 @@ The Research Associate is expected to:
 10.	Aid in the Center’s **administrative duties**, including preparing marketing material, conducting follow-up meetings with potential clients and partners, writing formal letters, and obtaining necessary approvals.
 11.	Monitor and manage **project plans, schedules, work hours, budgets, and expenditures**.
 
-## Application
+### Application
 
 If you meet the above criteria, please share your CV at:
 
