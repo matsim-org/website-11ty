@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nico Kuehnel
-title: "MOIA is looking for a working student"
+title: "MOIA is looking for a working student | November 2025"
 summary: "Share our ride as part of MOIA's data and model driven mobility consulting team"
 type: job
 ---
