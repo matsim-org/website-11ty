@@ -6,7 +6,7 @@ layout: page
 <style>
     /* --- General Page Layout --- */
     .signup-container {
-        max-width: 800px; /* Slightly narrower for better readability on single col */
+        max-width: 100%; /* Slightly narrower for better readability on single col */
         margin: 0 auto;
         padding: 2rem 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -15,7 +15,7 @@ layout: page
     .signup-intro {
         margin-bottom: 2rem;
         line-height: 1.6;
-        color: #2d3748;
+        color: var(--color-matsim-dark-2);
     }
 
     /* --- Info Cards (Process & Pricing) --- */
@@ -86,7 +86,7 @@ layout: page
     .section-title {
         font-weight: bold;
         font-size: 1.2rem;
-        color: #2d3748;
+        color: var(--color-matsim-dark-2);
         margin: 0 0 1.5rem 0;
         border-bottom: 1px solid #edf2f7;
         padding-bottom: 0.5rem;
@@ -96,7 +96,7 @@ layout: page
     .form-stack {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem; /* Consistent spacing between every field */
+        gap: 0.5rem; /* Consistent spacing between every field */
     }
 
     .form-group {
@@ -130,7 +130,7 @@ layout: page
     }
 
     button[type="submit"] {
-        background-color: #2b6cb0;
+        background-color: var(--color-matsim-accent-1);
         color: white;
         font-size: 1.1rem;
         font-weight: bold;
@@ -144,11 +144,11 @@ layout: page
     }
 
     button[type="submit"]:hover {
-        background-color: #2c5282;
+        background-color: var(--color-matsim-dark-1);
     }
     
     button:disabled {
-        background-color: #a0aec0;
+        background-color: var(--color-matsim-light-1);
         cursor: not-allowed;
     }
 
@@ -159,19 +159,19 @@ layout: page
         margin-top: 2rem;
         border: 1px solid #ccc;
     }
-    .response-success { background: #f0fff4; border-color: #c6f6d5; color: #2f855a; }
-    .response-payment { background: #ebf8ff; border-color: #bee3f8; color: #2c5282; }
+    .response-success { background: var(--color-matsim-accent-1-light); border-color: var(--color-matsim-accent-1);; color: var(--color-matsim-accent-1-dark); }
+    .response-payment { background: var(--color-matsim-light-1-bg); border-color: var(--color-matsim-light-1); color: var(--color-matsim-medium); }
     .security-warning {
-        background: #fffaf0;
-        border-left: 4px solid #ed8936;
+        background: var(--color-matsim-accent-red-bg);
+        border-left: 4px solid var(--color-matsim-accent-red-dark);
         padding: 1rem;
         margin: 1rem 0;
-        color: #744210;
+        color: var(--color-matsim-accent-red-dark);
         font-size: 0.9rem;
     }
     .pay-button {
         display: inline-block;
-        background: #3182ce;
+        background: var(--color-matsim-accent-1-bg);
         color: white;
         padding: 10px 20px;
         text-decoration: none;
@@ -191,7 +191,6 @@ layout: page
 <div class="signup-container">
 
     <div class="signup-intro">
-        <h1>MATSim Association Membership</h1>
         <p>Join the MATSim community to support the development of the framework and gain voting rights in the association.</p>
         
         <div class="info-grid">
