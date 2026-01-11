@@ -6,38 +6,37 @@ layout: page
 <style>
     /* --- General Page Layout --- */
     .signup-container {
-        max-width: 100%; /* Slightly narrower for better readability on single col */
-        margin: 0 auto;
-        padding: 2rem 0;
+        width: 100%;
+        margin: 0;
+        padding: 1rem 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
 
     .signup-intro {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         line-height: 1.6;
         color: var(--color-matsim-dark-2);
     }
 
     /* --- Info Cards (Process & Pricing) --- */
-    /* We keep this as a grid because it displays static content, not form inputs */
     .info-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
     
     .info-card {
-        background: #f7fafc;
-        border: 1px solid #e2e8f0;
-        border-radius: 8px;
+        background: var(--color-fg-light-2); /* using light grey var */
+        border: 1px solid var(--color-matsim-light-1);
+        border-radius: var(--border-radius);
         padding: 1.5rem;
     }
 
     .info-card h3 {
         margin-top: 0;
-        color: #2c5282;
-        border-bottom: 2px solid #bee3f8;
+        color: var(--color-matsim-dark-1);
+        border-bottom: 2px solid var(--color-matsim-light-1);
         padding-bottom: 0.5rem;
         margin-bottom: 1rem;
     }
@@ -52,51 +51,53 @@ layout: page
         display: flex;
         justify-content: space-between;
         margin-bottom: 0.5rem;
-        border-bottom: 1px dashed #cbd5e0;
+        border-bottom: 1px dashed var(--color-matsim-light-1);
         padding-bottom: 0.25rem;
+        color: var(--color-fg-dark-2);
     }
     
     .process-list li {
         position: relative;
         padding-left: 1.5rem;
         margin-bottom: 0.75rem;
+        color: var(--color-fg-dark-2);
     }
     
     .process-list li::before {
         content: "✓";
         position: absolute;
         left: 0;
-        color: #38a169;
+        color: var(--color-matsim-accent-1-dark); /* Darker green for visibility */
         font-weight: bold;
     }
 
     /* --- Form Styling --- */
     #membership-form-container {
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
+        background: #ffffff; /* Keeping pure white for form contrast */
+        border: 1px solid var(--color-matsim-light-1);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* kept subtle rgba for softness */
+        border-radius: var(--border-radius);
         padding: 2rem;
     }
 
     .form-section {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .section-title {
         font-weight: bold;
         font-size: 1.2rem;
         color: var(--color-matsim-dark-2);
-        margin: 0 0 1.5rem 0;
-        border-bottom: 1px solid #edf2f7;
+        margin: 0 0 1rem 0;
+        border-bottom: 1px solid var(--color-matsim-light-1-bg);
         padding-bottom: 0.5rem;
     }
 
-    /* SINGLE COLUMN LAYOUT: Flex column ensures perfect stacking */
+    /* SINGLE COLUMN LAYOUT */
     .form-stack {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem; /* Consistent spacing between every field */
+        gap: 0.1rem;
     }
 
     .form-group {
@@ -108,25 +109,26 @@ layout: page
     label {
         font-weight: 600;
         font-size: 0.9rem;
-        margin-bottom: 0.4rem;
-        color: #4a5568;
+        margin-bottom: 0.3rem;
+        color: var(--color-matsim-dark-2);
     }
 
     input, select, textarea {
-        padding: 0.75rem;
-        border: 1px solid #cbd5e0;
-        border-radius: 4px;
+        padding: 0.6rem 0.75rem;
+        border: 1px solid var(--color-matsim-light-1);
+        border-radius: var(--border-radius);
         font-size: 1rem;
-        transition: border-color 0.2s;
+        transition: border-color var(--transition-duration) var(--transition-timing);
         background-color: #fff;
         width: 100%;
-        box-sizing: border-box; 
+        box-sizing: border-box;
+        color: var(--color-fg-dark-2);
     }
 
     input:focus, select:focus, textarea:focus {
-        border-color: #3182ce;
+        border-color: var(--color-matsim-medium);
         outline: none;
-        box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+        box-shadow: 0 0 0 3px var(--color-matsim-light-1); /* Subtle ring effect */
     }
 
     button[type="submit"] {
@@ -136,15 +138,15 @@ layout: page
         font-weight: bold;
         padding: 1rem 2rem;
         border: none;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         cursor: pointer;
         width: 100%;
-        transition: background-color 0.2s;
-        margin-top: 1rem;
+        transition: background-color var(--transition-duration) var(--transition-timing);
+        margin-top: 0.5rem;
     }
 
     button[type="submit"]:hover {
-        background-color: var(--color-matsim-dark-1);
+        background-color: var(--color-matsim-accent-1-dark);
     }
     
     button:disabled {
@@ -155,32 +157,67 @@ layout: page
     /* --- Response Messages --- */
     .response-box {
         padding: 1.5rem;
-        border-radius: 8px;
+        border-radius: var(--border-radius);
         margin-top: 2rem;
-        border: 1px solid #ccc;
+        border: 1px solid transparent;
     }
-    .response-success { background: var(--color-matsim-accent-1-light); border-color: var(--color-matsim-accent-1);; color: var(--color-matsim-accent-1-dark); }
-    .response-payment { background: var(--color-matsim-light-1-bg); border-color: var(--color-matsim-light-1); color: var(--color-matsim-medium); }
-    .security-warning {
+
+    .response-success { 
+        background: var(--color-matsim-accent-1-light); 
+        border-color: var(--color-matsim-accent-1); 
+        color: var(--color-matsim-accent-1-dark); 
+    }
+    
+    .response-payment { 
+        background: var(--color-matsim-light-1-bg); 
+        border-color: var(--color-matsim-light-1); 
+        color: var(--color-matsim-dark-1); 
+    }
+    
+    /* New class for Error messages to replace inline styles */
+    .response-error {
         background: var(--color-matsim-accent-red-bg);
-        border-left: 4px solid var(--color-matsim-accent-red-dark);
+        border-color: var(--color-matsim-accent-red-light);
+        color: var(--color-matsim-accent-red-dark);
+    }
+
+    .security-warning {
+        background: #fff; /* Keep white to stand out inside blue box */
+        border-left: 4px solid var(--color-matsim-accent-red);
         padding: 1rem;
         margin: 1rem 0;
         color: var(--color-matsim-accent-red-dark);
         font-size: 0.9rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
+
     .pay-button {
         display: inline-block;
-        background: var(--color-matsim-accent-1-bg);
+        background: var(--color-matsim-medium);
         color: white;
         padding: 10px 20px;
         text-decoration: none;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         font-weight: bold;
         margin-top: 10px;
+        transition: background-color var(--transition-duration) var(--transition-timing);
     }
-    .pay-button:hover { background: #2c5282; color: white; text-decoration: none; }
-    .invoice-ref { font-family: monospace; background: #edf2f7; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+
+    .pay-button:hover { 
+        background: var(--color-matsim-dark-1); 
+        color: white; 
+        text-decoration: none; 
+    }
+
+    .invoice-ref { 
+        font-family: monospace; 
+        background: #fff; 
+        padding: 2px 6px; 
+        border-radius: 4px; 
+        font-weight: bold; 
+        border: 1px solid var(--color-matsim-light-1);
+        color: var(--color-matsim-dark-2);
+    }
 
     /* Mobile tweak */
     @media (max-width: 768px) {
@@ -201,7 +238,7 @@ layout: page
                     <li><span>Small Team (Organization)</span> <strong>1000 CHF</strong></li>
                     <li><span>Large Team (Organization)</span> <strong>2500 CHF</strong></li>
                 </ul>
-                <p style="font-size: 0.85rem; color: #718096; margin-top: 1rem;">
+                <p style="font-size: 0.85rem; color: var(--color-shadow); margin-top: 1rem;">
                     <em>* Membership fees are not subject to VAT.</em>
                 </p>
             </div>
@@ -337,6 +374,8 @@ layout: page
         
         // 1. Reset UI
         formResponse.innerHTML = ''; 
+        // Remove old classes
+        formResponse.className = '';
         submitBtn.disabled = true;
         submitBtn.textContent = 'Processing...';
 
@@ -345,7 +384,8 @@ layout: page
 
         // 2. Client-side Validation
         if (data.email !== data.email_confirm) {
-            formResponse.innerHTML = '<p style="color: #e53e3e; background: #fff5f5; padding: 1rem; border-radius: 4px;">Error: Email addresses do not match.</p>';
+            formResponse.className = 'response-box response-error';
+            formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Email addresses do not match.</p>';
             formResponse.scrollIntoView({ behavior: 'smooth' });
             submitBtn.disabled = false;
             submitBtn.textContent = 'Complete Signup';
@@ -369,36 +409,34 @@ layout: page
 
                 if (result.payrexx_url) {
                     // === SCENARIO 1: ONLINE PAYMENT ===
+                    formResponse.className = 'response-box response-payment';
                     formResponse.innerHTML = `
-                        <div class="response-box response-payment">
-                            <h3 style="margin-top:0;">Signup Successful</h3>
-                            <p>Thank you! Your application has been registered.</p>
-                            <p><strong>Invoice Number:</strong> <span class="invoice-ref">${result.invoiceNumber}</span></p>
-                            
-                            <div class="security-warning">
-                                <strong>⚠️ Security Check:</strong><br>
-                                You are about to be redirected to our payment partner.<br>
-                                Please ensure the URL is exactly: <code>matsim.payrexx.com</code>.<br>
-                                Do not follow links to any other domain.
-                            </div>
-
-                            <p>We have also sent this link and your invoice to <strong>${data.email}</strong>.</p>
-
-                            <a href="${result.payrexx_url}" class="pay-button">
-                                Proceed to Payment (matsim.payrexx.com) &rarr;
-                            </a>
+                        <h3 style="margin-top:0;">Signup Successful</h3>
+                        <p>Thank you! Your application has been registered.</p>
+                        <p><strong>Invoice Number:</strong> <span class="invoice-ref">${result.invoiceNumber}</span></p>
+                        
+                        <div class="security-warning">
+                            <strong>⚠️ Security Check:</strong><br>
+                            You are about to be redirected to our payment partner.<br>
+                            Please ensure the URL is exactly: <code>matsim.payrexx.com</code>.<br>
+                            Do not follow links to any other domain.
                         </div>
+
+                        <p>We have also sent this link and your invoice to <strong>${data.email}</strong>.</p>
+
+                        <a href="${result.payrexx_url}" class="pay-button">
+                            Proceed to Payment (matsim.payrexx.com) &rarr;
+                        </a>
                     `;
                 } else {
                     // === SCENARIO 2: BANK TRANSFER ===
+                    formResponse.className = 'response-box response-success';
                     formResponse.innerHTML = `
-                        <div class="response-box response-success">
-                            <h3 style="margin-top:0;">Application Received</h3>
-                            <p>Thank you for your application! An invoice has been generated.</p>
-                            <p><strong>Invoice Number:</strong> <span class="invoice-ref">${result.invoiceNumber}</span></p>
-                            <p>We have sent the PDF invoice and payment instructions to <strong>${data.email}</strong>.</p>
-                            <p>Please check your spam folder if you do not see it within a few minutes.</p>
-                        </div>
+                        <h3 style="margin-top:0;">Application Received</h3>
+                        <p>Thank you for your application! An invoice has been generated.</p>
+                        <p><strong>Invoice Number:</strong> <span class="invoice-ref">${result.invoiceNumber}</span></p>
+                        <p>We have sent the PDF invoice and payment instructions to <strong>${data.email}</strong>.</p>
+                        <p>Please check your spam folder if you do not see it within a few minutes.</p>
                     `;
                 }
                 
@@ -407,14 +445,16 @@ layout: page
             } else {
                 // Backend returned an error
                 console.error('Backend Error:', result);
-                formResponse.innerHTML = `<p style="color: #c53030; background: #fff5f5; padding: 1rem; border: 1px solid #fc8181; border-radius: 4px;">Error: ${result.error || 'Request failed'}</p>`;
+                formResponse.className = 'response-box response-error';
+                formResponse.innerHTML = `<h3 style="margin-top:0">Error</h3><p>${result.error || 'Request failed'}</p>`;
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Complete Signup';
             }
 
         } catch (error) {
             console.error('Network Error:', error);
-            formResponse.innerHTML = '<p style="color: #c53030; background: #fff5f5; padding: 1rem; border: 1px solid #fc8181; border-radius: 4px;">Could not connect to the server. Please try again later.</p>';
+            formResponse.className = 'response-box response-error';
+            formResponse.innerHTML = '<h3 style="margin-top:0">Connection Error</h3><p>Could not connect to the server. Please try again later.</p>';
             submitBtn.disabled = false;
             submitBtn.textContent = 'Complete Signup';
         }
