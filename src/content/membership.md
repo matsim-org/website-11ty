@@ -229,18 +229,30 @@ layout: page
 
     <div class="signup-intro">
         <p>Join the MATSim community to support the development of the framework and gain voting rights in the association.</p>
-        
+        <p>The MATSim Association offers a tiered membership structure designed to support researchers, startups, 
+and large organizations within the global transport simulation community. All members receive core benefits such as 
+voting rights in the Association General Assembly, free attendance at user meetings, and access to exclusive communications 
+like a quarterly newsletter. Individual members further benefit from publication listings and priority access to learning 
+materials. Organizational tiers (Small and Large Teams) expand on these perks by providing corporate visibility 
+through logo placements on the MATSim website, featured project posts on LinkedIn, and priority GitHub issue tagging to 
+facilitate development support. Large teams enjoy additional high-level engagement opportunities, including the ability 
+to host regional meetings and create dedicated showcase pages to highlight their institutional work.</p>
+<p/>
         <div class="info-grid">
             <div class="info-card">
                 <h3>Membership Options</h3>
                 <ul class="pricing-list">
                     <li><span>Individual</span> <strong>120 CHF</strong></li>
-                    <li><span>Small Team (Organization)</span> <strong>1000 CHF</strong></li>
-                    <li><span>Large Team (Organization)</span> <strong>2500 CHF</strong></li>
+                    <li><span>Small Team (2-5 FTEs)</span> <strong>1000 CHF</strong></li>
+                    <li><span>Large Team (6+ FTEs)</span> <strong>2500 CHF</strong></li>
                 </ul>
                 <p style="font-size: 0.85rem; color: var(--color-shadow); margin-top: 1rem;">
                     <em>* Membership fees are not subject to VAT.</em>
                 </p>
+            <a href="images/matsim-assoc-benefits.pdf" target="_blank" class="download-link">
+                <span style="margin-right: 6px; font-size: 1.2em;">📥</span> 
+                Download Benefits Brochure (PDF)
+            </a>
             </div>
             <div class="info-card">
                 <h3>How it Works</h3>
