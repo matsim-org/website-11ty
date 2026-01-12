@@ -256,7 +256,7 @@ layout: page
                 <p style="font-size: 0.85rem; color: var(--color-shadow); margin-top: 1rem;">
                     <em>* Membership fees are not subject to VAT.</em>
                 </p>
-            <a href="images/matsim-assoc-benefits.pdf" target="_blank" class="download-link">
+            <a href="/content/images/matsim-assoc-benefits.pdf" target="_blank" class="download-link">
                 <span style="margin-right: 6px; font-size: 1.2em;">📥</span> 
                 Download Benefits Brochure (PDF)
             </a>
