@@ -219,6 +219,13 @@ layout: page
         color: var(--color-matsim-dark-2);
     }
 
+    .help-text {
+        font-size: 0.85rem;
+        color: #666;
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
+    }
+
     /* Mobile tweak */
     @media (max-width: 768px) {
         .info-grid { grid-template-columns: 1fr; }
@@ -304,12 +311,20 @@ to host regional meetings and create dedicated showcase pages to highlight their
                 <div class="form-stack">
                     <div class="form-group">
                         <label for="membership_type">Membership Tier *</label>
-                        <select id="membership_type" name="membership_type" required>
+                        <select id="membership_type" name="membership_type" required onchange="toggleTeamFields(this.value)">
                             <option value="" disabled selected>Select a tier...</option>
                             <option value="Individual">Individual (120 CHF)</option>
                             <option value="Small Team">Small Team (1000 CHF)</option>
                             <option value="Large Team">Large Team (2500 CHF)</option>
                         </select>
+                    </div>
+
+                    <div id="team-members-wrapper" style="display: none;">
+                        <div class="form-group">
+                            <label for="team_members">Included Team Members</label>
+                            <div class="help-text">Please list names and emails of team members to be included.<br>Format: <code>Name Surname &lt;email@example.com&gt;</code> (one per line)</div>
+                            <textarea id="team_members" name="team_members" rows="4" placeholder="Alice Smith <alice@example.com>&#10;Bob Jones <bob@example.com>"></textarea>
+                        </div>
                     </div>
 
                     <div class="form-group">
@@ -377,6 +392,17 @@ to host regional meetings and create dedicated showcase pages to highlight their
     const form = document.getElementById('membership-form');
     const formResponse = document.getElementById('form-response');
     const submitBtn = form.querySelector('button[type="submit"]');
+
+    function toggleTeamFields(tier) {
+        const wrapper = document.getElementById('team-members-wrapper');
+        const textarea = document.getElementById('team_members');
+        if (tier === 'Small Team' || tier === 'Large Team') {
+            wrapper.style.display = 'block';
+        } else {
+            wrapper.style.display = 'none';
+            textarea.value = ''; // Clear the value if the user switches back
+        }
+    }
 
     // ✅ Using the Cloud Run URL from your working curl test
     const API_URL = 'https://membershipsignup-4lr3qlg7ya-oa.a.run.app';
