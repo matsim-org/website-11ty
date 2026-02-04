@@ -226,6 +226,34 @@ layout: page
         line-height: 1.4;
     }
 
+    .consent-box {
+        margin-top: 1rem;
+        padding: 1rem;
+        background: var(--color-matsim-light-1-bg);
+        border: 1px solid var(--color-matsim-light-1);
+        border-radius: var(--border-radius);
+        font-size: 0.9rem;
+        color: var(--color-fg-dark-2);
+        line-height: 1.4;
+    }
+
+    .consent-box a {
+        text-decoration: underline;
+    }
+
+    .consent-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.6rem;
+        margin-top: 0.75rem;
+    }
+
+    .consent-row input[type="checkbox"] {
+        margin-top: 0.2rem;
+        width: 18px;
+        height: 18px;
+    }
+
     /* Mobile tweak */
     @media (max-width: 768px) {
         .info-grid { grid-template-columns: 1fr; }
@@ -382,6 +410,18 @@ layout: page
                 </div>
             </div>
 
+            <div class="consent-box">
+                <strong>Data protection notice</strong><br>
+                By submitting this form, you consent to the processing of your personal data by the MATSim Association for membership administration, invoicing, and communication. Your membership data is stored in a secure Google Firestore database hosted in Europe, with access limited to authorized Association management. If you choose online payment, the payment transaction is handled by Payrexx AG under its own data protection and compliance obligations.
+                <br><br>
+                Read the full statement: <a href="/content/gdpr/" target="_blank" rel="noopener">Data Protection &amp; Privacy (GDPR)</a>.
+
+                <div class="consent-row">
+                    <input type="checkbox" id="gdpr_consent" name="gdpr_consent" required>
+                    <label for="gdpr_consent" style="font-weight: 500; margin: 0;">I have read the data protection notice and consent to the processing of my personal data for membership administration purposes.</label>
+                </div>
+            </div>
+
             <button type="submit">Complete Signup</button>
         </form>
         
@@ -425,6 +465,16 @@ layout: page
         if (data.email !== data.email_confirm) {
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Email addresses do not match.</p>';
+            formResponse.scrollIntoView({ behavior: 'smooth' });
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Complete Signup';
+            return;
+        }
+
+        // 2b. Consent Validation (defense-in-depth)
+        if (!document.getElementById('gdpr_consent').checked) {
+            formResponse.className = 'response-box response-error';
+            formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Please confirm the data protection consent checkbox to proceed.</p>';
             formResponse.scrollIntoView({ behavior: 'smooth' });
             submitBtn.disabled = false;
             submitBtn.textContent = 'Complete Signup';
