@@ -12,4 +12,4 @@ Are you interested in the flying taxis?
 
 Are you interested in mobility survey and data analysis?
 
-Then please have a look at our new [**Researcher/PhD position**](https://www.verw.tu-dresden.de/StellAus/download.asp?file=02-2026\Fricke_WIMI_T11_w26-014.pdf) at the [Chair of Mobility System Planning (MSP)](https://tu-dresden.de/bu/verkehr/ivs/msp) at [TU Dresden](https://tu-dresden.de/) within the scope of the DFG-funded Research Project [AirMetro (Technological & Operational Integration of Highly Automated Air Transport in Urban Areas)](https://tu-dresden.de/bu/verkehr/airmetro)!
+Then please have a look at our new [**Researcher/PhD position**](https://www.verw.tu-dresden.de/StellAus/stelle.asp?id=12621&lang=en) at the [Chair of Mobility System Planning (MSP)](https://tu-dresden.de/bu/verkehr/ivs/msp) at [TU Dresden](https://tu-dresden.de/) within the scope of the DFG-funded Research Project [AirMetro (Technological & Operational Integration of Highly Automated Air Transport in Urban Areas)](https://tu-dresden.de/bu/verkehr/airmetro)!
