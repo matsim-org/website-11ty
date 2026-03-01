@@ -1,6 +1,7 @@
 ---
 title: Membership Signup
 layout: page
+templateEngineOverride: njk
 ---
 
 <style>
@@ -254,6 +255,10 @@ layout: page
         height: 18px;
     }
 
+    .recaptcha-wrapper {
+        margin-top: 1rem;
+    }
+
     /* Mobile tweak */
     @media (max-width: 768px) {
         .info-grid { grid-template-columns: 1fr; }
@@ -422,6 +427,13 @@ layout: page
                 </div>
             </div>
 
+            <div class="form-section">
+                <div class="section-title">4. Verification</div>
+                <div class="recaptcha-wrapper">
+                    <div class="g-recaptcha" data-sitekey="6LcD2nssAAAAAHgvhBYQ2SvkQDeT1mKmPTO__F8S"></div>
+                </div>
+            </div>
+
             <button type="submit">Complete Signup</button>
         </form>
         
@@ -429,6 +441,8 @@ layout: page
     </div>
 </div>
 
+<!-- Google reCAPTCHA v2 Checkbox client script (visible widget mode). -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
     const form = document.getElementById('membership-form');
     const formResponse = document.getElementById('form-response');
@@ -480,6 +494,38 @@ layout: page
             submitBtn.textContent = 'Complete Signup';
             return;
         }
+
+        if (!window.grecaptcha || typeof window.grecaptcha.getResponse !== 'function') {
+            formResponse.className = 'response-box response-error';
+            formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Security verification is not ready. Please reload and try again.</p>';
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Complete Signup';
+            return;
+        }
+
+        // reCAPTCHA v2 Checkbox token from rendered widget.
+        const recaptchaToken = window.grecaptcha.getResponse();
+        if (!recaptchaToken) {
+            formResponse.className = 'response-box response-error';
+            formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Please complete the CAPTCHA verification.</p>';
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Complete Signup';
+            return;
+        }
+
+        // Backend schema is strict; keep consent client-side only.
+        delete data.gdpr_consent;
+        // reCAPTCHA widget injects this field into form data; backend uses recaptchaToken instead.
+        delete data['g-recaptcha-response'];
+        data.recaptchaToken = recaptchaToken;
+        console.debug('[SIGNUP] Prepared payload', {
+            keys: Object.keys(data).sort(),
+            email: data.email,
+            membership_type: data.membership_type,
+            payment_method: data.payment_method,
+            team_members_length: (data.team_members || '').length,
+            has_recaptcha_token: Boolean(data.recaptchaToken),
+        });
 
         try {
             // 3. Send Request
@@ -534,8 +580,17 @@ layout: page
             } else {
                 // Backend returned an error
                 console.error('Backend Error:', result);
+                const details = Array.isArray(result.details) ? result.details : [];
+                const diagnostics = details.length > 0
+                    ? `<details style="margin-top:0.75rem;"><summary>Validation details</summary><pre style="white-space:pre-wrap; margin-top:0.5rem;">${details
+                        .map((issue) => `${issue.path || '(root)'} [${issue.code}] ${issue.message || ''}`)
+                        .join('\n')}</pre></details>`
+                    : '';
                 formResponse.className = 'response-box response-error';
-                formResponse.innerHTML = `<h3 style="margin-top:0">Error</h3><p>${result.error || 'Request failed'}</p>`;
+                formResponse.innerHTML = `<h3 style="margin-top:0">Error</h3><p>${result.error || 'Request failed'}</p>${diagnostics}`;
+                if (window.grecaptcha && typeof window.grecaptcha.reset === 'function') {
+                    window.grecaptcha.reset();
+                }
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Complete Signup';
             }
@@ -544,6 +599,9 @@ layout: page
             console.error('Network Error:', error);
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Connection Error</h3><p>Could not connect to the server. Please try again later.</p>';
+            if (window.grecaptcha && typeof window.grecaptcha.reset === 'function') {
+                window.grecaptcha.reset();
+            }
             submitBtn.disabled = false;
             submitBtn.textContent = 'Complete Signup';
         }
