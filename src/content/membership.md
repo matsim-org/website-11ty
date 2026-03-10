@@ -430,7 +430,7 @@ templateEngineOverride: njk
             <div class="form-section">
                 <div class="section-title">4. Verification</div>
                 <div class="recaptcha-wrapper">
-                    <div class="g-recaptcha" data-sitekey="6LcD2nssAAAAAHgvhBYQ2SvkQDeT1mKmPTO__F8S"></div>
+                    <div class="g-recaptcha" data-sitekey="{{ meta.membership.recaptchaSiteKey }}"></div>
                 </div>
             </div>
 
@@ -459,8 +459,7 @@ templateEngineOverride: njk
         }
     }
 
-    // ✅ Using the Cloud Run URL from your working curl test
-    const API_URL = 'https://membershipsignup-4lr3qlg7ya-oa.a.run.app';
+    const API_URL = {{ meta.membership.signupApiUrl | toJson | safe }};
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
@@ -557,7 +556,10 @@ templateEngineOverride: njk
                             Do not follow links to any other domain.
                         </div>
 
-                        <p>We have also sent this link and your invoice to <strong>${data.email}</strong>.</p>
+                        <p>${result.emailDelivery === 'failed'
+                            ? `We could not deliver the email copy to <strong>${data.email}</strong>. Use the payment link below and contact us if you need the invoice resent.`
+                            : `We have also sent this link and your invoice to <strong>${data.email}</strong>.`
+                        }</p>
 
                         <a href="${result.payrexx_url}" class="pay-button">
                             Proceed to Payment (matsim.payrexx.com) &rarr;
@@ -580,6 +582,17 @@ templateEngineOverride: njk
             } else {
                 // Backend returned an error
                 console.error('Backend Error:', result);
+                if (result.errorCode === 'EMAIL_DELIVERY_FAILED' && result.invoiceNumber) {
+                    form.style.display = 'none';
+                    formResponse.className = 'response-box response-error';
+                    formResponse.innerHTML = `
+                        <h3 style="margin-top:0">Invoice Created</h3>
+                        <p>Your signup was recorded and invoice <span class="invoice-ref">${result.invoiceNumber}</span> was created.</p>
+                        <p>We could not deliver the invoice email automatically. Please contact the MATSim Association and mention this invoice number.</p>
+                    `;
+                    formResponse.scrollIntoView({ behavior: 'smooth' });
+                    return;
+                }
                 const details = Array.isArray(result.details) ? result.details : [];
                 const diagnostics = details.length > 0
                     ? `<details style="margin-top:0.75rem;"><summary>Validation details</summary><pre style="white-space:pre-wrap; margin-top:0.5rem;">${details

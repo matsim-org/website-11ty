@@ -1,5 +1,13 @@
 module.exports = {
   url: process.env.URL || 'https://matsim.org',
+  membership: {
+    signupApiUrl:
+      process.env.MEMBERSHIP_SIGNUP_API_URL ||
+      'https://membershipsignup-4lr3qlg7ya-oa.a.run.app',
+    recaptchaSiteKey:
+      process.env.MEMBERSHIP_RECAPTCHA_SITE_KEY ||
+      '6LcD2nssAAAAAHgvhBYQ2SvkQDeT1mKmPTO__F8S'
+  },
   siteName: 'MATSim',
   siteDescription:
     'MATSim is the leading open-source agent-based transport simulation software.',
