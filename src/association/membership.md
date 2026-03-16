@@ -2,6 +2,7 @@
 title: Membership Signup
 layout: page
 templateEngineOverride: njk
+permalink: /association/membership/
 ---
 
 <style>
@@ -257,6 +258,14 @@ templateEngineOverride: njk
 
     .recaptcha-wrapper {
         margin-top: 1rem;
+        min-height: 78px;
+    }
+
+    .recaptcha-fallback {
+        display: none;
+        margin-top: 0.75rem;
+        font-size: 0.9rem;
+        color: var(--color-matsim-accent-red-dark);
     }
 
     /* Mobile tweak */
@@ -289,7 +298,7 @@ templateEngineOverride: njk
                 <p style="font-size: 0.85rem; color: var(--color-shadow); margin-top: 1rem;">
                     <em>* Membership fees are not subject to VAT.</em>
                 </p>
-            <a href="/content/images/matsim-assoc-benefits.pdf" target="_blank" class="download-link">
+            <a href="/association/images/matsim-assoc-benefits.pdf" target="_blank" class="download-link">
                 <span style="margin-right: 6px; font-size: 1.2em;">📥</span> 
                 Download Benefits Brochure (PDF)
             </a>
@@ -419,7 +428,7 @@ templateEngineOverride: njk
                 <strong>Data protection notice</strong><br>
                 By submitting this form, you consent to the processing of your personal data by the MATSim Association for membership administration, invoicing, and communication. Your membership data is stored in a secure Google Firestore database hosted in Europe, with access limited to authorized Association management. If you choose online payment, the payment transaction is handled by Payrexx AG under its own data protection and compliance obligations.
                 <br><br>
-                Read the full statement: <a href="/content/gdpr/" target="_blank" rel="noopener">Data Protection &amp; Privacy (GDPR)</a>.
+                Read the full statement: <a href="/association/gdpr/" target="_blank" rel="noopener">Data Protection &amp; Privacy (GDPR)</a>.
 
                 <div class="consent-row">
                     <input type="checkbox" id="gdpr_consent" name="gdpr_consent" required>
@@ -430,7 +439,10 @@ templateEngineOverride: njk
             <div class="form-section">
                 <div class="section-title">4. Verification</div>
                 <div class="recaptcha-wrapper">
-                    <div class="g-recaptcha" data-sitekey="{{ meta.membership.recaptchaSiteKey }}"></div>
+                    <div id="membership-recaptcha"></div>
+                    <div id="recaptcha-fallback" class="recaptcha-fallback">
+                        CAPTCHA could not be loaded. Please disable blockers for Google reCAPTCHA or reload the page.
+                    </div>
                 </div>
             </div>
 
@@ -441,8 +453,35 @@ templateEngineOverride: njk
     </div>
 </div>
 
-<!-- Google reCAPTCHA v2 Checkbox client script (visible widget mode). -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- Google reCAPTCHA v2 Checkbox client script (explicit render mode). -->
+<script>
+    const RECAPTCHA_SITE_KEY = {{ meta.membership.recaptchaSiteKey | toJson | safe }};
+    let recaptchaWidgetId = null;
+
+    function showRecaptchaFallback() {
+        const fallback = document.getElementById('recaptcha-fallback');
+        if (fallback) {
+            fallback.style.display = 'block';
+        }
+    }
+
+    window.onMembershipRecaptchaLoad = function () {
+        if (!window.grecaptcha || typeof window.grecaptcha.render !== 'function') {
+            showRecaptchaFallback();
+            return;
+        }
+
+        try {
+            recaptchaWidgetId = window.grecaptcha.render('membership-recaptcha', {
+                sitekey: RECAPTCHA_SITE_KEY,
+            });
+        } catch (error) {
+            console.error('Failed to render reCAPTCHA:', error);
+            showRecaptchaFallback();
+        }
+    };
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onMembershipRecaptchaLoad&render=explicit" async defer></script>
 <script>
     const form = document.getElementById('membership-form');
     const formResponse = document.getElementById('form-response');
@@ -494,7 +533,7 @@ templateEngineOverride: njk
             return;
         }
 
-        if (!window.grecaptcha || typeof window.grecaptcha.getResponse !== 'function') {
+        if (!window.grecaptcha || typeof window.grecaptcha.getResponse !== 'function' || recaptchaWidgetId === null) {
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Security verification is not ready. Please reload and try again.</p>';
             submitBtn.disabled = false;
@@ -503,7 +542,7 @@ templateEngineOverride: njk
         }
 
         // reCAPTCHA v2 Checkbox token from rendered widget.
-        const recaptchaToken = window.grecaptcha.getResponse();
+        const recaptchaToken = window.grecaptcha.getResponse(recaptchaWidgetId);
         if (!recaptchaToken) {
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Please complete the CAPTCHA verification.</p>';
@@ -601,8 +640,8 @@ templateEngineOverride: njk
                     : '';
                 formResponse.className = 'response-box response-error';
                 formResponse.innerHTML = `<h3 style="margin-top:0">Error</h3><p>${result.error || 'Request failed'}</p>${diagnostics}`;
-                if (window.grecaptcha && typeof window.grecaptcha.reset === 'function') {
-                    window.grecaptcha.reset();
+                if (window.grecaptcha && typeof window.grecaptcha.reset === 'function' && recaptchaWidgetId !== null) {
+                    window.grecaptcha.reset(recaptchaWidgetId);
                 }
                 submitBtn.disabled = false;
                 submitBtn.textContent = 'Complete Signup';
@@ -612,8 +651,8 @@ templateEngineOverride: njk
             console.error('Network Error:', error);
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Connection Error</h3><p>Could not connect to the server. Please try again later.</p>';
-            if (window.grecaptcha && typeof window.grecaptcha.reset === 'function') {
-                window.grecaptcha.reset();
+            if (window.grecaptcha && typeof window.grecaptcha.reset === 'function' && recaptchaWidgetId !== null) {
+                window.grecaptcha.reset(recaptchaWidgetId);
             }
             submitBtn.disabled = false;
             submitBtn.textContent = 'Complete Signup';

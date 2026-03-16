@@ -4,6 +4,46 @@ description: 'The MATSim Association has the goal to ensure the long-term prospe
 layout: page
 ---
 
+<style>
+.association-cta {
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  background: linear-gradient(135deg, var(--color-matsim-dark-1), var(--color-matsim-medium));
+  color: #fff;
+}
+
+.association-cta h2,
+.association-cta p {
+  color: inherit;
+}
+
+.association-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.association-button {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  border-radius: var(--border-radius);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.association-button-primary {
+  background: #fff;
+  color: var(--color-matsim-dark-1);
+}
+
+.association-button-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  color: #fff;
+}
+</style>
+
 <div class="lead">
 
 The MATSim Association was founded by users and developers of the open-source software MATSim.
@@ -24,7 +64,16 @@ The association has among others the following goals and tasks:
 The full list of its goals as well as its organization can be found in the articles:  
 <a href="2022_Statuten_bilingual.pdf">{% include "icons/fa-file-pdf.svg" %} Articles of the Association (english & german) (PDF)</a>
 
-The association was founded in September 2022, and started accepting memberships in Fall 2023.
+The association was founded in September 2022 and now offers a dedicated online signup system for new memberships and renewals.
+
+<div class="association-cta">
+  <h2>Support MATSim and join the Association</h2>
+  <p>The new membership signup system is now live. Apply online, choose between online payment and bank transfer, and receive your invoice immediately.</p>
+  <div class="association-cta-actions">
+    <a class="association-button association-button-primary" href="/association/membership/">Sign Up Now</a>
+    <a class="association-button association-button-secondary" href="/association/gdpr/">Read the Data Protection Notice</a>
+  </div>
+</div>
 
 
 ## Memberships
@@ -35,9 +84,12 @@ The MATSim Association currently offers the following membership levels:
 - <b>Small Team Membership</b> for 2 – 5 full-time equivalents, for CHF 1,000 / year
 - <b>Large Team Membership</b> for 6 or more full-time equivalents, for CHF 2,500 / year
 
-<p class="highlight">
-To become a member of the MATSim Association, please fill out the <a href="https://matsim.payrexx.com" target="_blank">membership application form</a>.
-</p>
+Applications are handled through the new [membership signup page](/association/membership/). The system supports:
+
+- online payment through Payrexx,
+- bank-transfer invoicing,
+- individual and team memberships,
+- GDPR notice and consent handling in one flow.
 
 Membership fees are not subject to VAT in Switzerland.
 
@@ -87,4 +139,3 @@ The MATSim Association does currently not fulfill the requirements for a VAT reg
 
 </div>
 </div>
-

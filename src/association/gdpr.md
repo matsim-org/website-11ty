@@ -1,6 +1,7 @@
 ---
 title: Data Protection & Privacy (GDPR)
 layout: page
+permalink: /association/gdpr/
 ---
 
 The MATSim Association is committed to protecting your personal data in accordance with the EU General Data Protection Regulation (GDPR) and applicable Swiss data protection law.
