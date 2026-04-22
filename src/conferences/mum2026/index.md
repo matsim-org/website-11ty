@@ -13,7 +13,16 @@ location: Paris, France
 The MATSim Association plans to hold a MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.org)
 in Paris, France. The user meeting will take place on **Monday, September 28, 2026**, the day before the hEART conference begins.
 
+
 The **MATSim Association Annual General Meeting** will be held in conjunction with the user meeting.
+
+</div>
+
+<div>
+
+Existing and new MATSim users are also invited to fill out the **[MATSim user survey](https://tally.so/r/1AJWaQ)**.
+We are gathering insights from MATSim users to better understand professional backgrounds, usage patterns, technical details, and improvement opportunities. Your responses will help shape the future of MATSim and contribute to a more user-centered development process.
+This survey should take about **10 minutes** to complete. The survey is anonymous, and the **results will be presented at the MATSim User Meeting 2026 in Paris.**
 
 </div>
 
@@ -22,6 +31,8 @@ The **MATSim Association Annual General Meeting** will be held in conjunction wi
 <div>
 
 ## Submissions
+
+The call for papers is now open.
 
 Please submit your 2-3 page extended abstract on the [MUM26 EasyChair page](https://easychair.org/conferences/?conf=mum2026).
 
@@ -42,6 +53,7 @@ Registration details will be announced in the coming weeks.
 **Members of the MATSim Association can attend the user meeting free of charge.**
 
 If you are not yet a member, you can join the association [here](https://matsim.org/association).
+
 
 Please visit the [hEART 2026 conference website](https://heart2026.org) if you intend to participate in both events. You will need to register separately for hEART and MUM 2026.
 
