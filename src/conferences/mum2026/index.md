@@ -10,7 +10,7 @@ location: Paris, France
 
 <div class="lead">
 
-The MATSim Association plans to hold a MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.org)
+The MATSim Association plans to hold a MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.fr)
 in Paris, France. The user meeting will take place on **Monday, September 28, 2026**, the day before the hEART conference begins.
 
 
@@ -55,7 +55,7 @@ Registration details will be announced in the coming weeks.
 If you are not yet a member, you can join the association [here](https://matsim.org/association).
 
 
-Please visit the [hEART 2026 conference website](https://heart2026.org) if you intend to participate in both events. You will need to register separately for hEART and MUM 2026.
+Please visit the [hEART 2026 conference website](https://heart2026.fr) if you intend to participate in both events. You will need to register separately for hEART and MUM 2026.
 
 </div>
 </div>
