@@ -1,5 +1,8 @@
+const siteUrl = process.env.URL || 'https://matsim.org';
+const isLocalSite = /localhost|127\.0\.0\.1/.test(siteUrl);
+
 module.exports = {
-  url: process.env.URL || 'https://matsim.org',
+  url: siteUrl,
   membership: {
     signupApiUrl:
       process.env.MEMBERSHIP_SIGNUP_API_URL ||
@@ -7,6 +10,17 @@ module.exports = {
     recaptchaSiteKey:
       process.env.MEMBERSHIP_RECAPTCHA_SITE_KEY ||
       '6LcD2nssAAAAAHgvhBYQ2SvkQDeT1mKmPTO__F8S'
+  },
+  mum2026: {
+    apiBaseUrl:
+      process.env.MUM2026_API_BASE_URL ||
+      'https://europe-west6-matsim-membership.cloudfunctions.net/mum2026Registration',
+    membershipUrl:
+      process.env.MUM2026_MEMBERSHIP_URL ||
+      '/association/membership/',
+    registrationUrl:
+      process.env.MUM2026_REGISTRATION_URL ||
+      '/conferences/mum2026/register/'
   },
   siteName: 'MATSim',
   siteDescription:

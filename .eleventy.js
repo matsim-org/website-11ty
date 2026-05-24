@@ -65,6 +65,10 @@ module.exports = eleventyConfig => {
   // 	--------------------- Custom Watch Targets -----------------------
   eleventyConfig.addWatchTarget('./src/assets');
   eleventyConfig.addWatchTarget('./utils/*.js');
+  // Keep the local website off 8080 so it does not collide with the Firebase emulators.
+  eleventyConfig.setServerOptions({
+    port: 8081,
+  });
 
   // --------------------- layout aliases -----------------------
   eleventyConfig.addLayoutAlias('base', 'base.njk');

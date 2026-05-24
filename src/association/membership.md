@@ -268,6 +268,15 @@ permalink: /association/membership/
         color: var(--color-matsim-accent-red-dark);
     }
 
+    .source-banner {
+        margin: 1rem 0 1.5rem;
+        padding: 1rem 1.25rem;
+        border-left: 4px solid var(--color-matsim-medium);
+        background: var(--color-matsim-light-1-bg);
+        color: var(--color-matsim-dark-2);
+        border-radius: var(--border-radius);
+    }
+
     /* Mobile tweak */
     @media (max-width: 768px) {
         .info-grid { grid-template-columns: 1fr; }
@@ -314,6 +323,8 @@ permalink: /association/membership/
             </div>
         </div>
     </div>
+
+    <div id="source-banner" class="source-banner" style="display:none;"></div>
 
     <div id="membership-form-container">
         <form id="membership-form">
@@ -486,6 +497,24 @@ permalink: /association/membership/
     const form = document.getElementById('membership-form');
     const formResponse = document.getElementById('form-response');
     const submitBtn = form.querySelector('button[type="submit"]');
+    const emailInput = document.getElementById('email');
+    const sourceBanner = document.getElementById('source-banner');
+    const membershipParams = new URLSearchParams(window.location.search);
+    const sourceParam = membershipParams.get('source');
+    const emailParam = membershipParams.get('email');
+
+    if (emailInput && emailParam && !emailInput.value) {
+        emailInput.value = emailParam;
+    }
+
+    if (sourceBanner && sourceParam === 'mum2026') {
+        sourceBanner.style.display = 'block';
+        sourceBanner.innerHTML = `
+            <strong>MUM2026 registration support</strong><br>
+            You started this membership form from the MUM2026 registration flow. Once your membership is active,
+            return to the <a href="/conferences/mum2026/register/">MUM2026 registration page</a> and we will re-check your status.
+        `;
+    }
 
     function toggleTeamFields(tier) {
         const wrapper = document.getElementById('team-members-wrapper');
@@ -498,7 +527,10 @@ permalink: /association/membership/
         }
     }
 
-    const API_URL = {{ meta.membership.signupApiUrl | toJson | safe }};
+    const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+        ? 'http://127.0.0.1:5001/matsim-membership/europe-west6/membershipSignup'
+        : {{ meta.membership.signupApiUrl | toJson | safe }};
+    const LOCAL_DEBUG_RECAPTCHA_TOKEN = 'local-debug-recaptcha-token';
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
@@ -533,7 +565,8 @@ permalink: /association/membership/
             return;
         }
 
-        if (!window.grecaptcha || typeof window.grecaptcha.getResponse !== 'function' || recaptchaWidgetId === null) {
+        const isLocalDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        if (!isLocalDev && (!window.grecaptcha || typeof window.grecaptcha.getResponse !== 'function' || recaptchaWidgetId === null)) {
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Security verification is not ready. Please reload and try again.</p>';
             submitBtn.disabled = false;
@@ -542,7 +575,9 @@ permalink: /association/membership/
         }
 
         // reCAPTCHA v2 Checkbox token from rendered widget.
-        const recaptchaToken = window.grecaptcha.getResponse(recaptchaWidgetId);
+        const recaptchaToken = isLocalDev
+            ? LOCAL_DEBUG_RECAPTCHA_TOKEN
+            : window.grecaptcha.getResponse(recaptchaWidgetId);
         if (!recaptchaToken) {
             formResponse.className = 'response-box response-error';
             formResponse.innerHTML = '<h3 style="margin-top:0">Validation Error</h3><p>Please complete the CAPTCHA verification.</p>';
@@ -613,6 +648,16 @@ permalink: /association/membership/
                         <p><strong>Invoice Number:</strong> <span class="invoice-ref">${result.invoiceNumber}</span></p>
                         <p>We have sent the PDF invoice and payment instructions to <strong>${data.email}</strong>.</p>
                         <p>Please check your spam folder if you do not see it within a few minutes.</p>
+                    `;
+                }
+
+                if (sourceParam === 'mum2026') {
+                    formResponse.innerHTML += `
+                        <p style="margin-top: 1rem;">
+                            When your membership payment has been confirmed, return to
+                            <a href="/conferences/mum2026/register/">MUM2026 registration</a>
+                            and we will re-check your status.
+                        </p>
                     `;
                 }
                 

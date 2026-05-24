@@ -48,11 +48,22 @@ We require **at least one author** of each abstract to register for the conferen
 
 ## Registration
 
-Registration details will be announced in the coming weeks.
+The MATSim User Meeting is free for current MATSim Association members.
 
-**Members of the MATSim Association can attend the user meeting free of charge.**
+If you are not yet a member, you are very welcome to either join the association and attend free, or register as a non-member for CHF 100.
 
-If you are not yet a member, you can join the association [here](https://matsim.org/association).
+Membership supports MATSim core development, infrastructure and hosting, documentation and training, community coordination, and user meetings like this one.
+We consider MUM2026 registrations final for catering two weeks before the meeting, on **September 14, 2026**.
+
+<p>
+  <a class="button" href="/conferences/mum2026/register/">Register for MUM2026</a>
+</p>
+
+<p>
+  If you would like to support the association first, visit the
+  <a href="/association/membership/">membership page</a>.
+  Returning registrants can also use the same MUM2026 link above to re-check their status.
+</p>
 
 
 Please visit the [hEART 2026 conference website](https://heart2026.fr) if you intend to participate in both events. You will need to register separately for hEART and MUM 2026.
