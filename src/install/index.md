@@ -131,18 +131,14 @@ In my (kn's) view, one can actually get quite far in this way, i.e. by editing t
 
 #### Latest Stable Release
 
-Version 2024.0, released April 2024
+Version 2026.0, released April 2026
 
-- [Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/2024.0/matsim-2024.0-release.zip) ca. 100 MB
+- [Download ZIP](https://github.com/matsim-org/matsim-libs/releases/download/2026.0/matsim-2026.0-release.zip) ca. 100 MB
 - [Older versions](https://github.com/matsim-org/matsim-libs/releases)
 - [Even older versions (on sourceforge)](https://sourceforge.net/projects/matsim/files/MATSim/)
 
 </div>
 <div>
-
-#### Development Version
-
-This (= using a development version of MATSim via the GUI) is not recommended any longer. If you cannot work with a release, you should use the IDE and Maven.
 
 </div>
 </div>
