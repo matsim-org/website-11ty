@@ -36,7 +36,7 @@ The call for papers is now open.
 
 Please submit your 2-3 page extended abstract on the [MUM26 EasyChair page](https://easychair.org/conferences/?conf=mum2026).
 
-The deadline for submissions will be announced soon.
+**The deadline for submissions is 8 August 2026.**
 
 Authors should register at least **4 weeks before** the event so we can advertise the program in advance.
 
