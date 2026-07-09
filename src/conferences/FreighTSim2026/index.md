@@ -97,5 +97,5 @@ For further information or if you have any questions, please do not hesitate to 
 ---
 **Information desk:** Kai Martins-Turner  
 **Email:** [freightsim@dlr.de](mailto:freightsim@dlr.de)  
-**Date:** July 09, 2026
+**Date:** July 9, 2026
 
