@@ -38,6 +38,8 @@ We also welcome already published or submitted studies, which you can submit as 
 
 The symposium will be **free of charge**.
 
+Symposium will take place at the DLR Institute of Transport Research, in Berlin-Adlershof: Rudower Chaussee 7, 12489 Berlin, Germany.
+
 
 We look forward to see you at our symposium in Berlin!  
 For further information or if you have any questions, please do not hesitate to contact [us](mailto:freightsim@dlr.de)                                                     .
@@ -84,7 +86,7 @@ For further information or if you have any questions, please do not hesitate to 
     <td style="vertical-align: top;">
       <strong>Kai Martins-Turner, M.Sc.</strong><br>
       <em>Research Associate</em><br>
-      <em>Department of Transport Markets and Mobility Services</em><br>
+      <em>Transport Markets and Mobility Services</em><br>
       <em>Institute of Transport Research</em><br>
       <em>German Aerospace Center (DLR)</em>
     </td>
