@@ -38,7 +38,7 @@ We also welcome already published or submitted studies, which you can submit as 
 
 The symposium will be **free of charge**.
 
-Symposium will take place at the DLR Institute of Transport Research, in Berlin-Adlershof: Rudower Chaussee 7, 12489 Berlin, Germany.
+The symposium will take place at the DLR Institute of Transport Research in Berlin-Adlershof: Rudower Chaussee 7, 12489 Berlin, Germany.
 
 
 We look forward to see you at our symposium in Berlin!  
