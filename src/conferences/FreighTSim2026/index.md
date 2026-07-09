@@ -4,15 +4,15 @@ title: 'FreighTSim 2026'
 description: '4th International Symposium on Multi-Agent Freight Transport Simulation (FreighTSim) on September 09, 2026, in Berlin, Germany.'
 layout: event
 date: 2026-09-09
-date_display: September 9th 2026
+date_display: September 9, 2026
 location: Berlin, Germany
 ---
 
-# 4th International Symposium on Multi-Agent Freight Transport Simulation (FreighTSim)
+<div class="lead">
 
-### Dear Ladies and Gentlemen,
-
-This is an announcement of the **4th International Symposium on Multi-Agent Freight Transport Simulation (FreighTSim)**, which will take place on **9th September 2026 in Berlin, Germany**.
+We are happy to announce the **4th International Symposium on Multi-Agent Freight Transport Simulation (FreighTSim)**, which will take place on **9th September 2026 in Berlin, Germany**.
+ 
+</div>
 
 The 4th FreighTSim symposium is organized jointly by:
 
