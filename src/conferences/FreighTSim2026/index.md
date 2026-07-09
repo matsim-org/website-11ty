@@ -41,8 +41,8 @@ The symposium will be **free of charge**.
 The symposium will take place at the DLR Institute of Transport Research in Berlin-Adlershof: Rudower Chaussee 7, 12489 Berlin, Germany.
 
 
-We look forward to see you at our symposium in Berlin!  
-For further information or if you have any questions, please do not hesitate to contact [us](mailto:freightsim@dlr.de)                                                     .
+We look forward to seeing you at our symposium in Berlin!  
+For further information or if you have any questions, please do not hesitate to contact us at [freightsim@dlr.de](mailto:freightsim@dlr.de).
 
 ---
 
