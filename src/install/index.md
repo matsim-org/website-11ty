@@ -234,19 +234,12 @@ maintain a MATSim-related tool that is missing here, please [let us know](https:
 </div>
 <div>
 
-[MobilityStudio](https://www.mobilitystudio.de) is a commercial desktop application
-for Windows, macOS and Linux that provides a graphical user interface for working with
-MATSim scenarios.
-Existing MATSim files (network, transit schedule, vehicles, plans,
-events, trips, legs, DRT service areas, ...) can be opened by dragging and dropping them onto the main panel.
-The network, transit lines and schedules, population, activity facilities, traffic counts, DRT vehicle fleets and areas, etc. can also be created from scratch or edited interactively on a map or in a synchronized table view, with additional features, e.g. validation or batch editing. All files can be exported in the native MATSim format.
-
-Simulation runs can be started from within the application using your own MATSim jar file, locally or on a server,
-including scenarios using the DRT extension.
-
+[MobilityStudio](https://www.mobilitystudio.de) is a commercial desktop application that provides a graphical user interface for working with MATSim scenarios.
+Scenario elements (network, transit schedule, vehicles, plans, facilities, DRT service areas, etc.) can be created from scratch or edited interactively on a map or in a synchronized table view, with additional features, e.g. validation or batch editing. Existing MATSim files (network, transit schedule, events, trips, legs, etc.) can be opened by dragging and dropping them onto the main panel. Scenario elements can be styled using attribute-based rules for colors, symbols, sizes/widths, and labels. All files can be exported in the native MATSim format.
+Simulation runs can be started from within the application, locally or on a server.
 Simulation output can be inspected in the same environment: simulation events can be replayed as an
 interactive animation, and link volumes, difference plots between scenarios, and aggregated statistics
-per mode or stop are available for analysis. All scenario elements can be styled using attribute-based rules for colors, symbols, sizes/widths, or labels.
+per mode or stop are available for analysis.
 
 MobilityStudio requires a license; commercial and reduced academic licenses as well as a free test
 version are offered.
