@@ -236,6 +236,7 @@ maintain a MATSim-related tool that is missing here, please [let us know](https:
 
 [MobilityStudio](https://www.mobilitystudio.de) is a commercial desktop application that provides a graphical user interface for working with MATSim scenarios.
 Scenario elements (network, transit schedule, vehicles, plans, facilities, DRT service areas, etc.) can be created from scratch or edited interactively on a map or in a synchronized table view, with additional features, e.g. validation or batch editing. Existing MATSim files (network, transit schedule, events, trips, legs, etc.) can be opened by dragging and dropping them onto the main panel. Scenario elements can be styled using attribute-based rules for colors, symbols, sizes/widths, and labels. All files can be exported in the native MATSim format.
+
 Simulation runs can be started from within the application, locally or on a server.
 Simulation output can be inspected in the same environment: simulation events can be replayed as an
 interactive animation, and link volumes, difference plots between scenarios, and aggregated statistics
@@ -283,7 +284,7 @@ or modifying links and nodes, with validation routines that flag issues such as 
 sink links or implausible attribute values; transit schedules can be edited including
 stops, lines, routes, network routes and timetables, with batch editing across routes.
 
-Simulation runs can be configured and started from within the application — locally, on
+Simulation runs can be configured and started from within the application — locally or on
 remote servers.
 Results can be analyzed in configurable dashboards that compare multiple runs, and in an
 interactive visualizer offering vehicle animation, network attribute styling, link volumes
