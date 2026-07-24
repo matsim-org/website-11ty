@@ -234,16 +234,20 @@ maintain a MATSim-related tool that is missing here, please [let us know](https:
 </div>
 <div>
 
-[MobilityStudio](https://www.mobilitystudio.de) is a commercial desktop application that provides a graphical user interface for working with MATSim scenarios.
-Scenario elements (network, transit schedule, vehicles, plans, facilities, DRT service areas, etc.) can be created from scratch or edited interactively on a map or in a synchronized table view, with additional features, e.g. validation or batch editing. Existing MATSim files (network, transit schedule, events, trips, legs, etc.) can be opened by dragging and dropping them onto the main panel. Scenario elements can be styled using attribute-based rules for colors, symbols, sizes/widths, and labels. All files can be exported in the native MATSim format.
+[MobilityStudio](https://www.mobilitystudio.de) is a commercial desktop application with a
+graphical user interface for working with MATSim scenarios. Scenario elements — network,
+transit schedule, vehicles, plans, facilities, DRT service areas, etc. — can be created from
+scratch or edited interactively on a map or in a synchronized table view, with validation and
+batch editing. Existing MATSim files, including events, trips and legs, open by drag and drop;
+elements can be styled by attribute-based rules for colors, symbols, sizes/widths and labels;
+and all files can be exported in the native MATSim format.
 
-Simulation runs can be started from within the application, locally or on a server.
-Simulation output can be inspected in the same environment: simulation events can be replayed as an
-interactive animation, and link volumes, difference plots between scenarios, and aggregated statistics
-per mode or stop are available for analysis.
+Simulation runs can be started from within the application, locally or on a server, and the
+output inspected in the same environment: events replayed as an interactive animation, plus
+link volumes, difference plots between scenarios, and statistics aggregated per mode or stop.
 
-MobilityStudio requires a license; commercial and reduced academic licenses as well as a free test
-version are offered.
+MobilityStudio requires a license; commercial and reduced academic licenses as well as a free
+test version are offered.
 
 </div>
 </div>
