@@ -5,7 +5,7 @@ description: 'The MATSim User Meeting 2026 takes place on September 28, 2026 in 
 layout: event
 date: 2026-09-28
 date_display: September 28, 2026
-location: Paris, France
+location: CICSU, Pierre et Marie Curie campus of Sorbonne University, Paris, France
 ---
 
 <div class="lead">
@@ -36,11 +36,19 @@ The call for papers is now open.
 
 Please submit your 2-3 page extended abstract on the [MUM26 EasyChair page](https://easychair.org/conferences/?conf=mum2026).
 
-**The deadline for submissions is 8 August 2026.**
+**The deadline for submissions is 15 August 2026.**
 
 Authors should register at least **4 weeks before** the event so we can advertise the program in advance.
 
 We require **at least one author** of each abstract to register for the conference to present the work.
+
+### Presenting remotely
+
+Remote presentation is allowed **by exception only**. In-person presentations are preferred, and if we receive more submissions than we have slots for, in-person presentations will be given priority in the program.
+
+Please state clearly **in the text of your abstract** whether you intend to present in person or remotely.
+
+Attendance is in person only. The remote option is for presenters by exception; there is no online option for attending the meeting as a whole.
 
 </div>
 
