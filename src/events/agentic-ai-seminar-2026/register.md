@@ -455,7 +455,7 @@ permalink: /events/agentic-ai-seminar-2026/register/
     if (inviteEmailStatus === 'failed') {
       renderStatus(memberStatus, 'is-warning', `
         <strong>Your place is booked, but we could not send your confirmation email.</strong>
-        <p class="event-note">That email carries the calendar invite and joining details, so please contact us at <a href="mailto:admin@matsim.org">admin@matsim.org</a> and we will send them to you directly. Your place is held — you do not need to sign up again.</p>
+        <p class="event-note">That email carries the calendar invite and joining details, so please email Pieter Fourie at <a href="mailto:pieter.fourie@monash.edu">pieter.fourie@monash.edu</a> and he will send them to you directly. Your place is held — you do not need to sign up again.</p>
         ${surveyHtml}
         <div class="event-actions">
           <button class="event-button-secondary" type="button" id="cancel-button">Cancel My Place</button>
