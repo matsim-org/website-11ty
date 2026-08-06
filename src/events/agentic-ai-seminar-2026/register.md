@@ -410,13 +410,61 @@ permalink: /events/agentic-ai-seminar-2026/register/
     }
   }
 
-  function renderRegisteredState(event) {
+  function wireCancelButton() {
+    const cancelButton = document.getElementById('cancel-button');
+    if (!cancelButton) return;
+
+    cancelButton.addEventListener('click', async () => {
+      cancelButton.disabled = true;
+      cancelButton.textContent = 'Cancelling...';
+
+      try {
+        const { ok, result } = await postJson('/cancel-registration', {
+          name: identity.name,
+          email: identity.email,
+        });
+
+        if (!ok) {
+          renderStatus(memberStatus, 'is-error', `<strong>Could not cancel.</strong><p class="event-note">${result.error || 'Please try again later.'}</p>`);
+          return;
+        }
+
+        confirmButton.style.display = '';
+        confirmButton.disabled = false;
+        confirmButton.textContent = 'Confirm My Place';
+        renderStatus(memberStatus, 'is-warning', `
+          <strong>Your place has been cancelled.</strong>
+          <p class="event-note">You can confirm again at any time while places remain.</p>
+        `);
+      } catch (error) {
+        renderStatus(memberStatus, 'is-error', `<strong>Network error.</strong><p class="event-note">Please try again in a moment.</p>`);
+      }
+    });
+  }
+
+  function renderRegisteredState(event, inviteEmailStatus) {
     // The Zoom join details are never sent to the browser — they only ever
     // travel as the .ics calendar invite attached to the confirmation email.
     const surveyUrl = event && event.surveyUrl;
     const surveyHtml = surveyUrl ?
       `<p class="event-note">While you're here — if you haven't already, we'd love two minutes of your time for our <a href="${surveyUrl}" target="_blank" rel="noopener">user survey</a>.</p>` :
       '';
+
+    // That email is the only way the joining details reach the member, so if it
+    // failed we say so plainly rather than showing an unqualified success.
+    if (inviteEmailStatus === 'failed') {
+      renderStatus(memberStatus, 'is-warning', `
+        <strong>Your place is booked, but we could not send your confirmation email.</strong>
+        <p class="event-note">That email carries the calendar invite and joining details, so please contact us at <a href="mailto:admin@matsim.org">admin@matsim.org</a> and we will send them to you directly. Your place is held — you do not need to sign up again.</p>
+        ${surveyHtml}
+        <div class="event-actions">
+          <button class="event-button-secondary" type="button" id="cancel-button">Cancel My Place</button>
+        </div>
+      `);
+      confirmButton.style.display = 'none';
+      wireCancelButton();
+      return;
+    }
 
     renderStatus(memberStatus, 'is-success', `
       <strong>Your place is booked.</strong>
@@ -428,36 +476,7 @@ permalink: /events/agentic-ai-seminar-2026/register/
     `);
 
     confirmButton.style.display = 'none';
-
-    const cancelButton = document.getElementById('cancel-button');
-    if (cancelButton) {
-      cancelButton.addEventListener('click', async () => {
-        cancelButton.disabled = true;
-        cancelButton.textContent = 'Cancelling...';
-
-        try {
-          const { ok, result } = await postJson('/cancel-registration', {
-            name: identity.name,
-            email: identity.email,
-          });
-
-          if (!ok) {
-            renderStatus(memberStatus, 'is-error', `<strong>Could not cancel.</strong><p class="event-note">${result.error || 'Please try again later.'}</p>`);
-            return;
-          }
-
-          confirmButton.style.display = '';
-          confirmButton.disabled = false;
-          confirmButton.textContent = 'Confirm My Place';
-          renderStatus(memberStatus, 'is-warning', `
-            <strong>Your place has been cancelled.</strong>
-            <p class="event-note">You can confirm again at any time while places remain.</p>
-          `);
-        } catch (error) {
-          renderStatus(memberStatus, 'is-error', `<strong>Network error.</strong><p class="event-note">Please try again in a moment.</p>`);
-        }
-      });
-    }
+    wireCancelButton();
   }
 
   function showMemberPanel(result) {
@@ -623,7 +642,7 @@ permalink: /events/agentic-ai-seminar-2026/register/
 
       if (ok) {
         applyEventDetails(result.event);
-        renderRegisteredState(result.event);
+        renderRegisteredState(result.event, result.inviteEmailStatus);
         return;
       }
 
