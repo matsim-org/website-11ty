@@ -22,6 +22,17 @@ module.exports = {
       process.env.MUM2026_REGISTRATION_URL ||
       '/conferences/mum2026/register/'
   },
+  // Members-only one-off events. Event date, time and meeting link deliberately
+  // live in Firestore (eventsConfig/<eventId>) and are served by the API, so a
+  // change to any of them does not need a site rebuild.
+  seminar2026: {
+    apiBaseUrl:
+      process.env.SEMINAR2026_API_BASE_URL ||
+      'https://europe-west6-matsim-membership.cloudfunctions.net/eventRegistration',
+    membershipUrl:
+      process.env.SEMINAR2026_MEMBERSHIP_URL ||
+      '/association/membership/'
+  },
   siteName: 'MATSim',
   siteDescription:
     'MATSim is the leading open-source agent-based transport simulation software.',
