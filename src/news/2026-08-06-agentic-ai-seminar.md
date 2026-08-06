@@ -3,9 +3,6 @@ layout: post
 author: Pieter Fourie
 title: "Members' Seminar: From Prompt to Pull Request"
 summary: "A one-hour online seminar for MATSim Association members on 13 August 2026, presented by Martin Peris Martorell: \"From Prompt to Pull Request: Best Programming Practices in the Age of LLMs.\""
-# Staged for publication on the morning of 2026-08-06.
-# Delete the next line to publish — it keeps the post out of Latest News and the RSS feed until then.
-eleventyExcludeFromCollections: true
 ---
 
 The MATSim Association is hosting an online seminar, **"From Prompt to Pull Request: Best Programming
