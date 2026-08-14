@@ -317,7 +317,7 @@ permalink: /association/membership/
                 <ul class="process-list">
                     <li>Fill out the form below.</li>
                     <li>Choose <strong>Online Payment</strong> for instant credit card processing via Payrexx.</li>
-                    <li>Choose <strong>Bank Transfer</strong> to receive an invoice via email.</li>
+                    <li>Choose <strong>Bank Transfer</strong> if you would rather not go through an online payment system. We email you an invoice with our IBAN and you pay it as a normal bank transfer. This is the right option if your finance or accounts-payable department pays on your behalf.</li>
                     <li>Receive confirmation and invoice PDF immediately.</li>
                 </ul>
             </div>
@@ -387,6 +387,7 @@ permalink: /association/membership/
                             <option value="online">Online (Credit Card, TWINT, etc.)</option>
                             <option value="bank">Bank Transfer (Invoice)</option>
                         </select>
+                        <div class="help-text">If you prefer not to use an online payment system &mdash; or your institution pays by invoice through its finance department &mdash; choose <strong>Bank Transfer</strong>. You will receive an invoice PDF with our IBAN by email, and nothing is charged online.</div>
                     </div>
 
                     <div class="form-group">
