@@ -18,7 +18,7 @@ preloads:
 - [Use MATSim as a programmer out of an IDE](#programmers)
 - [Use the MATSim GUI](#gui)
 - [Use MATSim as a dependency](#maven)
-- [Visualization](#visualization)
+- [Tools around MATSim](#visualization)
 - [About releases](#releases)
 - [Open Data Models](#open-data-models)
 - [Benchmark](#benchmark)
@@ -175,7 +175,7 @@ It will _not_ allow you to modify the existing MATSim code -- which, in most cas
   <dependency>
     <groupId>org.matsim</groupId>
     <artifactId>matsim</artifactId>
-    <version>2024.0</version>
+    <version>20XX.0</version>
   </dependency>
 </dependencies>
 ```
@@ -201,7 +201,7 @@ The [example project on GitHub](https://github.com/matsim-org/matsim-example-pro
   <dependency>
     <groupId>org.matsim</groupId>
     <artifactId>matsim</artifactId>
-    <version>2025.0-SNAPSHOT</version>
+    <version>20XX.0-SNAPSHOT</version>
   </dependency>
 </dependencies>
 ```
@@ -213,46 +213,46 @@ These versions are typically less stable and don't come with up-to-date documena
 
 <div id="visualization"></div>
 
-## Visualization
+## Tools around MATSim
+
+<div class="lead">
+
+Besides the MATSim framework itself, a number of tools exist for building scenarios and for
+analyzing and visualizing simulation output. Some are open source, others are commercially
+licensed; the licensing of each tool is stated below. The tools are listed alphabetically.
+This overview is a pointer to what exists in the MATSim ecosystem, not an endorsement — the
+MATSim project has no control over these tools, their licenses, or their prices. If you
+maintain a MATSim-related tool that is missing here, please [let us know](https://matsim.org/faq).
+
+</div>
+
+### MobilityStudio
 
 <div class="grid" data-layout='50-50-reverse'>
 <div>
-	<img src="/assets/images/download/via-analysis.webp">
+	<img src="/assets/images/download/mobilitystudio.webp">
 </div>
 <div>
 
-When the simulation ran, many files were created in its output
-directory. Note that the GUI has a button to reach the output
-directory. One of the files is a so-called events file, typically
-generated for every 10th iteration. The events file for the zeroth
-iteration is located in `.../ITERS/it.0/...0.events.xml.gz`. This
-contains a lot of information that can be visualized.
+[MobilityStudio](https://www.mobilitystudio.de) is a commercial desktop application with a
+graphical user interface for working with MATSim scenarios. Scenario elements — network,
+transit schedule, vehicles, plans, facilities, DRT service areas, etc. — can be created from
+scratch or edited interactively on a map or in a synchronized table view, with validation and
+batch editing. Existing MATSim files, including events, trips and legs, open by drag and drop;
+elements can be styled by attribute-based rules for colors, symbols, sizes/widths and labels;
+and all files can be exported in the native MATSim format.
 
-The easiest way to visualize MATSim output is to use VIA. A free
-version, with a limit on the number of agents, is [available for
-download](http://simunto.com/via). If you start VIA, you should see a
-large, black area. This is where the traffic will be visualized. On
-the left side of this area, you see a smaller area with 4 icons on the
-top ("Controls"). Click the first icon (Data Sources). Now you can
-either drag and drop files into this section (e.g. a `network.xml`, or
-`events.xml.gz`), or click the "+" at the bottom to select a file to
-be added. Use either option to add first `network.xml` to the list of
-available data and then `events.xml.gz`. Now the visualizer knows
-about our data, and we can tell it how to visualize it.
+Simulation runs can be started from within the application, locally or on a server, and the
+output inspected in the same environment: events replayed as an interactive animation, plus
+link volumes, difference plots between scenarios, and statistics aggregated per mode or stop.
 
-Next, click on the second icon ("Layers") in the Controls section.
-Initially, you will see only the background layer listed. Click on
-the '+' to select the data you want to have displayed. It should already
-suggest to visualize the network with the loaded `network.xml`, so just
-click `Add`. After a short moment, the network should be shown in the
-visualization area. Click the '+' again, but this time choose Vehicles as
-layer type. The `events.xml.gz` file will be already pre-selected.
-Click on `Add`. As any layer depending on the events, a
-`Load Data` button will appear at the bottom of the layer tag.
-Click it to extract the vehicles' positions from the events.
+MobilityStudio requires a license; commercial and reduced academic licenses as well as a free
+test version are offered.
 
 </div>
 </div>
+
+### SimWrapper
 
 <div class="grid" data-layout='50-50-reverse'>
 <div>
@@ -260,10 +260,7 @@ Click it to extract the vehicles' positions from the events.
 </div>
 <div>
 
-### SimWrapper
-
-Another option for visualization is the free and open-source web app SimWrapper, 
-online at [simwrapper.github.io](https://simwrapper.github.io). 
+SimWrapper is a free and open-source web app, online at [simwrapper.github.io](https://simwrapper.github.io). 
 SimWrapper can natively visualize MATSim output trips, carrier/freight/logistic systems, 
 and public transport networks, and can also be used in combination with the open source 
 [matsim-r](https://vsp.berlin/matsim-r) and [matsim-python](https://pypi.org/project/matsim-tools/) 
@@ -272,7 +269,55 @@ post-processing libraries to produce comprehensive output dashboards for traffic
 There is a matsim contrib which produces standard SimWrapper dashboards to get you started: 
 you only need to add one line of code to your main function to produce a full-featured SimWrapper 
 dashboards. Details are at [github.com/matsim-org/matsim-libs/tree/master/contribs/simwrapper](https://github.com/matsim-org/matsim-libs/tree/master/contribs/simwrapper). 
-Full documentation of the SimWrapper tool are online at [simwrapper.github.io/docs](https://simwrapper.github.io/docs).
+Full documentation of the SimWrapper tool is online at [simwrapper.github.io/docs](https://simwrapper.github.io/docs).
+
+</div>
+</div>
+
+### Tramola
+
+<div class="grid" data-layout='50-50-reverse'>
+<div>
+	<img src="/assets/images/download/tramola.webp">
+</div>
+<div>
+
+[Tramola](https://www.simunto.com/tramola/) is a commercial web application
+for managing MATSim scenarios in the browser. Networks can be edited by adding, removing
+or modifying links and nodes, with validation routines that flag issues such as source or
+sink links or implausible attribute values; transit schedules can be edited including
+stops, lines, routes, network routes and timetables, with batch editing across routes.
+
+Simulation runs can be configured and started from within the application — locally or on
+remote servers.
+Results can be analyzed in configurable dashboards that compare multiple runs, and in an
+interactive visualizer offering vehicle animation, network attribute styling, link volumes
+and flow bundle (select link) analysis.
+
+Commercially licensed; license variants for individuals and smaller groups as well as for
+larger groups are offered, with reduced prices for academic institutions.
+
+</div>
+</div>
+
+### Via
+
+<div class="grid" data-layout='50-50-reverse'>
+<div>
+	<img src="/assets/images/download/via-analysis.webp">
+</div>
+<div>
+
+[Via](https://www.simunto.com/via) is a commercial desktop application for analyzing and
+visualizing MATSim output. Network and events files are added as data sources and then
+combined into layers, e.g. a network layer and a vehicle layer, which animates the movement
+of vehicles and agents over the course of the simulated day. Layer styling can be driven by
+attributes, and results can be aggregated into heatmaps and other summary views for
+comparing scenarios or presenting them to stakeholders. Images and animations can be
+exported for use in reports and presentations.
+
+Commercially licensed with reduced prices for academic institutions; a free version with a limited number of agents is available.
+
 </div>
 </div>
 
