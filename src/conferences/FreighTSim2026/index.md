@@ -33,8 +33,8 @@ If you are interested to attend the 4th FreighTSim, you can register via [e-mail
 <!-- Candidates for presentations should submit an **abstract (max. 2 pages) before 8 August 2026 by [e-mail](mailto:freightsim@dlr.de)**.  
 We also welcome already published or submitted studies, which you can submit as they are. -->
 
-The **program** is now [online](/conferences/freightsim2026/programme.html).
-Please note, that the program may be subject to changes.
+The **programme** is now [online](/conferences/freightsim2026/programme.html).
+Please note, that the programme may be subject to change.
 
 The symposium will be **free of charge**.
 
