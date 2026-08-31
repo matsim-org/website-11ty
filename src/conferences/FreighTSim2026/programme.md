@@ -45,7 +45,7 @@ Programme for the **4th International Symposium on Multi-Agent Freight Transport
     </tr>
     <tr>
       <td>12:00</td>
-      <td><strong>A Comprehensive Agent-Based Commercial Transport Model for Assessing Decarbonization Pathways and Carbon Pricing Policies</strong><br>Ricardo Ewert (TU Berlin)</td>
+      <td><strong>A Comprehensive Agent-Based Commercial Transport Model for Assessing Decarbonization Pathways and Carbon Pricing Policies</strong><br>Ricardo Ewert, Kai Nagel (TU Berlin)</td>
     </tr>
     <tr>
       <td>12:30</td>
