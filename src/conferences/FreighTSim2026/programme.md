@@ -1,7 +1,7 @@
 ---
 permalink: /conferences/freightsim2026/programme.html
 title: 'FreighTSim 2026 programme'
-description: 'Programm 4th FreighTSim 2026'
+description: 'Programme 4th FreighTSim 2026'
 layout: page
 ---
 
