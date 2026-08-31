@@ -30,11 +30,11 @@ The symposium addresses representatives of different disciplines including **log
 If you are interested to attend the 4th FreighTSim, you can register via [e-mail](mailto:freightsim@dlr.de).
 
 **Experts from science and industry are also invited to give a presentation about their recent work.**  
-Candidates for presentations should submit an **abstract (max. 2 pages) before 8 August 2026 by [e-mail](mailto:freightsim@dlr.de)**.  
-We also welcome already published or submitted studies, which you can submit as they are.
+<!-- Candidates for presentations should submit an **abstract (max. 2 pages) before 8 August 2026 by [e-mail](mailto:freightsim@dlr.de)**.  
+We also welcome already published or submitted studies, which you can submit as they are. -->
 
-[//]: # (The **program** is now [online]&#40;/assets/documents/FreighTSim_Program_2025.pdf&#41;.)
-[//]: # (Please note, that the program may be subject to changes.)
+The **program** is now [online](/conferences/freightsim2026/programme.html).
+Please note, that the program may be subject to changes.
 
 The symposium will be **free of charge**.
 
@@ -98,4 +98,3 @@ For further information or if you have any questions, please do not hesitate to 
 **Information desk:** Kai Martins-Turner  
 **Email:** [freightsim@dlr.de](mailto:freightsim@dlr.de)  
 **Date:** July 9, 2026
-
