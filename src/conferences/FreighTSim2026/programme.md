@@ -61,7 +61,7 @@ Programme for the **4th International Symposium on Multi-Agent Freight Transport
     </tr>
     <tr>
       <td>14:15</td>
-      <td><strong>Quantum Computing for Controlling and Optimizing Intermodal Transport Chains</strong><br>Theresa-Maria Mersini, Ibraheem Adenrian, Marcel Schindler, Alessandro Tarantola (DLR)</td>
+      <td><strong>Quantum Computing for Controlling and Optimizing Intermodal Transport Chains</strong><br>Theresa-Maria Mersini, Ibraheem O. Adeniran, Marcel Schindler, Alessandro Tarantola, Carina Kehrt (DLR)</td>
     </tr>
     <tr>
       <td>14:45</td>
@@ -73,7 +73,7 @@ Programme for the **4th International Symposium on Multi-Agent Freight Transport
     </tr>
     <tr>
       <td>15:30</td>
-      <td><strong>Assessing Fast Transshipment in Combined Transport for Courier, Express, and Parcel Logistics by means of a Multi-Agent Transport Simulation</strong><br>Ibraheem O. Adeniran, Aayush Khatiwada, Carina Kehrt (DLR)</td>
+      <td><strong>Assessing Fast Transshipment in Combined Transport for Courier, Express, and Parcel Logistics by means of a Multi-Agent Transport Simulation</strong><br>Elija Deineko, Ibraheem O. Adeniran, Aayush Khatiwada, Carina Kehrt (DLR)</td>
     </tr>
     <tr>
       <td>16:00</td>
