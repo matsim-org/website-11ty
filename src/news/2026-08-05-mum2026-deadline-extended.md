@@ -22,4 +22,4 @@ Sorbonne University in Paris, the day before hEART 2026, and includes the MATSim
 for members of the MATSim Association and CHF 100 for non-members, and at least one author of each abstract must register in order to present.
 
 Please submit your 2-3 page extended abstract on the [MUM26 EasyChair page](https://easychair.org/conferences/?conf=mum2026), and see the
-[MUM2026 page](/conferences/mum2026/) for full details and registration. Questions about submissions can go to admin@matsim.org.
+[MUM2026 page](/conferences/mum2026/) for full details and registration. Questions about submissions can go to association@matsim.org.
