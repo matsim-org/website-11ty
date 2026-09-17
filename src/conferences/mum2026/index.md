@@ -32,23 +32,13 @@ This survey should take about **10 minutes** to complete. The survey is anonymou
 
 ## Submissions
 
-The call for papers is now open.
+**Submissions are closed.** The deadline for extended abstracts was 15 August 2026 and the call for papers is no longer open.
 
-Please submit your 2-3 page extended abstract on the [MUM26 EasyChair page](https://easychair.org/conferences/?conf=mum2026).
+Presenting authors were required to register for the meeting, with at least one author of each abstract presenting the work.
 
-**The deadline for submissions is 15 August 2026.**
+Remote presentation was allowed by exception only, arranged in advance. Attendance is in person only: there is no online option for attending the meeting as a whole.
 
-Authors should register at least **4 weeks before** the event so we can advertise the program in advance.
-
-We require **at least one author** of each abstract to register for the conference to present the work.
-
-### Presenting remotely
-
-Remote presentation is allowed **by exception only**. In-person presentations are preferred, and if we receive more submissions than we have slots for, in-person presentations will be given priority in the program.
-
-Please state clearly **in the text of your abstract** whether you intend to present in person or remotely.
-
-Attendance is in person only. The remote option is for presenters by exception; there is no online option for attending the meeting as a whole.
+Questions about the program can go to [association@matsim.org](mailto:association@matsim.org).
 
 </div>
 
@@ -56,25 +46,20 @@ Attendance is in person only. The remote option is for presenters by exception; 
 
 ## Registration
 
-The MATSim User Meeting is free for current MATSim Association members.
+**Registration is closed.** The registration list was finalised for catering on 14 September 2026.
 
-If you are not yet a member, you are very welcome to either join the association and attend free, or register as a non-member for CHF 100.
+The meeting was free for current MATSim Association members, with a CHF 100 fee for non-members.
 
-Membership supports MATSim core development, infrastructure and hosting, documentation and training, community coordination, and user meetings like this one.
-We consider MUM2026 registrations final for catering two weeks before the meeting, on **September 14, 2026**.
-
-<p>
-  <a class="button" href="/conferences/mum2026/register/">Register for MUM2026</a>
-</p>
+If you are registered and need to check or change your details, write to [association@matsim.org](mailto:association@matsim.org).
 
 <p>
-  If you would like to support the association first, visit the
-  <a href="/association/membership/">membership page</a>.
-  Returning registrants can also use the same MUM2026 link above to re-check their status.
+  MATSim Association membership supports MATSim core development, infrastructure and hosting,
+  documentation and training, community coordination, and user meetings like this one.
+  To support the association, visit the <a href="/association/membership/">membership page</a>.
 </p>
 
 
-Please visit the [hEART 2026 conference website](https://heart2026.fr) if you intend to participate in both events. You will need to register separately for hEART and MUM 2026.
+Please visit the [hEART 2026 conference website](https://heart2026.fr) if you are participating in both events. hEART requires separate registration.
 
 </div>
 </div>

@@ -511,9 +511,10 @@ permalink: /association/membership/
     if (sourceBanner && sourceParam === 'mum2026') {
         sourceBanner.style.display = 'block';
         sourceBanner.innerHTML = `
-            <strong>MUM2026 registration support</strong><br>
-            You started this membership form from the MUM2026 registration flow. Once your membership is active,
-            return to the <a href="/conferences/mum2026/register/">MUM2026 registration page</a> and we will re-check your status.
+            <strong>MUM2026 registration is closed</strong><br>
+            You came here from the MUM2026 pages. Registration for the user meeting closed on 14 September 2026,
+            so joining now will not add you to the list. You are still very welcome to join the Association &mdash;
+            write to <a href="mailto:association@matsim.org">association@matsim.org</a> about the meeting itself.
         `;
     }
 
@@ -655,9 +656,9 @@ permalink: /association/membership/
                 if (sourceParam === 'mum2026') {
                     formResponse.innerHTML += `
                         <p style="margin-top: 1rem;">
-                            When your membership payment has been confirmed, return to
-                            <a href="/conferences/mum2026/register/">MUM2026 registration</a>
-                            and we will re-check your status.
+                            Note that MUM2026 registration closed on 14 September 2026. Your membership is
+                            unaffected, but it does not register you for the user meeting. If you need to ask
+                            about the meeting, write to <a href="mailto:association@matsim.org">association@matsim.org</a>.
                         </p>
                     `;
                 }
