@@ -171,7 +171,7 @@ Doors open at 08:00; the first talk is at 08:30.
 | `107-09` | 11:36 | **Towards MAPPO and Inverse DRL for MATSim Replanning**<br>Ming Lu | Ming Lu (remote) |
 | `107-10` | 11:54 | **CitySim: One Data Pipeline, Three Cities: Building MATSim Mobility Digital Twins for Pedestrian Safety, Flood Resilience, and Event Traffic Management**<br>Jeramin Leong, Pieter Fourie, Apurva Kumar | Jeramin Leong |
 | `107-11` | 12:12 | **Improved Automated Model Generation and Agent-Group specific Model Analysis**<br>Nadine Rieser, Moritz Dück, Marcel Rieser | Moritz Dück |
-| `107-12` | 12:30 | **MobilityStudio: Making MATSim Accessible - A Visual Workbench and a First Step Towards Conversational, AI-Assisted Transport Planning**<br>Ihab Kaddoura, Tobias Kohl, Michael Balmer | Ihab Kaddoura |
+| `107-12` | 12:30 | **MobilityStudio: Making MATSim Accessible - A Visual Workbench and a First Step Towards Conversational, AI-Assisted Transport Planning**<br>Ihab Kaddoura, Tobias Kohl, Michael Balmer | Ihab Kaddoura, Tobias Kohl |
 
 </div>
 
