@@ -8,13 +8,57 @@ date_display: September 28, 2026
 location: CICSU, Pierre et Marie Curie campus of Sorbonne University, Paris, France
 ---
 
+<style>
+  .program-callout {
+    background: var(--color-fg-light-2);
+    border: 1px solid var(--color-matsim-light-1);
+    border-left: 6px solid var(--color-matsim-dark-1);
+    border-radius: var(--border-radius);
+    padding: 1.75rem 2rem;
+    margin: 0 0 2rem;
+  }
+  .program-callout h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--color-matsim-dark-1);
+  }
+  .program-callout p { margin: 0 0 1rem; }
+  .program-callout .button { font-size: 1.1rem; padding: 0.5em 1.4em; }
+  .program-callout .facts {
+    list-style: none;
+    padding: 0;
+    margin: 1.25rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 2rem;
+    font-size: 0.95rem;
+  }
+  .program-callout .facts li { margin: 0; }
+</style>
+
+<div class="program-callout">
+
+## The program is published
+
+Forty-three presentations in two parallel tracks, on Monday, 28 September 2026.
+
+<p><a href="/conferences/mum2026/program/" class="button">See the full program</a></p>
+
+<ul class="facts">
+  <li><strong>Starts 08:30</strong>, not 09:00 as printed in the hEART booklet</li>
+  <li>Salle 105 and Salle 107</li>
+  <li>Last talk ends 17:30</li>
+</ul>
+
+</div>
+
 <div class="lead">
 
-The MATSim Association plans to hold a MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.fr)
-in Paris, France. The user meeting will take place on **Monday, September 28, 2026**, the day before the hEART conference begins.
+The MATSim Association holds the MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.fr)
+in Paris, France. The user meeting takes place on **Monday, September 28, 2026**, the day before the hEART conference begins.
 
-
-The **MATSim Association Annual General Meeting** will be held in conjunction with the user meeting.
+The **MATSim Association Annual General Meeting** is held in conjunction with the user meeting,
+during the lunch hour, in Salle 116.
 
 </div>
 

@@ -1,7 +1,10 @@
 ---
 layout: post
 author: Pieter Fourie
-title: "MUM2026 Abstract Deadline Extended, and Remote Presentation by Exception"
+title: "MUM2026 Abstract Deadline Extended And Remote Presentation By Exception"
+# URL pinned to the slug of the original title: this post is already live and
+# linked from outside the site, so the title change must not move it.
+permalink: "/news/2026/mum2026-abstract-deadline-extended-and-remote-presentation-by-exception/index.html"
 summary: "The MUM2026 submission deadline moves to 15 August 2026, and remote presentation is now possible by exception."
 ---
 
