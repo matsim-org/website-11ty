@@ -2,7 +2,7 @@
 layout: post
 author: Pieter Fourie
 title: "MUM2026 Program Is Now Published"
-summary: "Forty-three presentations in two parallel tracks on 28 September. The meeting begins at 08:30, and presenters send their slides by Friday 26 September."
+summary: "Forty-three presentations in two parallel tracks on 28 September. The meeting begins at 08:30, and presenters send their slides by Friday 25 September."
 ---
 
 The program for the MATSim User Meeting 2026 is now published. Forty-three presentations will be given across
@@ -18,7 +18,7 @@ chairs will have to keep to these times. The last talk ends at 17:30.
 
 Each room is run from a single laptop, so we need every presentation before the day begins. Please
 [upload your slides](https://docs.google.com/forms/d/e/1FAIpQLSd3VNtxa4n3QiusjipxghN_nL0mqKGHlmSranjAsLV1lBzy2Q/viewform)
-by **Friday, September 26**, naming the file with your slot number from the program, for example `105-07.pdf`.
+by **Friday, September 25**, naming the file with your slot number from the program, for example `105-07.pdf`.
 PDF is preferred, because fonts and layout survive the move to another machine, and PowerPoint is also accepted.
 The upload form requires a Google account; if you cannot reach Google services, please email your slides to
 [association@matsim.org](mailto:association@matsim.org) instead. If your presentation includes video or a live

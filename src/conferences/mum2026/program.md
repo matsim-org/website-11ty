@@ -65,13 +65,13 @@ little slack between slots, so please keep to 15 minutes. You will not be connec
 laptop: your slides run from the room machine and have to reach us in advance, as below. Be in
 the room before your session starts and know your slot number.
 
-## Send us your slides by Friday 26 September
+## Send us your slides by Friday 25 September
 
 **We are running both rooms from a single laptop each.** With 43 talks and almost no
 time between them, we cannot swap laptops between speakers. Every presentation has to be loaded
 and in running order before the day starts.
 
-Please upload your slides by **Friday, 26 September**:
+Please upload your slides by **Friday, 25 September**:
 
 **[Upload your slides](https://docs.google.com/forms/d/e/1FAIpQLSd3VNtxa4n3QiusjipxghN_nL0mqKGHlmSranjAsLV1lBzy2Q/viewform)**
 
