@@ -115,8 +115,8 @@ Doors open at 08:00; the first talk is at 08:30.
 | `105-01` | 08:30 | **DSim: A Distributed Mobsim, Ready to Use**<br>Janek Laudan, Christian Rakow | Christian Rakow |
 | `105-02` | 08:48 | **A Deterministic Asynchronous Service-Based Architecture for Agent-Based Transport Simulation**<br>Paul Heinrich, Kai Nagel | Paul Heinrich |
 | `105-03` | 09:06 | **Scaling the Swiss National ABM: A High-Performance, Native Java Implementation for generating daily plans in MATSim**<br>Joschka Bischoff, Annette Knupp | Joschka Bischoff |
-| `105-04` | 09:24 | **New method and MATSim contrib for the Agent-based Traffic Assignment Problem (ATAP)**<br>Gunnar Flötteröd | Gunnar Flötteröd |
-| `105-05` | 09:42 | **Simple MATSim replanning recipe**<br>Fadi El Eid, Sonja Fessler, Johannes Müller, Denissa Purba, Franz-Xaver Rupprecht, Gunnar Flötteröd | Gunnar Flötteröd |
+| `105-04` | 09:24 | **Simple MATSim replanning recipe**<br>Fadi El Eid, Sonja Fessler, Johannes Müller, Denissa Purba, Franz-Xaver Rupprecht, Gunnar Flötteröd | Gunnar Flötteröd |
+| `105-05` | 09:42 | **New method and MATSim contrib for the Agent-based Traffic Assignment Problem (ATAP)**<br>Gunnar Flötteröd | Gunnar Flötteröd |
 | `105-06` | 10:00 | **The search continues: Integrating parking into an agent-based transport simulation**<br>Gregor Rybczak, Paul Heinrich, Kai Nagel | Gregor Rybczak |
 
 </div>
