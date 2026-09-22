@@ -42,6 +42,7 @@ Talks run in two parallel tracks, in **Salle 105** and **Salle 107**, and finish
 
 | | |
 | --- | --- |
+| Getting in | Enter the campus from **Place Jussieu / Rue Jussieu** (Métro 7, Jussieu). Salles 105 and 107 are on the **first floor of barre 44-54**, reached **via Tour 44**. Salle 116, used for the Annual General Meeting, is on the same floor. |
 | Registration | 08:00–08:30 |
 | First session | 08:30 (not 09:00 as printed in the hEART booklet) |
 | Rooms | Salle 105 and Salle 107 |
