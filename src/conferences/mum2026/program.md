@@ -110,8 +110,8 @@ you can submit again if you need to replace it.
 If your slides are not in by Friday you will be chasing us on the morning, and there will not be
 time for it. Send what you have; you can send a corrected version up to Sunday evening.
 
-**Presenting remotely?** Only one remote presentation is arranged. Remote presentation is by
-exception and has to be set up with the venue in advance, so if you are planning to present
+**Presenting remotely?** Three remote presentations are arranged: 107-09, 105-20 and 107-18. Remote
+presentation is by exception and has to be set up with the venue in advance, so if you are planning to present
 remotely and have not already agreed it with us, write to
 [association@matsim.org](mailto:association@matsim.org) immediately.
 
@@ -246,7 +246,7 @@ Lunch boxes. The MATSim Association Annual General Meeting is held in Salle 116 
 | --- | --- | --- | --- |
 | `105-18` | 16:00 | **Building the AgiMo Digital Twin: First steps towards continuous transport model assimilation**<br>Daniel Röder | Daniel Röder |
 | `105-19` | 16:18 | **Towards a MATSim Scenario for a Data-Scarce Megacity: Dhaka, Bangladesh**<br>Adnan Abir, Grace O. Kagho, Tasnia Tabassum Prima, Sk. Md. Mashrur | Grace O. Kagho |
-| `105-20` | 16:36 | **Beyond Carrying Capacity: An Agent-Based Model for the Char Dham Pilgrimage Corridor**<br>Anuj Nautiyal, Amit Agarwal | Amit Agarwal |
+| `105-20` | 16:36 | **Beyond Carrying Capacity: An Agent-Based Model for the Char Dham Pilgrimage Corridor**<br>Anuj Nautiyal, Amit Agarwal | Anuj Nautiyal (remote) |
 | `105-21` | 16:54 | **A Reachability-Pruned Activity-Based Demand Model for MATSim: Congestion Response and Demand Generation in Higashi-Hiroshima**<br>Azwan Nazamuddin, Reem Alolabi, Makoto Chikaraishi | Azwan Nazamuddin |
 | `105-22` | 17:12 | **Agent-Based Modeling of a Zero-Emission Zone in Berlin Using MATSim**<br>Yaroslav Smirnov, Kai Nagel, Tina Rakic, Ricardo Ewert, Tim Volotskiy, Tilmann Schlenther | Kai Nagel |
 
@@ -259,7 +259,7 @@ Lunch boxes. The MATSim Association Annual General Meeting is held in Salle 116 
 
 | Slot | Time | Presentation | Presenting |
 | --- | --- | --- | --- |
-| `107-18` | 16:00 | **Modeling Informal Paratransit for Local Public Transport Route Planning: Tricycle-for-Hire Services in Puerto Princesa City, Philippines**<br>Noriel Christopher Tiglao, Niki Jon Tolentino | Noriel Christopher Tiglao |
+| `107-18` | 16:00 | **Modeling Informal Paratransit for Local Public Transport Route Planning: Tricycle-for-Hire Services in Puerto Princesa City, Philippines**<br>Noriel Christopher Tiglao, Niki Jon Tolentino | Noriel Christopher Tiglao (remote) |
 | `107-19` | 16:18 | **Multi-Agent Simulation and Crowdsourced Reviews for Urban Vitality Analysis: Insights from a Peri-Urban City**<br>Sié Cyriac Noufe, Rachid Belaroussi, Francis Dupin, Pierre-Olivier Vandanjon | Sié Cyriac Noufe |
 | `107-20` | 16:36 | **A Pipeline for Visualising MATSim Events in Blender**<br>Daniel Bell | Daniel Bell |
 | `107-21` | 16:54 | **Results from the MATSim User Survey**<br>Marcel Rieser | Marcel Rieser |
