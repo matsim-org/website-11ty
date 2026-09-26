@@ -43,8 +43,7 @@ Talks run in two parallel tracks, in **Salle 105** and **Salle 107**, and finish
 ### Finding the rooms
 
 Enter the campus from **Place Jussieu / Rue Jussieu** (Métro 7, Jussieu). Salles 105 and
-107 are on the **first floor of barre 44-54**, reached **via Tour 44**. Salle 116, used
-for the Annual General Meeting, is on the same floor.
+107 are on the **first floor of barre 44-54**, reached **via Tour 44**.
 
 <figure>
   <img src="/assets/images/mum2026-cicsu-access-plan.png"
@@ -65,7 +64,7 @@ for the Annual General Meeting, is on the same floor.
 | Rooms | Salle 105 and Salle 107 |
 | Presentation slots | 18 minutes end to end. Plan for **15 minutes of presentation**; the rest covers questions and handing over to the next speaker. |
 | Lunch | Lunch boxes, 13:00–14:00 |
-| Annual General Meeting | 13:00–14:00 in Salle 116, during lunch |
+| Annual General Meeting | **Postponed** to a later date; members will receive the invitation and agenda in advance |
 | Last talk ends | 17:30 |
 | Boat trip | **hEART registrants only.** Boarding closes **18:30** at Pont Neuf; boats depart **19:00 sharp**. It is a 25–30 minute walk from the venue. |
 
@@ -194,9 +193,9 @@ Doors open at 08:00; the first talk is at 08:30.
 </div>
 
 
-## 13:00–14:00 · Lunch boxes · Annual General Meeting
+## 13:00–14:00 · Lunch boxes
 
-Lunch boxes. The MATSim Association Annual General Meeting is held in Salle 116 during the lunch hour; all members are welcome.
+Lunch boxes. The MATSim Association Annual General Meeting will not be held in Paris. Because of the full programme and the venue arrangements it is postponed to a later date. Members will receive the invitation and agenda in advance.
 
 
 ## Session 3 · 14:00–15:30

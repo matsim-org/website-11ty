@@ -24,8 +24,11 @@ The upload form requires a Google account; if you cannot reach Google services, 
 [association@matsim.org](mailto:association@matsim.org) instead. If your presentation includes video or a live
 demonstration, please tell us in advance so that we can prepare for it.
 
-The program page also gives the room numbers, the Annual General Meeting over lunch, and the evening boat trip,
-which is part of the hEART program and open only to those registered for that conference.
+The program page also gives the room numbers and the evening boat trip, which is part of the hEART program and
+open only to those registered for that conference.
+
+**Update, 26 September:** the MATSim Association Annual General Meeting will not be held in Paris. It is
+postponed to a later date, and members will receive the invitation and agenda in advance.
 
 Please check that you appear in the program and that the presenting author is correct. Where a first author has
 not registered, we have listed a co-author instead. Corrections can be sent to

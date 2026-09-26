@@ -48,7 +48,7 @@ permalink: /conferences/mum2026/register/
     <p class="mum2026-note">We finalised the registration list for catering on 14 September 2026 and can no longer accept new registrations.</p>
   </div>
 
-  <p>The MATSim User Meeting 2026 takes place on <strong>Monday, 28 September 2026</strong> at the CICSU on the Pierre et Marie Curie campus of Sorbonne University in Paris, the day before hEART 2026. The MATSim Association Annual General Meeting is held in conjunction with the user meeting.</p>
+  <p>The MATSim User Meeting 2026 takes place on <strong>Monday, 28 September 2026</strong> at the CICSU on the Pierre et Marie Curie campus of Sorbonne University in Paris, the day before hEART 2026. The MATSim Association Annual General Meeting is postponed to a later date.</p>
 
   <h2>Already registered?</h2>
   <p>Your registration stands. If you need to check or change your details, or you can no longer attend, write to <a href="mailto:association@matsim.org">association@matsim.org</a> and we will sort it out.</p>

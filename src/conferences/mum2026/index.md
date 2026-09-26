@@ -57,8 +57,9 @@ Forty-three presentations in two parallel tracks, on Monday, 28 September 2026.
 The MATSim Association holds the MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.fr)
 in Paris, France. The user meeting takes place on **Monday, September 28, 2026**, the day before the hEART conference begins.
 
-The **MATSim Association Annual General Meeting** is held in conjunction with the user meeting,
-during the lunch hour, in Salle 116.
+The **MATSim Association Annual General Meeting** will not be held in Paris. Because of the full
+programme and the venue arrangements it is postponed to a later date. Members will receive the
+invitation and agenda in advance.
 
 </div>
 
