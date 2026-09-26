@@ -109,7 +109,7 @@ you can submit again if you need to replace it.
 If your slides are not in by Friday you will be chasing us on the morning, and there will not be
 time for it. Send what you have; you can send a corrected version up to Sunday evening.
 
-**Presenting remotely?** Three remote presentations are arranged: 107-09, 105-20 and 107-18. Remote
+**Presenting remotely?** Four remote presentations are arranged: 105-12, 107-09, 105-20 and 107-18. Remote
 presentation is by exception and has to be set up with the venue in advance, so if you are planning to present
 remotely and have not already agreed it with us, write to
 [association@matsim.org](mailto:association@matsim.org) immediately.
@@ -172,7 +172,7 @@ Doors open at 08:00; the first talk is at 08:30.
 | `105-09` | 11:36 | **Between driver and driverless: modelling remote operators for autonomous ride-pooling in MATSim**<br>Nico Kuehnel, Lion Pfeil, Mark Frawley | Nico Kuehnel |
 | `105-10` | 11:54 | **Autonomous Shuttle and BRT Integration: An Agent-Based Case Study of Paris's Southern Suburbs**<br>Laura C. Echeverri, Nicolas Coulombel | Laura C. Echeverri |
 | `105-11` | 12:12 | **Introducing DRT and Person-Based Accessibility in MATSim**<br>Jakob Rehmann, Kai Nagel | Jakob Rehmann |
-| `105-12` | 12:30 | **Accelerating MATSim-Based Vertiport Siting via Facility Location Surrogate Space Mapping**<br>Ziyue Song, Xinwei Wang, Lin Guan, John Woodward, George Vogiatzis | Ziyue Song |
+| `105-12` | 12:30 | **Accelerating MATSim-Based Vertiport Siting via Facility Location Surrogate Space Mapping**<br>Ziyue Song, Xinwei Wang, Lin Guan, John Woodward, George Vogiatzis | Ziyue Song (remote) |
 
 </div>
 
