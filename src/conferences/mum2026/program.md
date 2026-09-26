@@ -145,10 +145,10 @@ Doors open at 08:00; the first talk is at 08:30.
 
 | Slot | Time | Presentation | Presenting |
 | --- | --- | --- | --- |
-| `107-01` | 08:30 | **Online Calibration of MATSim Models via Stochastic Batch Optimization**<br>Abdelkader Dib, Milos Balac | Abdelkader Dib |
+| `107-01` | 08:30 | **Improving Public Transport Modeling in MATSim: Fare Pricing and Routing Parameter Optimization**<br>Aurore Sallard, Milos Balac | Aurore Sallard |
 | `107-02` | 08:48 | **A multi-source calibration framework for activity-based transport simulations integrating background traffic and travel-time perception**<br>Maryam Samaei, Mahdi Zargayouna, Mélanie Gidel, Jonathan Couppé, Mostafa Ameli | Maryam Samaei |
 | `107-03` | 09:06 | **A Crowdsourced-First Calibration Framework for Multi-Class MATSim Models in Data-Constrained Heterogeneous Traffic**<br>Ashutosh, Sunhyung Yoo, Pieter Fourie, Vinayak Dixit, Divya Nair | Ashutosh |
-| `107-04` | 09:24 | **Improving Public Transport Modeling in MATSim: Fare Pricing and Routing Parameter Optimization**<br>Aurore Sallard, Milos Balac | Aurore Sallard |
+| `107-04` | 09:24 | **Online Calibration of MATSim Models via Stochastic Batch Optimization**<br>Abdelkader Dib, Milos Balac | Abdelkader Dib |
 | `107-05` | 09:42 | **Measuring perturbation-reconvergence cost in MATSim for charging-infrastructure placement**<br>Shahriar Iqbal Zame, Denissa Sari Darmawi Purba, Yusak Susilo, Constantinos Antoniou | Shahriar Iqbal Zame |
 | `107-06` | 10:00 | **An End-to-End Pipeline for Scenario-Based Transportation Modelling under Deep Uncertainty**<br>Jan Andrin Ghadamian, Orlando Roman, Milos Balac, Bryan Adey | Jan Andrin Ghadamian |
 
