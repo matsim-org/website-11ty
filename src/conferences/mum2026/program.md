@@ -247,7 +247,7 @@ Lunch boxes. The MATSim Association Annual General Meeting will not be held in P
 | `105-19` | 16:18 | **Towards a MATSim Scenario for a Data-Scarce Megacity: Dhaka, Bangladesh**<br>Adnan Abir, Grace O. Kagho, Tasnia Tabassum Prima, Sk. Md. Mashrur | Grace O. Kagho |
 | `105-20` | 16:36 | **Beyond Carrying Capacity: An Agent-Based Model for the Char Dham Pilgrimage Corridor**<br>Anuj Nautiyal, Amit Agarwal | Anuj Nautiyal (remote) |
 | `105-21` | 16:54 | **A Reachability-Pruned Activity-Based Demand Model for MATSim: Congestion Response and Demand Generation in Higashi-Hiroshima**<br>Azwan Nazamuddin, Reem Alolabi, Makoto Chikaraishi | Azwan Nazamuddin |
-| `105-22` | 17:12 | **Agent-Based Modeling of a Zero-Emission Zone in Berlin Using MATSim**<br>Yaroslav Smirnov, Kai Nagel, Tina Rakic, Ricardo Ewert, Tim Volotskiy, Tilmann Schlenther | Kai Nagel |
+| `105-22` | 17:12 | **Agent-Based Modeling of a Zero-Emission Zone in Berlin Using MATSim**<br>Yaroslav Smirnov, Kai Nagel, Tina Rakic, Ricardo Ewert, Tim Volotskiy, Tilmann Schlenther | Yaroslav Smirnov |
 
 </div>
 
