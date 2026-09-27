@@ -171,7 +171,7 @@ Doors open at 08:00; the first talk is at 08:30.
 | `105-08` | 11:18 | **Benchmarking on-demand mobility algorithms using a new remote dispatching interface for MATSim**<br>Sebastian Hörl | Sebastian Hörl |
 | `105-09` | 11:36 | **Between driver and driverless: modelling remote operators for autonomous ride-pooling in MATSim**<br>Nico Kuehnel, Lion Pfeil, Mark Frawley | Nico Kuehnel |
 | `105-10` | 11:54 | **Autonomous Shuttle and BRT Integration: An Agent-Based Case Study of Paris's Southern Suburbs**<br>Laura C. Echeverri, Nicolas Coulombel | Laura C. Echeverri |
-| `105-11` | 12:12 | **Introducing DRT and Person-Based Accessibility in MATSim**<br>Jakob Rehmann, Kai Nagel | Jakob Rehmann |
+| `105-11` | 12:12 | **Introducing DRT and Person-Based Accessibility in MATSim**<br>Jakob Rehmann, Lichen Luo, Kai Nagel | Jakob Rehmann |
 | `105-12` | 12:30 | **Accelerating MATSim-Based Vertiport Siting via Facility Location Surrogate Space Mapping**<br>Ziyue Song, Xinwei Wang, Lin Guan, John Woodward, George Vogiatzis | Ziyue Song (remote) |
 
 </div>
