@@ -1,110 +1,102 @@
 ---
 permalink: /conferences/mum2026/index.html
 title: 'MATSim User Meeting 2026'
-description: 'The MATSim User Meeting 2026 takes place on September 28, 2026 in Paris, France.'
+description: 'The MATSim User Meeting 2026 took place on September 28, 2026 at Sorbonne University in Paris, France, alongside hEART 2026.'
 layout: event
 date: 2026-09-28
 date_display: September 28, 2026
 location: CICSU, Pierre et Marie Curie campus of Sorbonne University, Paris, France
 ---
 
-<style>
-  .program-callout {
-    background: var(--color-fg-light-2);
-    border: 1px solid var(--color-matsim-light-1);
-    border-left: 6px solid var(--color-matsim-dark-1);
-    border-radius: var(--border-radius);
-    padding: 1.75rem 2rem;
-    margin: 0 0 2rem;
-  }
-  .program-callout h2 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    color: var(--color-matsim-dark-1);
-  }
-  .program-callout p { margin: 0 0 1rem; }
-  .program-callout .button { font-size: 1.1rem; padding: 0.5em 1.4em; }
-  .program-callout .facts {
-    list-style: none;
-    padding: 0;
-    margin: 1.25rem 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem 2rem;
-    font-size: 0.95rem;
-  }
-  .program-callout .facts li { margin: 0; }
-</style>
-
-<div class="program-callout">
-
-## The program is published
-
-Forty-three presentations in two parallel tracks, on Monday, 28 September 2026.
-
-<p><a href="/conferences/mum2026/program/" class="button">See the full program</a></p>
-
-<ul class="facts">
-  <li><strong>Starts 08:30</strong>, not 09:00 as printed in the hEART booklet</li>
-  <li>Salle 105 and Salle 107</li>
-  <li>Last talk ends 17:30</li>
-</ul>
-
-</div>
-
 <div class="lead">
 
-The MATSim Association holds the MATSim User Meeting 2026 in conjunction with the [hEART 2026 conference](https://heart2026.fr)
-in Paris, France. The user meeting takes place on **Monday, September 28, 2026**, the day before the hEART conference begins.
+The MATSim Association held its User Meeting 2026 on **Monday, 28 September 2026** at the CICSU,
+Pierre et Marie Curie campus of Sorbonne University in Paris, the day before the
+[hEART 2026 conference](https://heart2026.fr). Forty-three presentations ran in two parallel
+tracks, Salle 105 and Salle 107, from 08:30 to 17:30, with four presenters joining remotely and
+about 75 participants in the rooms.
 
-The **MATSim Association Annual General Meeting** will not be held in Paris. Because of the full
-programme and the venue arrangements it is postponed to a later date. Members will receive the
-invitation and agenda in advance.
-
-</div>
-
-<div>
-
-Existing and new MATSim users are also invited to fill out the **[MATSim user survey](https://tally.so/r/1AJWaQ)**.
-We are gathering insights from MATSim users to better understand professional backgrounds, usage patterns, technical details, and improvement opportunities. Your responses will help shape the future of MATSim and contribute to a more user-centered development process.
-This survey should take about **10 minutes** to complete. The survey is anonymous, and the **results will be presented at the MATSim User Meeting 2026 in Paris.**
+The **MATSim Association Annual General Meeting** was not held in Paris. Members will receive the
+invitation and agenda for a remote AGM later in the year.
 
 </div>
+
+{% set photos = [
+{ file: 'mum2026-group.jpg', caption: 'MUM2026 participants at Sorbonne University, Paris. Photo: Sebastian Hörl.' }
+] %}
+
+{% for p in photos %}
+  <figure class="conference-photo">
+    <img src="/conferences/mum2026/media/{{ p.file }}" alt="{{ p.caption }}">
+    <figcaption>{{ p.caption }}</figcaption>
+  </figure>
+{% endfor %}
+
+### Best Paper Award
+
+The MUM2026 Best Paper Award goes to **Nico Kuehnel** (MOIA GmbH) for
+*“Between driver and driverless: modelling remote operators for autonomous ride-pooling in MATSim”*,
+with Lion Pfeil and Mark Frawley.
+
+The shortlist also included Fred Shone and Tim Hillel (*Block box approaches to activity sequence
+modelling*), Simon Metzler and Dominik Ziemke (*A flexible and robust network generation pipeline for
+more detailed bicycle infrastructure representations in MATSim*) and Jakob Rehmann, Lichen Luo and
+Kai Nagel (*Introducing DRT and Person-Based Accessibility in MATSim*). The judges were Kay Axhausen,
+Kai Nagel, Marcel Rieser and Milos Balac.
+
+## Presentations
+
+The full timetable is on the [program page](/conferences/mum2026/program/). Slides are listed here
+in programme order by room and session.
+
+{% set items = data.talks %}
+{% set rooms = ['Salle 105', 'Salle 107'] %}
+{% for room in rooms %}
+### {{ room }}
+{% for sess in [1, 2, 3, 4] %}
+{% set first = true %}
+{% for item in items %}{% if item.room == room and item.session == sess %}
+{% if first %}
+<h4>Session {{ sess }} · {{ item.theme }}</h4>
+{% set first = false %}
+{% endif %}
+	<p>
+		{{ item.author }}<br>
+		{%- if item.presentation %}
+			{%- if item.presentation | slice(-4) == '.pdf' -%}
+				{% include "icons/fa-file-pdf.svg" %}
+			{%- endif -%}
+			<a href="/conferences/mum2026/presentations/{{ item.presentation }}">{{ item.title }}</a>
+		{%- else -%}
+			{{ item.title }}
+		{%- endif -%}
+		{%- if item.abstract %}
+			({% include "icons/fa-file-lines.svg" %} <a href="/conferences/mum2026/abstracts/{{ item.abstract }}">Abstract</a>)
+		{%- endif -%}
+		{%- if item.note %} <em>({{ item.note }})</em>{% endif %}
+	</p>
+{% endif %}{% endfor %}
+{% endfor %}
+{% endfor %}
 
 <div class="grid border" data-layout="50-50">
-
 <div>
 
-## Submissions
+## Thanks
 
-**Submissions are closed.** The deadline for extended abstracts was 15 August 2026 and the call for papers is no longer open.
-
-Presenting authors were required to register for the meeting, with at least one author of each abstract presenting the work.
-
-Remote presentation was allowed by exception only, arranged in advance. Attendance is in person only: there is no online option for attending the meeting as a whole.
-
-Questions about the program can go to [association@matsim.org](mailto:association@matsim.org).
+Our thanks to Latifa Oukhellou, Mostafa Ameli and the hEART 2026 organising committee for hosting
+the user meeting, to the student helpers in both rooms, to the judges, and to everyone who presented.
 
 </div>
-
 <div>
 
-## Registration
+## Membership
 
-**Registration is closed.** The registration list was finalised for catering on 14 September 2026.
+MATSim Association membership supports MATSim core development, infrastructure and hosting,
+documentation and training, community coordination, and user meetings like this one.
+To support the association, visit the <a href="/association/membership/">membership page</a>.
 
-The meeting was free for current MATSim Association members, with a CHF 100 fee for non-members.
-
-If you are registered and need to check or change your details, write to [association@matsim.org](mailto:association@matsim.org).
-
-<p>
-  MATSim Association membership supports MATSim core development, infrastructure and hosting,
-  documentation and training, community coordination, and user meetings like this one.
-  To support the association, visit the <a href="/association/membership/">membership page</a>.
-</p>
-
-
-Please visit the [hEART 2026 conference website](https://heart2026.fr) if you are participating in both events. hEART requires separate registration.
+Questions about the meeting can go to [association@matsim.org](mailto:association@matsim.org).
 
 </div>
 </div>
