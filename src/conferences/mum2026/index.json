@@ -8,7 +8,7 @@
         "theme": "Core engine and performance",
         "author": "Janek Laudan, Christian Rakow",
         "title": "DSim: A Distributed Mobsim, Ready to Use",
-        "abstract": "",
+        "abstract": "MUM2026_paper_5.pdf",
         "presentation": "105-01-rakow.pdf",
         "note": ""
       },
@@ -19,7 +19,7 @@
         "theme": "Core engine and performance",
         "author": "Paul Heinrich, Kai Nagel",
         "title": "A Deterministic Asynchronous Service-Based Architecture for Agent-Based Transport Simulation",
-        "abstract": "",
+        "abstract": "MUM2026_paper_9.pdf",
         "presentation": "105-02-heinrich.pdf",
         "note": ""
       },
@@ -30,7 +30,7 @@
         "theme": "Core engine and performance",
         "author": "Joschka Bischoff, Annette Knupp",
         "title": "Scaling the Swiss National ABM: A High-Performance, Native Java Implementation for generating daily plans in MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_2.pdf",
         "presentation": "105-03-bischoff.pdf",
         "note": ""
       },
@@ -41,7 +41,7 @@
         "theme": "Core engine and performance",
         "author": "Fadi El Eid, Sonja Fessler, Johannes Müller, Denissa Purba, Franz-Xaver Rupprecht, Gunnar Flötteröd",
         "title": "Simple MATSim replanning recipe",
-        "abstract": "",
+        "abstract": "MUM2026_paper_15.pdf",
         "presentation": "105-04-flotterod.pdf",
         "note": ""
       },
@@ -52,7 +52,7 @@
         "theme": "Core engine and performance",
         "author": "Gunnar Flötteröd",
         "title": "New method and MATSim contrib for the Agent-based Traffic Assignment Problem (ATAP)",
-        "abstract": "",
+        "abstract": "MUM2026_paper_14.pdf",
         "presentation": "105-05-flotterod.pdf",
         "note": ""
       },
@@ -63,7 +63,7 @@
         "theme": "Core engine and performance",
         "author": "Gregor Rybczak, Paul Heinrich, Kai Nagel",
         "title": "The search continues: Integrating parking into an agent-based transport simulation",
-        "abstract": "",
+        "abstract": "MUM2026_paper_32.pdf",
         "presentation": "105-06-rybczak.pdf",
         "note": ""
       },
@@ -74,7 +74,7 @@
         "theme": "Calibration and optimisation",
         "author": "Aurore Sallard, Milos Balac",
         "title": "Improving Public Transport Modeling in MATSim: Fare Pricing and Routing Parameter Optimization",
-        "abstract": "",
+        "abstract": "MUM2026_paper_21.pdf",
         "presentation": "107-01-sallard.pdf",
         "note": ""
       },
@@ -85,7 +85,7 @@
         "theme": "Calibration and optimisation",
         "author": "Maryam Samaei, Mahdi Zargayouna, Mélanie Gidel, Jonathan Couppé, Mostafa Ameli",
         "title": "A multi-source calibration framework for activity-based transport simulations integrating background traffic and travel-time perception",
-        "abstract": "",
+        "abstract": "MUM2026_paper_33.pdf",
         "presentation": "107-02-samaei.pdf",
         "note": ""
       },
@@ -96,7 +96,7 @@
         "theme": "Calibration and optimisation",
         "author": "Ashutosh, Sunhyung Yoo, Pieter Fourie, Vinayak Dixit, Divya Nair",
         "title": "A Crowdsourced-First Calibration Framework for Multi-Class MATSim Models in Data-Constrained Heterogeneous Traffic",
-        "abstract": "",
+        "abstract": "MUM2026_paper_19.pdf",
         "presentation": "107-03-ashutosh.pdf",
         "note": ""
       },
@@ -107,7 +107,7 @@
         "theme": "Calibration and optimisation",
         "author": "Abdelkader Dib, Milos Balac",
         "title": "Online Calibration of MATSim Models via Stochastic Batch Optimization",
-        "abstract": "",
+        "abstract": "MUM2026_paper_20.pdf",
         "presentation": "107-04-dib.pdf",
         "note": ""
       },
@@ -118,7 +118,7 @@
         "theme": "Calibration and optimisation",
         "author": "Shahriar Iqbal Zame, Denissa Sari Darmawi Purba, Yusak Susilo, Constantinos Antoniou",
         "title": "Measuring perturbation-reconvergence cost in MATSim for charging-infrastructure placement",
-        "abstract": "",
+        "abstract": "MUM2026_paper_40.pdf",
         "presentation": "107-05-zame.pdf",
         "note": "not presented (presenter ill)"
       },
@@ -129,7 +129,7 @@
         "theme": "Calibration and optimisation",
         "author": "Jan Andrin Ghadamian, Orlando Roman, Milos Balac, Bryan Adey",
         "title": "An End-to-End Pipeline for Scenario-Based Transportation Modelling under Deep Uncertainty",
-        "abstract": "",
+        "abstract": "MUM2026_paper_18.pdf",
         "presentation": "107-06-ghadamian.pdf",
         "note": ""
       },
@@ -140,7 +140,7 @@
         "theme": "On-demand mobility and automation",
         "author": "Tom-Erik Kuhlen",
         "title": "MATSim in Production: Live Demand Prediction, Automated DRT Scenario Build and Visualisation for Non-Expert Users",
-        "abstract": "",
+        "abstract": "MUM2026_paper_16.pdf",
         "presentation": "105-07-kuhlen.pdf",
         "note": ""
       },
@@ -151,7 +151,7 @@
         "theme": "On-demand mobility and automation",
         "author": "Sebastian Hörl",
         "title": "Benchmarking on-demand mobility algorithms using a new remote dispatching interface for MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_22.pdf",
         "presentation": "105-08-horl.pdf",
         "note": ""
       },
@@ -162,7 +162,7 @@
         "theme": "On-demand mobility and automation",
         "author": "Nico Kuehnel, Lion Pfeil, Mark Frawley",
         "title": "Between driver and driverless: modelling remote operators for autonomous ride-pooling in MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_28.pdf",
         "presentation": "105-09-kuehnel.pdf",
         "note": ""
       },
@@ -173,7 +173,7 @@
         "theme": "On-demand mobility and automation",
         "author": "Laura C. Echeverri, Nicolas Coulombel",
         "title": "Autonomous Shuttle and BRT Integration: An Agent-Based Case Study of Paris's Southern Suburbs",
-        "abstract": "",
+        "abstract": "MUM2026_paper_34.pdf",
         "presentation": "105-10-echeverri.pdf",
         "note": ""
       },
@@ -184,7 +184,7 @@
         "theme": "On-demand mobility and automation",
         "author": "Jakob Rehmann, Lichen Luo, Kai Nagel",
         "title": "Introducing DRT and Person-Based Accessibility in MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_43.pdf",
         "presentation": "105-11-rehmann.pdf",
         "note": ""
       },
@@ -195,7 +195,7 @@
         "theme": "On-demand mobility and automation",
         "author": "Ziyue Song, Xinwei Wang, Lin Guan, John Woodward, George Vogiatzis",
         "title": "Accelerating MATSim-Based Vertiport Siting via Facility Location Surrogate Space Mapping",
-        "abstract": "",
+        "abstract": "MUM2026_paper_39.pdf",
         "presentation": "105-12-song.pdf",
         "note": "remote"
       },
@@ -206,7 +206,7 @@
         "theme": "Demand generation, learning and tooling",
         "author": "Jingjun Li, Shiqi Sun, Francesco Ciari, Chengqi Lu, Guy Walker, John Easton, David Flynn, Philip Greening",
         "title": "Agent-based Simulation with Mobility Personas: An LLM-based Persona Labelling Approach for MATSim Synthetic Populations",
-        "abstract": "",
+        "abstract": "MUM2026_paper_12.pdf",
         "presentation": "107-07-li.pdf",
         "note": ""
       },
@@ -217,7 +217,7 @@
         "theme": "Demand generation, learning and tooling",
         "author": "Fred Shone, Tim Hillel",
         "title": "Block box approaches to activity sequence modelling",
-        "abstract": "",
+        "abstract": "MUM2026_paper_44.pdf",
         "presentation": "107-08-shone.pdf",
         "note": ""
       },
@@ -228,7 +228,7 @@
         "theme": "Demand generation, learning and tooling",
         "author": "Ming Lu",
         "title": "Towards MAPPO and Inverse DRL for MATSim Replanning",
-        "abstract": "",
+        "abstract": "MUM2026_paper_8.pdf",
         "presentation": "107-09-ming-lu.pdf",
         "note": "remote"
       },
@@ -239,7 +239,7 @@
         "theme": "Demand generation, learning and tooling",
         "author": "Jeramin Leong, Pieter Fourie, Apurva Kumar",
         "title": "CitySim: One Data Pipeline, Three Cities: Building MATSim Mobility Digital Twins for Pedestrian Safety, Flood Resilience, and Event Traffic Management",
-        "abstract": "",
+        "abstract": "MUM2026_paper_35.pdf",
         "presentation": "107-10-leong.pdf",
         "note": ""
       },
@@ -250,7 +250,7 @@
         "theme": "Demand generation, learning and tooling",
         "author": "Nadine Rieser, Moritz Dück, Marcel Rieser",
         "title": "Improved Automated Model Generation and Agent-Group specific Model Analysis",
-        "abstract": "",
+        "abstract": "MUM2026_paper_30.pdf",
         "presentation": "107-11-dueck.pdf",
         "note": ""
       },
@@ -261,7 +261,7 @@
         "theme": "Demand generation, learning and tooling",
         "author": "Ihab Kaddoura, Tobias Kohl, Michael Balmer",
         "title": "MobilityStudio: Making MATSim Accessible - A Visual Workbench and a First Step Towards Conversational, AI-Assisted Transport Planning",
-        "abstract": "",
+        "abstract": "MUM2026_paper_26.pdf",
         "presentation": "107-12-kaddoura-kohl.pdf",
         "note": ""
       },
@@ -272,7 +272,7 @@
         "theme": "Environment, health and resilience",
         "author": "Marjolaine Lannes, Nicolas Coulombel, Yelva Roustan",
         "title": "Modeling air pollution exposure with MATSim: to what extent are complex modeling chains necessary?",
-        "abstract": "",
+        "abstract": "MUM2026_paper_23.pdf",
         "presentation": "105-13-lannes.pdf",
         "note": ""
       },
@@ -283,7 +283,7 @@
         "theme": "Environment, health and resilience",
         "author": "Simon Metzler, Dominik Ziemke",
         "title": "A flexible and robust network generation pipeline for more detailed bicycle infrastructure representations in MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_42.pdf",
         "presentation": "105-14-metzler.pdf",
         "note": ""
       },
@@ -294,7 +294,7 @@
         "theme": "Environment, health and resilience",
         "author": "Peiling Wu, Fariya Sharmeen, Daniel Jonsson",
         "title": "Bikeability-integrated cycling policy evaluation, Eskilstuna (Sweden)",
-        "abstract": "",
+        "abstract": "MUM2026_paper_6.pdf",
         "presentation": "105-15-wu.pdf",
         "note": ""
       },
@@ -305,7 +305,7 @@
         "theme": "Environment, health and resilience",
         "author": "Rodrigo Esteban Medina Godoy, Rosa Arroyo, Tomas Ruiz, Pau Seguí Gascó",
         "title": "How resilient is university mobility? Evaluating public transport disruptions with MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_17.pdf",
         "presentation": "105-16-medina-godoy.pdf",
         "note": ""
       },
@@ -316,7 +316,7 @@
         "theme": "Environment, health and resilience",
         "author": "Chengqi Lu, Jyotirmaya Ijaradar, Regine Gerike",
         "title": "Synergy between aggregated anonymized real-world data and agent-based modeling: the Carola Bridge collapse in Dresden",
-        "abstract": "",
+        "abstract": "MUM2026_paper_10.pdf",
         "presentation": "105-17-lu-chengqi.pdf",
         "note": ""
       },
@@ -327,7 +327,7 @@
         "theme": "Public transport and rail",
         "author": "Ihab Kaddoura, Thomas Hettinger, Merlin Unterfinger, Nicolas Dulex",
         "title": "Using MATSim for strategic planning: Insights from various projects at Swiss Federal Railways",
-        "abstract": "",
+        "abstract": "MUM2026_paper_13.pdf",
         "presentation": "107-13-kaddoura.pdf",
         "note": ""
       },
@@ -338,7 +338,7 @@
         "theme": "Public transport and rail",
         "author": "David Kirkwood, Jingjun Li, Wenhua Jiang, John Easton, Heather Steele, Christian Rakow, Clive Roberts, Philip Greening, David Flynn",
         "title": "Integrating MATSim and Microscopic Railway Simulation for Passenger Transport Digital Twinning",
-        "abstract": "",
+        "abstract": "MUM2026_paper_4.pdf",
         "presentation": "107-14-kirkwood.pdf",
         "note": ""
       },
@@ -349,7 +349,7 @@
         "theme": "Public transport and rail",
         "author": "Theresa-Maria Mersini, Ibraheem O. Adeniran, Marcel Schindler, Alessandro Tarantola, Carina Kehrt",
         "title": "An Integrated Metaheuristic Approach for Generating Combined Road-Rail Transport Chains",
-        "abstract": "",
+        "abstract": "MUM2026_paper_27.pdf",
         "presentation": "107-15-mersini.pdf",
         "note": ""
       },
@@ -360,7 +360,7 @@
         "theme": "Public transport and rail",
         "author": "Reza Abdullah, Anugrah Ilahi, Andria Arisal, Akimasa Fujiwara",
         "title": "MATSim for Jakarta MRT Expansion: Projected Ridership and Mode Shifts",
-        "abstract": "",
+        "abstract": "MUM2026_paper_11.pdf",
         "presentation": "107-16-abdullah.pdf",
         "note": ""
       },
@@ -371,7 +371,7 @@
         "theme": "Public transport and rail",
         "author": "Timofey Volotskiy, Yaroslav Smirnov, Tina Rakic, Golan Ben Dor",
         "title": "From Activity-Based-Model to MATSim for BRT Planning: Practical Lessons from the Tel Aviv Pink Route",
-        "abstract": "",
+        "abstract": "MUM2026_paper_41.pdf",
         "presentation": "107-17-volotskiy.pdf",
         "note": ""
       },
@@ -382,7 +382,7 @@
         "theme": "City-scale scenarios",
         "author": "Daniel Röder",
         "title": "Building the AgiMo Digital Twin: First steps towards continuous transport model assimilation",
-        "abstract": "",
+        "abstract": "MUM2026_paper_29.pdf",
         "presentation": "105-18-roeder.pdf",
         "note": ""
       },
@@ -393,7 +393,7 @@
         "theme": "City-scale scenarios",
         "author": "Adnan Abir, Grace O. Kagho, Tasnia Tabassum Prima, Sk. Md. Mashrur",
         "title": "Towards a MATSim Scenario for a Data-Scarce Megacity: Dhaka, Bangladesh",
-        "abstract": "",
+        "abstract": "MUM2026_paper_31.pdf",
         "presentation": "105-19-kagho.pdf",
         "note": ""
       },
@@ -404,7 +404,7 @@
         "theme": "City-scale scenarios",
         "author": "Anuj Nautiyal, Amit Agarwal",
         "title": "Beyond Carrying Capacity: An Agent-Based Model for the Char Dham Pilgrimage Corridor",
-        "abstract": "",
+        "abstract": "MUM2026_paper_24.pdf",
         "presentation": "",
         "note": "remote"
       },
@@ -415,7 +415,7 @@
         "theme": "City-scale scenarios",
         "author": "Azwan Nazamuddin, Reem Alolabi, Makoto Chikaraishi",
         "title": "A Reachability-Pruned Activity-Based Demand Model for MATSim: Congestion Response and Demand Generation in Higashi-Hiroshima",
-        "abstract": "",
+        "abstract": "MUM2026_paper_36.pdf",
         "presentation": "105-21-azwan.pdf",
         "note": ""
       },
@@ -426,7 +426,7 @@
         "theme": "City-scale scenarios",
         "author": "Yaroslav Smirnov, Kai Nagel, Tina Rakic, Ricardo Ewert, Tim Volotskiy, Tilmann Schlenther",
         "title": "Agent-Based Modeling of a Zero-Emission Zone in Berlin Using MATSim",
-        "abstract": "",
+        "abstract": "MUM2026_paper_37.pdf",
         "presentation": "105-22-smirnov.pdf",
         "note": ""
       },
@@ -437,7 +437,7 @@
         "theme": "Applications, visualisation and community",
         "author": "Noriel Christopher Tiglao, Niki Jon Tolentino",
         "title": "Modeling Informal Paratransit for Local Public Transport Route Planning: Tricycle-for-Hire Services in Puerto Princesa City, Philippines",
-        "abstract": "",
+        "abstract": "MUM2026_paper_25.pdf",
         "presentation": "107-18-tiglao.pdf",
         "note": "remote"
       },
@@ -448,7 +448,7 @@
         "theme": "Applications, visualisation and community",
         "author": "Sié Cyriac Noufe, Rachid Belaroussi, Francis Dupin, Pierre-Olivier Vandanjon",
         "title": "Multi-Agent Simulation and Crowdsourced Reviews for Urban Vitality Analysis: Insights from a Peri-Urban City",
-        "abstract": "",
+        "abstract": "MUM2026_paper_7.pdf",
         "presentation": "107-19-noufe.pdf",
         "note": ""
       },
@@ -459,7 +459,7 @@
         "theme": "Applications, visualisation and community",
         "author": "Daniel Bell",
         "title": "A Pipeline for Visualising MATSim Events in Blender",
-        "abstract": "",
+        "abstract": "MUM2026_paper_38.pdf",
         "presentation": "107-20-bell.pdf",
         "note": ""
       },
@@ -470,7 +470,7 @@
         "theme": "Applications, visualisation and community",
         "author": "Marcel Rieser",
         "title": "Results from the MATSim User Survey",
-        "abstract": "",
+        "abstract": "MUM2026_paper_3.pdf",
         "presentation": "107-21-rieser.pdf",
         "note": ""
       }
