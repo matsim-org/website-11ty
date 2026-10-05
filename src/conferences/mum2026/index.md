@@ -38,12 +38,6 @@ The MUM2026 Best Paper Award goes to **Nico Kuehnel** (MOIA GmbH) for
 *“Between driver and driverless: modelling remote operators for autonomous ride-pooling in MATSim”*,
 with Lion Pfeil and Mark Frawley.
 
-The shortlist also included Fred Shone and Tim Hillel (*Block box approaches to activity sequence
-modelling*), Simon Metzler and Dominik Ziemke (*A flexible and robust network generation pipeline for
-more detailed bicycle infrastructure representations in MATSim*) and Jakob Rehmann, Lichen Luo and
-Kai Nagel (*Introducing DRT and Person-Based Accessibility in MATSim*). The judges were Kay Axhausen,
-Kai Nagel, Marcel Rieser and Milos Balac.
-
 ## Presentations
 
 The full timetable is on the [program page](/conferences/mum2026/program/). Slides are listed here
@@ -85,7 +79,7 @@ in programme order by room and session.
 ## Thanks
 
 Our thanks to Latifa Oukhellou, Mostafa Ameli and the hEART 2026 organising committee for hosting
-the user meeting, to the student helpers in both rooms, to the judges, and to everyone who presented.
+the user meeting, to the student helpers in both rooms, and to everyone who presented.
 
 </div>
 <div>
