@@ -1,7 +1,7 @@
 ---
 permalink: /conferences/mum2026/program/
 title: 'MUM2026 Program'
-description: 'Program for the MATSim User Meeting 2026, Monday 28 September 2026 in Paris: two parallel tracks, 43 presentations.'
+description: 'Program of the MATSim User Meeting 2026, Monday 28 September 2026 in Paris: two parallel tracks, 43 presentations. Slides and abstracts are on the meeting page.'
 layout: page
 ---
 
@@ -31,10 +31,10 @@ layout: page
 
 <div class="lead">
 
-The meeting **starts at 08:30**, half an hour earlier than the time printed in the hEART
-conference booklet. Registration opens at 08:00. Please plan to arrive accordingly.
-
-Talks run in two parallel tracks, in **Salle 105** and **Salle 107**, and finish at **17:30**.
+The meeting took place on Monday, 28 September 2026, with 43 talks in two parallel tracks,
+**Salle 105** and **Salle 107**, from 08:30 to 17:30. Slides and extended abstracts of all talks are
+on the [meeting page](/conferences/mum2026/#presentations). The timetable below is kept as a record;
+slot numbers match the file names in the slide and abstract listings.
 
 </div>
 
@@ -77,47 +77,7 @@ to be made by email.
 Presenters: your name below is the author we have on the registration list. If somebody
 else will give the talk, tell us so the session chairs have it right.
 
-**The day is tightly packed.** With 43 presentations across the day there is very
-little slack between slots, so please keep to 15 minutes. You will not be connecting your own
-laptop: your slides run from the room machine and have to reach us in advance, as below. Be in
-the room before your session starts and know your slot number.
-
-## Send us your slides by Friday 25 September
-
-**We are running both rooms from a single laptop each.** With 43 talks and almost no
-time between them, we cannot swap laptops between speakers. Every presentation has to be loaded
-and in running order before the day starts.
-
-Please upload your slides by **Friday, 25 September**:
-
-**[Upload your slides](https://docs.google.com/forms/d/e/1FAIpQLSd3VNtxa4n3QiusjipxghN_nL0mqKGHlmSranjAsLV1lBzy2Q/viewform)**
-
-The form asks for your slot number and your file. Nobody but us can see what you upload, and
-you can submit again if you need to replace it.
-
-- **Name the file with your slot number**, shown in the first column of the tables below —
-  for example `105-07.pdf` if your slot is 105-07. Add your surname if you like: `105-07-Nagel.pdf`.
-- **The form needs a Google account.** If you cannot use Google services — if you are in
-  mainland China, for example — email your slides to
-  [association@matsim.org](mailto:association@matsim.org) instead, with your slot number in
-  the subject line.
-- **PDF is preferred**, because fonts and layout survive the move to another machine.
-  PowerPoint is accepted; if you send PowerPoint, please also send a PDF fallback where you can.
-- If your talk needs video, live animation or a running demo, tell us in advance so we can plan
-  that slot. It will not work if we discover it on the day.
-
-If your slides are not in by Friday you will be chasing us on the morning, and there will not be
-time for it. Send what you have; you can send a corrected version up to Sunday evening.
-
-**Presenting remotely?** Four remote presentations are arranged: 105-12, 107-09, 105-20 and 107-18. Remote
-presentation is by exception and has to be set up with the venue in advance, so if you are planning to present
-remotely and have not already agreed it with us, write to
-[association@matsim.org](mailto:association@matsim.org) immediately.
-
-
 ## 08:00–08:30 · Registration
-
-Doors open at 08:00; the first talk is at 08:30.
 
 
 ## Session 1 · 08:30–10:30
