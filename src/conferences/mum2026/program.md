@@ -68,15 +68,6 @@ Enter the campus from **Place Jussieu / Rue Jussieu** (Métro 7, Jussieu). Salle
 | Last talk ends | 17:30 |
 | Boat trip | **hEART registrants only.** Boarding closes **18:30** at Pont Neuf; boats depart **19:00 sharp**. It is a 25–30 minute walk from the venue. |
 
-**Please check your registration.** If you are not sure whether your registration went
-through, or your name is missing from the program below, write to
-[association@matsim.org](mailto:association@matsim.org) before the meeting. The
-registration list was finalised for catering on 14 September 2026, so corrections need
-to be made by email.
-
-Presenters: your name below is the author we have on the registration list. If somebody
-else will give the talk, tell us so the session chairs have it right.
-
 ## 08:00–08:30 · Registration
 
 
