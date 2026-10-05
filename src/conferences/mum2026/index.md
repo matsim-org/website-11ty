@@ -79,7 +79,8 @@ in programme order by room and session.
 ## Thanks
 
 Our thanks to Latifa Oukhellou, Mostafa Ameli and the hEART 2026 organising committee for hosting
-the user meeting, to the student helpers in both rooms, and to everyone who presented.
+the user meeting, to Maryam Samaei and Thomas Bapaume for running the two rooms on the day, and to
+everyone who presented.
 
 </div>
 <div>
